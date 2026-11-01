@@ -48,8 +48,7 @@ input[type="search"]{width:280px;max-width:100%}
 .sres button{display:block;width:100%;text-align:left;border:0;background:none;padding:7px 12px;cursor:pointer;font-size:13.5px;border-bottom:1px solid var(--line)}
 .sres button:hover,.sres button:focus{background:var(--accent-soft)}
 .sres .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-right:6px}
-.work{display:grid;grid-template-columns:minmax(0,1fr) 420px;gap:20px;align-items:start}
-@media (max-width:1180px){.work{grid-template-columns:1fr}}
+.work{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;align-items:start}
 .work>*{min-width:0}
 .sheet{background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:14px 16px 18px}
 .ctrl{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin-bottom:12px;font-size:13.5px}
@@ -96,8 +95,11 @@ input[type="search"]{width:280px;max-width:100%}
 .sw.solid{background:color-mix(in srgb,var(--muted) 25%,var(--sheet))}
 .sw.hatch{border-style:dashed;background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--muted) 25%,var(--sheet)) 0 4px,var(--sheet) 4px 7px)}
 /* phiếu */
-.panel{position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto;display:grid;gap:12px}
-@media (max-width:1180px){.panel{position:static;max-height:none}}
+.panel{position:fixed;top:0;right:0;bottom:0;width:min(460px,100vw);overflow:auto;display:grid;align-content:start;gap:12px;z-index:20;border-radius:0;border-width:0 0 0 1px;box-shadow:-10px 0 30px rgb(0 0 0 / .16);transform:translateX(105%);transition:transform .22s ease;visibility:hidden;padding:16px 18px 28px}
+.panel.open{transform:none;visibility:visible}
+@media (min-width:1100px){body.pnl .page{padding-right:480px}}
+@media (prefers-reduced-motion:reduce){.panel{transition:none}}
+.pclose{position:sticky;top:0;justify-self:end;margin:-6px -6px -8px 0;border:1px solid var(--line);background:var(--sheet);border-radius:50%;width:32px;height:32px;font-size:18px;line-height:1;cursor:pointer;z-index:1}
 .kind{font-size:11.5px;font-weight:600;letter-spacing:.04em;color:var(--muted);text-transform:uppercase}
 h2{font-family:var(--font-display);font-weight:650;font-size:21px;line-height:1.3;margin:0;text-wrap:balance}
 h3{font-size:12px;font-weight:600;color:var(--muted);margin:0 0 6px;letter-spacing:.02em;text-transform:uppercase}
@@ -336,15 +338,23 @@ function panelLink(i){
   return `<span class="kind">Liên hệ có văn bản</span><div><h2>${esc(nmEnd(l.tu))} → ${esc(nmEnd(l.den))}</h2><p class="goc">${esc(l.loai)}, vẽ ở năm ${esc(yr(l.nam))}</p></div><div class="chips">${lkBtn(l.tu)} <span>→</span> ${lkBtn(l.den)}</div><p>${esc(l.noi)}</p><div class="box"><span><b>Nhãn</b> ${tag(l.nhan)}</span></div><div><h3>Nguồn</h3><ul class="src">${l.src.map(srcLine).join('')}</ul></div>`+edHook('lk',i);
 }
 function panel(){
-  const p=document.getElementById('panel');
-  p.innerHTML=state.sel&&(state.sel.k==='form'||state.sel.k==='gh')?edPanel():state.sel&&state.sel.k==='m'?panelMuc(state.sel.id):state.sel&&state.sel.k==='l'?panelLink(state.sel.i):panelIntro();
-  p.scrollTop=0;
+  const p=document.getElementById('panel');const s=state.sel;let h='';
+  if(s&&(s.k==='form'||s.k==='gh'))h=edPanel();else if(s&&s.k==='m')h=panelMuc(s.id);else if(s&&s.k==='l')h=panelLink(s.i);
+  else if(typeof ed!=='undefined'&&ed.msg)h=`<span class="kind">Thông báo</span><div class="ok">${ed.msg}</div>`;
+  const open=!!h;p.innerHTML=open?`<button class="pclose" data-close="1" aria-label="Đóng phiếu">×</button>`+h:'';
+  p.classList.toggle('open',open);p.setAttribute('aria-hidden',String(!open));if(open)p.scrollTop=0;
+  // màn hình rộng: chừa chỗ cho phiếu để không che bản đồ và thanh sửa; vẽ lại bản đồ theo bề ngang mới
+  const was=document.body.classList.contains('pnl');document.body.classList.toggle('pnl',open);
+  if(was!==open&&window.innerWidth>=1100&&state.tab==='map')render();
 }
-function openLk(i){state.sel={k:'l',i};panel();document.querySelectorAll('.blk').forEach(b=>b.removeAttribute('aria-current'));if(state.tab==='map')drawLinks();if(window.innerWidth<1180)document.getElementById('panel').scrollIntoView({behavior:'smooth',block:'start'})}
-function openMuc(id,toMap){state.sel={k:'m',id};if(toMap&&state.tab!=='map'){}panel();if(state.tab==='map')drawLinks();document.querySelectorAll('.blk').forEach(b=>b.toggleAttribute('aria-current',b.dataset.m===id));if(window.innerWidth<1180)document.getElementById('panel').scrollIntoView({behavior:'smooth',block:'start'})}
+function closePanel(){state.sel=null;if(typeof ed!=='undefined'){ed.msg='';ed.err=[]}panel();document.querySelectorAll('.blk').forEach(b=>b.removeAttribute('aria-current'));if(state.tab==='map')drawLinks()}
+
+function openLk(i){state.sel={k:'l',i};panel();document.querySelectorAll('.blk').forEach(b=>b.removeAttribute('aria-current'));if(state.tab==='map')drawLinks();}
+function openMuc(id,toMap){state.sel={k:'m',id};if(toMap&&state.tab!=='map'){}panel();if(state.tab==='map')drawLinks();document.querySelectorAll('.blk').forEach(b=>b.toggleAttribute('aria-current',b.dataset.m===id));}
 document.addEventListener('click',e=>{
   const g=e.target.closest('.lksvg g');if(g){openLk(+g.dataset.lki);return}
   const t=e.target.closest('button');if(!t)return;
+  if(t.dataset.close){closePanel();return}
   if(t.dataset.gotab){state.tab=t.dataset.gotab;render();window.scrollTo({top:0,behavior:'smooth'});return}
   if(t.dataset.lktoggle){state.lk=!state.lk;render();return}
   if(t.dataset.lk!==undefined){if(state.tab!=='map'){state.tab='map';render()}openLk(+t.dataset.lk);return}
@@ -378,7 +388,7 @@ document.getElementById('q').addEventListener('input',e=>{
   sres.style.display='block';
 });
 sres.addEventListener('click',e=>{const b=e.target.closest('[data-hit]');if(!b)return;const x=hits[+b.dataset.hit];hideRes();x.go()});
-document.addEventListener('keydown',e=>{if(e.key==='Escape')hideRes()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){hideRes();if(state.sel||document.getElementById('panel').classList.contains('open'))closePanel()}});
 document.addEventListener('click',e=>{if(!e.target.closest('.searchwrap'))hideRes()},true);
 /*EDITOR*/
 async function boot(){

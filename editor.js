@@ -297,7 +297,7 @@ document.addEventListener('click',async e=>{
   else if(t.dataset.edundo){await undo();return}
   else if(t.dataset.srcadd){const f=t.closest('form');const k=f.querySelector('[data-srcpick]').value.trim();if(k){const ta=f.elements.src;ta.value=(ta.value.trim()?ta.value.trim()+'\n':'')+k+' | ';f.querySelector('[data-srcpick]').value='';ta.focus()}return}
   else if(t.dataset.eddl){const blob=new Blob([JSON.stringify(D,null,1)+'\n'],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='ban-do.json';document.body.appendChild(a);a.click();a.remove();return}
-  panel();if(window.innerWidth<1180)document.getElementById('panel').scrollIntoView({behavior:'smooth',block:'start'});
+  panel();
 },true);
 document.addEventListener('submit',async e=>{
   const f=e.target.closest('form.ed');if(!f)return;e.preventDefault();
