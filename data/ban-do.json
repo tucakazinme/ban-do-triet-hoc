@@ -835,6 +835,75 @@
    "k": "cn",
    "url": "https://opac.nlv.gov.vn/",
    "note": "Tra theo tác giả và nhan đề qua trình duyệt, lấy tối đa 200 kết quả mỗi lượt, bỏ các bản tiếng nước ngoài. Bản ghi không ghi ngôn ngữ nguồn."
+  },
+  "sepVasu": {
+   "t": "Vasubandhu",
+   "a": "Jonathan C. Gold",
+   "w": "Stanford Encyclopedia of Philosophy, bản sửa 07/01/2021",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/vasubandhu/"
+  },
+  "aarKum": {
+   "t": "Kumārila’s Critique of Yogācāra (tóm tắt các bài trong phiên hội thảo)",
+   "a": "American Academy of Religion",
+   "w": "Hội nghị thường niên AAR 2024",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://papers10.aarweb.org/node/99603",
+   "note": "Chỉ là tóm tắt bài, chưa đọc toàn văn."
+  },
+  "allen2015": {
+   "t": "Sanskrit Debate: Vasubandhu’s Viṃśatikā versus Kumārila’s Nirālambanavāda",
+   "a": "William Cully Allen",
+   "w": "Peter Lang, 2015",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://www.peterlang.com/document/1051181",
+   "note": "Đọc trang giới thiệu sách và mục lục."
+  },
+  "kobayashi2023": {
+   "t": "Prajñākaragupta phê phán nhận thức bác bỏ (tiếng Nhật, tóm tắt tiếng Anh)",
+   "a": "Kobayashi Hisayasu",
+   "w": "Indogaku Bukkyōgaku Kenkyū 71(2), 2023",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://www.jstage.jst.go.jp/article/ibk/71/2/71_837/_article/-char/ja",
+   "note": "Chỉ đọc tóm tắt."
+  },
+  "tfShankara": {
+   "t": "Chương sách về phê phán Vijñānavāda trong Brahmasūtrabhāṣya",
+   "a": "chưa ghi tên tác giả",
+   "w": "Routledge (taylorfrancis.com)",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://www.taylorfrancis.com/books/9781135702946/chapters/10.4324/9781315053974-9",
+   "note": "Chỉ đọc đoạn tóm tắt chương; tên tác giả và tên sách Claude chưa chép."
+  },
+  "kellnerTaber": {
+   "t": "Studies in Yogācāra-Vijñānavāda idealism I: The interpretation of Vasubandhu’s Viṃśikā",
+   "a": "Birgit Kellner, John Taber",
+   "w": "Asiatische Studien 68(3), 2014",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://www.degruyterbrill.com/document/doi/10.1515/asia-2014-0060/html",
+   "note": "Đọc tóm tắt."
+  },
+  "sponbergKuiji": {
+   "t": "Kuiji",
+   "a": "Alan Sponberg",
+   "w": "Encyclopedia of Religion (encyclopedia.com)",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://www.encyclopedia.com/religion/encyclopedias-almanacs-transcripts-and-maps/kuiji"
+  },
+  "wpCWSL": {
+   "t": "Cheng Weishi Lun",
+   "a": "Wikipedia",
+   "w": "en.wikipedia.org",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://en.wikipedia.org/wiki/Cheng_Weishi_Lun"
   }
  },
  "VUNG": [
@@ -5982,6 +6051,132 @@
      "nhan": "chua"
     }
    ]
+  },
+  {
+   "id": "ngoai-canh",
+   "ten": "Thế giới bên ngoài có độc lập với thức không?",
+   "goc": "Duy thức và những người phản bác: giấc mơ, nguyên tử, nhận thức bị bác bỏ",
+   "hoi": "Những gì ta thấy là vật có thật ở ngoài, hay chỉ là hình ảnh do thức dựng lên? Ở Ấn Độ câu hỏi được nêu thành một cuộc tranh luận có văn bản qua lại: Vasubandhu lập luận rằng chỉ có biểu hiện, các nhà Mīmāṃsā và Vedānta bác lại, rồi người Phật giáo đáp. Ở Trung Hoa, câu hỏi đi theo bản Hán của Huyền Trang.",
+   "lan": [
+    {
+     "id": "a",
+     "ai": "Vasubandhu (Thế Thân)",
+     "khi": "khoảng thế kỷ IV–V",
+     "o": "Viṃśikā (Nhị thập tụng) và tự chú",
+     "muc": "a-phatgiao",
+     "noi": "Mọi thứ trong ba cõi chỉ là biểu hiện (vijñaptimātra). Người phản bác hỏi: nếu chỉ là biểu hiện, sao vật hiện ra ở chỗ nhất định, lúc nhất định, nhiều người cùng thấy, và có tác dụng thật? Vasubandhu đáp bằng giấc mơ (vật trong mơ cũng có chỗ, có lúc, cũng gây hệ quả thân thể) và bằng ngục tốt nơi địa ngục mà nhiều người cùng thấy. Rồi ông bác thuyết nguyên tử của Vaibhāṣika và Vaiśeṣika: nguyên tử không phần thì không ghép thành vật có quảng tính, toàn thể thì không thấy được ngoài các phần.",
+     "ghi": "Gold đọc Vasubandhu là duy tâm theo nghĩa mọi thứ tùy thuộc vào tâm, ở bình diện quy ước; ở bình diện tối hậu ông nói chân như là không thể nghĩ bàn.",
+     "src": [
+      "sepVasu|§4.1–4.2, §5"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "b",
+     "ai": "Kumārila Bhaṭṭa",
+     "khi": "khoảng 600–650",
+     "o": "Ślokavārttika, chương Nirālambanavāda và Śūnyavāda",
+     "muc": "a-darsana",
+     "noi": "Trả lời lập luận giấc mơ (Nirālambanavāda, kệ 3–83): người Duy thức chối vật ngoài dựa vào giấc mơ thì không giải thích được hành động có mục đích lẫn nhận thức sai. Muốn chối vật ngoài, phải giả định có vật ngoài để mà chối. Ông còn phê phán thuyết tự chứng (svasaṃvedana) của Dignāga.",
+     "src": [
+      "aarKum",
+      "kobayashi2023",
+      "allen2015"
+     ],
+     "nhan": "mot"
+    },
+    {
+     "id": "c",
+     "ai": "Śaṅkara",
+     "khi": "khoảng thế kỷ VIII",
+     "o": "Brahmasūtrabhāṣya, quanh kinh 2.2.28–32",
+     "muc": "a-vedanta",
+     "noi": "Thế giới bên ngoài không thể là không có, vì nó được nhận biết. Tỉnh và mơ khác nhau: cái thấy trong mơ bị cái thấy lúc tỉnh bác bỏ, còn thế giới lúc tỉnh thì không bị gì bác bỏ.",
+     "ghi": "Số kinh và lời kinh theo hiểu biết của Claude; nguồn đã đọc chỉ xác nhận Śaṅkara phê phán Vijñānavāda và cách Phật giáo dùng giấc mơ. [Đánh giá] Advaita về sau cũng dùng giấc mơ để nói thế giới không thật ở bình diện tối hậu, nên lời bác này của Śaṅkara chỉ đứng ở bình diện quy ước.",
+     "src": [
+      "tfShankara"
+     ],
+     "nhan": "mot"
+    },
+    {
+     "id": "d",
+     "ai": "Prajñākaragupta",
+     "khi": "khoảng 750–810",
+     "o": "Pramāṇavārttikālaṅkāra",
+     "muc": "a-phatgiao",
+     "noi": "Đáp Kumārila bằng chính lối lập luận của ông: thuyết \"nhận thức bác bỏ\" (bādhakapratyaya) của Mīmāṃsā cũng vướng đúng chỗ khó mà Kumārila gán cho người Duy thức.",
+     "src": [
+      "kobayashi2023"
+     ],
+     "nhan": "mot"
+    },
+    {
+     "id": "e",
+     "ai": "Huyền Trang và Khuy Cơ",
+     "khi": "thế kỷ VII (Huyền Trang về Trường An năm 645)",
+     "o": "Thành duy thức luận; Khuy Cơ có thêm chú giải Nhị thập tụng",
+     "muc": "c-phatgiao",
+     "noi": "Thành duy thức luận gom các bản chú giải Ấn Độ về Tam thập tụng của Vasubandhu, theo Hộ Pháp (Dharmapāla) là chính. Thế giới tưởng là thật ở bên ngoài chỉ là hình ảnh bên trong do thức nhận biết rồi bám vào. Khuy Cơ là người biên tập thực sự và viết chú giải, làm nền cho tông Pháp tướng ở Trung Hoa và Hossō ở Nhật.",
+     "src": [
+      "sponbergKuiji",
+      "wpCWSL"
+     ],
+     "nhan": "mot"
+    }
+   ],
+   "lienhe": [
+    {
+     "tu": "b",
+     "den": "a",
+     "loai": "phản bác",
+     "nhan": "da",
+     "can": "Allen (2015) dịch đối chiếu Viṃśikā và Nirālambanavāda như hai văn bản đáp nhau; phiên AAR 2024 đọc kệ 3–83 như lời đáp lập luận giấc mơ."
+    },
+    {
+     "tu": "d",
+     "den": "b",
+     "loai": "đáp lại",
+     "nhan": "mot",
+     "can": "Kobayashi (2023): sau Kumārila, đáp lại ông thành việc chính của người Duy thức; Prajñākaragupta là một trong những người đáp."
+    },
+    {
+     "tu": "e",
+     "den": "a",
+     "loai": "chú giải",
+     "nhan": "mot",
+     "can": "Thành duy thức luận là chú giải Tam thập tụng của Vasubandhu; Khuy Cơ viết thêm chú giải Nhị thập tụng (Duy thức nhị thập luận thuật ký)."
+    },
+    {
+     "tu": "c",
+     "den": "a",
+     "loai": "phản bác",
+     "nhan": "mot",
+     "can": "Śaṅkara bác cách Phật giáo dùng giấc mơ. Ông nhắm vào Vijñānavāda nói chung; nguồn đã đọc không nói ông nhắm riêng vào Viṃśikā."
+    }
+   ],
+   "chung": "[Đánh giá] Ở Ấn Độ đây là một cuộc tranh luận thật, các bên đọc văn bản của nhau. Giấc mơ là chỗ xoay quanh: Vasubandhu dùng nó để cho thấy biểu hiện có thể có đủ đặc tính của vật thật; Kumārila và Śaṅkara bác bằng chỗ khác nhau giữa mơ và tỉnh, và bằng việc muốn chối vật ngoài phải giả định có nó. Lần nêu ở Trung Hoa nối với Ấn Độ qua bản dịch và chú giải, chưa có văn bản nào cho thấy Huyền Trang hay Khuy Cơ trả lời Kumārila.",
+   "xepchung": [
+    {
+     "noi": "Duy thức hay được đặt cạnh chủ nghĩa duy tâm châu Âu, như Berkeley. Hai bên không có văn bản nối; đặt cạnh nhau chỉ vì giống nhau. Claude ghi theo hiểu biết riêng, chưa có nguồn đã đọc cho việc so sánh này.",
+     "src": [],
+     "nhan": "chua"
+    }
+   ],
+   "xepchungGhi": "",
+   "tinhtrang": [
+    {
+     "noi": "Giới nghiên cứu còn tranh cãi Duy thức có phải là duy tâm không. Theo Kellner và Taber, nhiều học giả, nhất là ở Bắc Mỹ, phủ nhận điều đó; hai ông đọc toàn bộ Viṃśikā và cho rằng nó lập luận rằng thế giới bên ngoài không có. Gold chọn một định nghĩa hẹp hơn: duy tâm là mọi thứ tùy thuộc vào tâm, chứ không phải mọi thứ đều là tâm.",
+     "src": [
+      "kellnerTaber",
+      "sepVasu|§5"
+     ],
+     "nhan": "mot"
+    },
+    {
+     "noi": "Chưa đọc toàn văn bài nào về Kumārila; các lần nêu b và d dựa trên tóm tắt. Nguồn nên đọc tiếp: Taber (1994) và Allen (2015) về Nirālambanavāda.",
+     "nhan": "chua"
+    }
+   ]
   }
  ],
  "CACH": [
@@ -8067,6 +8262,524 @@
    ],
    "nhan": "da",
    "ghi": ""
+  },
+  {
+   "van": "Mặc Tử",
+   "muc": "c-tientan",
+   "ten": "Mặc Tử",
+   "dich": "Ngô Tất Tố",
+   "nxb": "Impr. Mai Lĩnh",
+   "nam": "1942",
+   "tu": "Hán",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "In lại Văn học 2023, 2024."
+  },
+  {
+   "van": "Mặc Tử",
+   "muc": "c-tientan",
+   "ten": "Mặc Tử và Biệt Mặc",
+   "dich": "Nguyễn Hiến Lê",
+   "nxb": "NXB Hồng Đức",
+   "nam": "2024",
+   "tu": "Hán",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "mot",
+   "ghi": "Sách khảo cứu có trích dịch; năm in đầu chưa kiểm."
+  },
+  {
+   "van": "Tuân Tử",
+   "muc": "c-tientan",
+   "ten": "Tuân Tử",
+   "dich": "Nguyễn Hiến Lê, Giản Chi",
+   "nxb": "NXB Hồng Đức",
+   "nam": "2023 (in lại)",
+   "tu": "Hán",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "mot",
+   "ghi": "Khảo cứu có trích dịch; thư viện chỉ có các lần in từ 2023."
+  },
+  {
+   "van": "Đại truyện (Hệ từ) của Kinh Dịch",
+   "muc": "c-tientan",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Tra theo nhan đề \"Hệ từ\" chỉ ra sách không liên quan; cần tra lại theo \"Kinh Dịch\", vì Hệ từ thường in chung trong các bản dịch Kinh Dịch."
+  },
+  {
+   "van": "Hoài Nam Tử",
+   "muc": "c-tanhan",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Chỉ có sách giới thiệu (Nguyễn Tôn Nhan, 2023) và truyện tranh Thái Chí Trung."
+  },
+  {
+   "van": "Xuân Thu phồn lộ",
+   "muc": "c-tanhan",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Luận hành",
+   "muc": "c-tanhan",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Ma-ha chỉ quán",
+   "muc": "c-phatgiao",
+   "ten": "Ma ha chỉ quán",
+   "dich": "Từ Hoa Nhất Tuệ Tâm",
+   "nxb": "NXB Phương Đông",
+   "nam": "2009",
+   "tu": "chưa rõ; có lẽ qua bản Anh của Neal Donner và Daniel B. Stevenson",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "mot",
+   "ghi": "Bản ghi có tên Donner và Stevenson, hai người dịch chương đầu Ma-ha chỉ quán sang tiếng Anh (The Great Calming and Contemplation, 1993); Claude suy ra bản Việt dịch qua bản ấy, có thể chỉ là chương đầu."
+  },
+  {
+   "van": "Thành duy thức luận",
+   "muc": "c-phatgiao",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Thái cực đồ thuyết",
+   "muc": "c-tannho",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Văn bản ngắn, có thể nằm trong các sách khảo cứu Tống Nho."
+  },
+  {
+   "van": "Cận tư lục",
+   "muc": "c-tannho",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Đại đồng thư",
+   "muc": "c-thanh",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Trung Quốc triết học sử đại cương",
+   "muc": "c-hiendai",
+   "ten": "Trung Quốc triết học sử đại cương",
+   "dich": "Minh Đức",
+   "nxb": "NXB Văn hóa Thông tin",
+   "nam": "2004",
+   "tu": "Hán",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Trung Quốc triết học sử",
+   "muc": "c-hiendai",
+   "ten": "Lịch sử triết học Trung Quốc (2 quyển)",
+   "dich": "Lê Anh Minh",
+   "nxb": "NXB Khoa học Xã hội",
+   "nam": "2006",
+   "tu": "Hán",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "mot",
+   "ghi": "Hai quyển khớp với bộ Trung Quốc triết học sử; bản ghi không ghi nhan đề gốc. In lại NXB Tổng hợp TP HCM 2023."
+  },
+  {
+   "van": "Tu tâm quyết (Susim kyŏl)",
+   "muc": "k-cauly",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Sŏnghak sipto (Thánh học thập đồ)",
+   "muc": "k-tannho",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Mongmin simsŏ (Mục dân tâm thư)",
+   "muc": "k-thuchoc",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Không có bản ghi nào đứng tên Đinh Nhược Dung."
+  },
+  {
+   "van": "Hiến pháp mười bảy điều",
+   "muc": "n-codien",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Kojiki",
+   "muc": "n-edo",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Tra cả \"Kojiki\" và \"Cổ sự ký\"."
+  },
+  {
+   "van": "Lý hoặc luận",
+   "muc": "v-bacthuoc",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Bản dịch có trong các sách nghiên cứu, như Lịch sử tư tưởng Việt Nam của Nguyễn Đăng Thục."
+  },
+  {
+   "van": "Truyền kỳ mạn lục",
+   "muc": "v-nguyentrai",
+   "ten": "Truyền kỳ mạn lục",
+   "dich": "Trúc Khê, Ngô Văn Thiện",
+   "nxb": "NXB Văn học",
+   "nam": "1971",
+   "tu": "Hán",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Có nhiều bản về sau, gồm Tân biên Truyền kỳ mạn lục của Hoàng Thị Hồng Cẩm (Văn hóa Dân tộc 1999)."
+  },
+  {
+   "van": "Kiến văn tiểu lục",
+   "muc": "v-lequydon",
+   "ten": "Kiến văn tiểu lục (Q.1)",
+   "dich": "Lê Mạnh Liêu",
+   "nxb": "Bộ Quốc gia Giáo dục, Sài Gòn",
+   "nam": "1962",
+   "tu": "Hán",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Kiến văn tiểu lục",
+   "muc": "v-lequydon",
+   "ten": "Kiến văn tiểu lục (trong Lê Quý Đôn toàn tập)",
+   "dich": "Phạm Trọng Điềm",
+   "nxb": "NXB Khoa học Xã hội",
+   "nam": "1977",
+   "tu": "Hán",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "In lại Văn hóa Thông tin 2007."
+  },
+  {
+   "van": "Tịnh độ yếu nghĩa",
+   "muc": "v-huonghai",
+   "ten": "Tịnh độ yếu nghĩa",
+   "dich": "Thích Thanh Phương",
+   "nxb": "NXB Thông tin và Truyền thông",
+   "nam": "2025",
+   "tu": "Hán",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "mot",
+   "ghi": "Bản ghi không đứng tên Chân Nguyên; chưa chắc đây là văn bản của Chân Nguyên."
+  },
+  {
+   "van": "Bantu Philosophy",
+   "muc": "f-soky",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Không có bản ghi nào đứng tên Tempels."
+  },
+  {
+   "van": "Logical Investigations",
+   "muc": "w-lucdia",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Husserl chỉ có Ý niệm hiện tượng học (Bùi Văn Nam Sơn, Tri thức 2016)."
+  },
+  {
+   "van": "The Principles of Mathematics",
+   "muc": "w-phantich",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Russell có nhiều sách dịch, gần chủ đề nhất là Triết lí nguyên tử luận logic (Huỳnh Duy Thanh, Đà Nẵng 2020) và Các vấn đề của triết học (Huỳnh Duy Thanh, 2018)."
+  },
+  {
+   "van": "Hướng dẫn cho người hoang mang",
+   "muc": "j-trungdai",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Không có bản ghi nào đứng tên Maimonides."
+  },
+  {
+   "van": "Kuzari",
+   "muc": "j-trungdai",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Ngôi sao Cứu chuộc",
+   "muc": "j-hiendai",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Tahāfut al-falāsifa",
+   "muc": "i-kalam",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Không có bản ghi nào đứng tên al-Ghazālī."
+  },
+  {
+   "van": "Sách Chữa lành (phần Siêu hình học)",
+   "muc": "i-falsafa",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Không có bản ghi nào đứng tên Ibn Sīnā hay Avicenna."
+  },
+  {
+   "van": "Tahāfut al-tahāfut",
+   "muc": "i-falsafa",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Không có bản ghi nào đứng tên Ibn Rushd hay Averroès."
+  },
+  {
+   "van": "Sāṃkhya Kārikā",
+   "muc": "a-darsana",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Arthaśāstra",
+   "muc": "a-darsana",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Chỉ có bản tiếng Anh của L. N. Rangarajan."
+  },
+  {
+   "van": "Nāṭyaśāstra",
+   "muc": "a-mihoc",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Disputationes metaphysicae",
+   "muc": "w-salamanca",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Không có bản ghi nào của Francisco Suárez."
   }
  ]
 }
