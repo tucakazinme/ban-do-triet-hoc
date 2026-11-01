@@ -11,7 +11,7 @@
 :root{
   --paper:#f1f2ee; --sheet:#fcfcfb; --ink:#1c2128; --muted:#5e6670; --line:#d6d9d2;
   --accent:#30407c; --accent-soft:#e3e6f1;
-  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#008300;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#6250d6;
   --da:#256abf; --mot:#8a6400; --chua:#a0412d; --sl:#5e6670;
   --font-display:"Literata","Noto Serif",Georgia,serif;
   --font-body:"Be Vietnam Pro","Segoe UI",system-ui,sans-serif;
@@ -22,7 +22,7 @@
   :root:where(:not([data-theme="light"])){
     --paper:#15181d; --sheet:#1a1a19; --ink:#f0efec; --muted:#a8a79f; --line:#33332f;
     --accent:#a9b8f2; --accent-soft:#273055;
-    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#2f9a2f;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#9085e9;
     --da:#86b6ef; --mot:#e0aa52; --chua:#ee8d78; --sl:#a8a79f; --mix:34%; color-scheme:dark;
   }
 }
@@ -61,11 +61,11 @@ input[type="search"]{width:280px;max-width:100%}
 /* dòng thời gian */
 .tlwrap{overflow-x:auto;border-top:1px solid var(--line)}
 .tl{min-width:860px;position:relative}
-.axis{display:grid;grid-template-columns:140px 1fr;position:sticky;top:0;background:var(--sheet);z-index:3;border-bottom:1px solid var(--line)}
+.axis{display:grid;grid-template-columns:140px 1fr;position:sticky;top:0;background:var(--sheet);z-index:5;border-bottom:1px solid var(--line)}
 .axis .track{position:relative;height:30px}
 .tick{position:absolute;top:0;bottom:0;border-left:1px solid var(--line);font-size:11px;color:var(--muted);padding:6px 0 0 3px;white-space:nowrap;font-variant-numeric:tabular-nums}
 .lane{display:grid;grid-template-columns:140px 1fr;border-bottom:1px solid var(--line)}
-.lane .nm{position:sticky;left:0;background:var(--sheet);z-index:2;padding:6px 8px 6px 2px;font-size:13px;font-weight:600;line-height:1.3;border-right:1px solid var(--line)}
+.lane .nm{position:sticky;left:0;background:var(--sheet);z-index:4;padding:6px 8px 6px 2px;font-size:13px;font-weight:600;line-height:1.3;border-right:1px solid var(--line)}
 .lane .nm small{display:block;font-weight:400;color:var(--muted);font-size:11.5px}
 .lane .nm .nil{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
 .lane .track{position:relative}
@@ -75,7 +75,8 @@ input[type="search"]{width:280px;max-width:100%}
 .blk:hover{box-shadow:0 0 0 2px var(--accent)}
 .blk[aria-current="true"]{box-shadow:0 0 0 2px var(--ink)}
 .blk.dim,.blab.dim{opacity:.18}
-.lksvg{position:absolute;left:0;top:0;pointer-events:none;z-index:2;overflow:visible}
+.lksvg{position:absolute;left:0;top:0;pointer-events:none;z-index:1;overflow:visible}
+.blab{z-index:2}
 .lksvg .lk{fill:none;stroke:var(--ink);stroke-width:1.4;opacity:.55}
 .lksvg .lk.mot,.lksvg .lk.sl{stroke-dasharray:5 4}
 .lksvg .hit{fill:none;stroke:transparent;stroke-width:12;pointer-events:stroke;cursor:pointer}
@@ -142,6 +143,10 @@ table.t{width:100%;border-collapse:collapse;font-size:13.5px}
 .method h2{font-size:19px;margin-top:6px}
 .lnk{border:0;background:none;padding:0;color:var(--accent);cursor:pointer;text-decoration:underline;text-underline-offset:2px;font-size:inherit;text-align:left}
 .hidden{display:none!important}
+#edBtn{white-space:nowrap}
+.searchwrap input[type="search"]{flex:1 1 auto;min-width:0}
+@media (max-width:599px){.searchwrap{width:100%}}
+@media (max-width:599px){.axis,.lane{grid-template-columns:96px 1fr}.lane .nm{font-size:12px}.lane .nm small{display:none}}
 #edBtn[aria-pressed="false"]{opacity:1}
 #edBtn[aria-pressed="true"]{background:var(--accent);color:var(--sheet);border-color:var(--accent)}
 .searchwrap{display:flex;gap:8px;align-items:center}
@@ -218,7 +223,7 @@ const BK=[-1100,0,1000,1600,2030],FR=[0,.17,.39,.62,1];
 function xf(y){y=Math.max(BK[0],Math.min(BK[4],y));for(let i=0;i<4;i++){if(y<=BK[i+1]){return FR[i]+(y-BK[i])/(BK[i+1]-BK[i])*(FR[i+1]-FR[i])}}return 1}
 const TICKS=[-1000,-500,0,250,500,750,1000,1200,1400,1600,1700,1800,1900,2000];
 
-const state={tab:'map',sel:null,hl:'',hlGroup:-1,vung:null,lk:true,edit:false};
+const state={tab:'map',sel:null,hl:'',hlGroup:-1,vung:null,lk:false,edit:false};
 const TABS=[['map','Bản đồ'],['cach','Cách phân loại'],['vande','Vấn đề'],['nguoi','Người và văn bản'],['pp','Phương pháp và nguồn'],['hd','Cách dùng']];
 document.getElementById('tabs').innerHTML=TABS.map(t=>`<button class="tab" role="tab" data-t="${t[0]}">${t[1]}</button>`).join('');
 function renderStats(){
@@ -231,12 +236,12 @@ function hlSet(){
   if(state.hl.startsWith('v:')){return new Set(byVD[state.hl.slice(2)].lan.map(f=>f.muc))}
   return null;
 }
-function trackW(){const mw=document.getElementById('main').clientWidth||900;return Math.max(860,mw-34)-140}
+function trackW(){const mw=document.getElementById('main').clientWidth||900;return Math.max(860,mw-34)-(window.innerWidth<600?96:140)}
 function renderMap(){
   const hs=hlSet();
   const lanes=LAN.filter(l=>state.vung.has(l.vung));
   let h=`<div class="sheet"><div class="ctrl"><span class="lbl">Vùng</span>${VUNG.map(v=>`<button class="chip" data-vung="${v.id}" aria-pressed="${state.vung.has(v.id)}"><i style="background:${SC[v.mau]}"></i>${esc(v.ten)}</button>`).join('')}</div>
-  <div class="ctrl"><label class="lbl" for="hlSel">Làm nổi theo</label><select id="hlSel"><option value="">không</option><optgroup label="Cách phân loại">${CACH.map(c=>`<option value="c:${c.id}">${esc(c.ten)}</option>`).join('')}</optgroup><optgroup label="Vấn đề mẫu">${VANDE.map(v=>`<option value="v:${v.id}">${esc(v.ten)}</option>`).join('')}</optgroup></select><button class="chip" data-lktoggle="1" aria-pressed="${state.lk}">Liên hệ có văn bản (${LIENHE.length})</button></div>`;
+  <div class="ctrl"><label class="lbl" for="hlSel">Làm nổi theo</label><select id="hlSel"><option value="">không</option><optgroup label="Cách phân loại">${CACH.map(c=>`<option value="c:${c.id}">${esc(c.ten)}</option>`).join('')}</optgroup><optgroup label="Vấn đề mẫu">${VANDE.map(v=>`<option value="v:${v.id}">${esc(v.ten)}</option>`).join('')}</optgroup></select><button class="chip" data-lktoggle="1" aria-pressed="${state.lk}">${state.lk?'Đang hiện':'Hiện'} mọi liên hệ có văn bản (${LIENHE.length})</button></div>`;
   if(state.hl.startsWith('c:')){const c=byCach[state.hl.slice(2)];h+=`<div class="groups"><button class="chip sm" data-g="-1" aria-pressed="${state.hlGroup<0}">mọi nhóm</button>${c.nhom.map((g,i)=>`<button class="chip sm" data-g="${i}" aria-pressed="${state.hlGroup===i}">${esc(g.ten)}${g.muc.length?'':' (không gắn mục)'}</button>`).join('')}</div>`}
   h+=`<div class="tlwrap"><div class="tl"><div class="axis"><div></div><div class="track">${TICKS.map(t=>t===2000?`<div class="tick" style="left:${xf(t)*100}%;transform:translateX(-100%);border-left:0;border-right:1px solid var(--line);padding-right:3px">2000</div>`:`<div class="tick" style="left:${xf(t)*100}%">${t===0?'0':yr(t)}</div>`).join('')}</div></div>`;
   for(const l of lanes){
@@ -250,7 +255,7 @@ function renderMap(){
     for(const [m,r,a,b,side] of place){const inside=side==='in';const w=Math.max(b-a,0.008);const dim=hs&&!hs.has(m.id)?'dim':'';h+=`<button class="blk ${m.uoc?'uoc':''} ${dim}" style="--c:${color(m)};left:${a*100}%;width:calc(${w*100}% - 2px);top:${r*32+5}px" data-m="${m.id}" title="${esc(m.ten)}: ${esc(m.moc)}" aria-label="${esc(m.ten)}" ${state.sel&&state.sel.k==='m'&&state.sel.id===m.id?'aria-current="true"':''}>${inside?esc(m.ten):''}</button>`;if(side==='r')h+=`<button class="blab ${dim}" style="left:calc(${(a+w)*100}% + 3px);top:${r*32+5}px" data-m="${m.id}" tabindex="-1">${esc(m.ten)}</button>`;if(side==='l')h+=`<button class="blab ${dim}" style="right:calc(${(1-a)*100}% + 3px);top:${r*32+5}px" data-m="${m.id}" tabindex="-1">${esc(m.ten)}</button>`}
     h+=`</div></div>`;
   }
-  h+=`</div></div><div class="legend"><span><i class="sw solid"></i>mốc theo nguồn</span><span><i class="sw hatch"></i>mốc có phần do Claude ước để vẽ</span><span>Thang thời gian không đều: trước Công nguyên nén lại, từ 1600 giãn ra.</span><span><i class="sw lkd"></i>liên hệ khớp nguồn chuyên ngành</span><span><i class="sw lkm"></i>liên hệ kiểm qua nguồn phổ thông, còn tranh cãi, hoặc Claude suy ra</span><span>Bấm vào một khối hay một đường để xem phiếu.</span></div></div>`;
+  h+=`</div></div><div class="legend"><span><i class="sw solid"></i>mốc theo nguồn</span><span><i class="sw hatch"></i>mốc có phần do Claude ước để vẽ</span><span>Thang thời gian không đều: trước Công nguyên nén lại, từ 1600 giãn ra.</span><span><i class="sw lkd"></i>liên hệ khớp nguồn chuyên ngành</span><span><i class="sw lkm"></i>liên hệ kiểm qua nguồn phổ thông, còn tranh cãi, hoặc Claude suy ra</span><span>Bấm vào một khối để xem phiếu và các liên hệ của nó.</span></div></div>`;
   return h;
 }
 function renderCach(){
@@ -320,13 +325,16 @@ function lkEnd(e,nam){
 }
 function drawLinks(){
   const tl=document.querySelector('.tl');if(!tl)return;const old=tl.querySelector('.lksvg');if(old)old.remove();
-  if(!state.lk)return;
   const sel=state.sel&&state.sel.k==='m'?state.sel.id:null,sl=state.sel&&state.sel.k==='l'?state.sel.i:-1;
+  const selLan=sel&&byMuc[sel]?'lan:'+byMuc[sel].lan:null;
+  // mặc định ẩn; khi chọn một mục hay một liên hệ thì chỉ hiện các đường của nó
+  const mine=(l,i)=>(sel&&(l.tu===sel||l.den===sel||l.tu===selLan))||sl===i;
+  if(!state.lk&&!sel&&sl<0)return;
   let s='';
-  LIENHE.forEach((l,i)=>{const a=lkEnd(l.tu,l.nam),b=lkEnd(l.den,l.nam);if(!a||!b)return;
+  LIENHE.forEach((l,i)=>{if(!state.lk&&!mine(l,i))return;const a=lkEnd(l.tu,l.nam),b=lkEnd(l.den,l.nam);if(!a||!b)return;
     const dy=b[1]-a[1],c1=[a[0],a[1]+dy*.45],c2=[b[0],b[1]-dy*.45];
     const d=`M${a[0].toFixed(1)},${a[1].toFixed(1)} C${c1[0].toFixed(1)},${c1[1].toFixed(1)} ${c2[0].toFixed(1)},${c2[1].toFixed(1)} ${b[0].toFixed(1)},${b[1].toFixed(1)}`;
-    const on=(sel&&(l.tu===sel||l.den===sel))||sl===i,off=(sel||sl>=0)&&!on;
+    const on=mine(l,i),off=(sel||sl>=0)&&!on;
     s+=`<g class="${on?'on':''} ${off?'off':''}" data-lki="${i}"><title>${esc(nmEnd(l.tu))} → ${esc(nmEnd(l.den))}: ${esc(l.loai)}</title><path class="lk ${l.nhan}" d="${d}" marker-end="url(#ah)"/><path class="hit" d="${d}"/><circle class="dot" cx="${a[0].toFixed(1)}" cy="${a[1].toFixed(1)}" r="3"/></g>`});
   tl.insertAdjacentHTML('beforeend',`<svg class="lksvg" width="${tl.scrollWidth}" height="${tl.scrollHeight}" aria-hidden="true"><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>${s}</svg>`);
 }
