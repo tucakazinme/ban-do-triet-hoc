@@ -5640,6 +5640,134 @@
      "nhan": "sl"
     }
    ]
+  },
+  {
+   "id": "tam-giao",
+   "ten": "Nho, Phật, Lão quan hệ với nhau thế nào?",
+   "goc": "Tam giáo: một gốc, xếp bậc, hay mỗi đạo một việc",
+   "hoi": "Khi cả ba đạo cùng có mặt, người ta phải trả lời: chúng là một, là ba con đường tới cùng một chỗ, hay có đạo cao đạo thấp; và nếu khác nhau thì mỗi đạo lo phần việc nào. Ở Việt Nam câu hỏi này được nêu nhiều lần, từ thời Bắc thuộc tới thế kỷ XVIII, với những lời đáp khác nhau.",
+   "lan": [
+    {
+     "id": "a",
+     "ai": "Mâu Bác",
+     "khi": "cuối thời Hán; Nguyễn Đăng Thục đặt ở đầu Công nguyên",
+     "o": "Lý hoặc luận, Giao Chỉ",
+     "muc": "v-bacthuoc",
+     "noi": "Bị người đương thời chê là bỏ Ngũ kinh theo đạo khác, Mâu Bác viết Lý hoặc luận, dẫn lời các thánh hiền để giải. Ông ví Ngũ kinh như năm vị, đạo Phật như năm thứ lúa gạo; mặt trời và mặt trăng cùng sáng, mỗi bên soi một chỗ.",
+     "ghi": "Nguyễn Đăng Thục đối chiếu Mâu Bác với Mạnh Tử: Mạnh Tử bác Dương Chu, Mặc Địch, còn Mâu Bác gom chỗ sở trường của từng đạo.",
+     "src": [
+      "ndt2|tr. 283–285"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "b",
+     "ai": "Thiền sư Cứu Chỉ",
+     "khi": "1065",
+     "o": "lời chép trong Thiền uyển tập anh",
+     "muc": "v-ly",
+     "noi": "\"Khổng Mặc chấp hữu, Trang Lão nhược vô\": Khổng và Mặc chấp vào có, Trang và Lão nghiêng về không; sách vở thế gian không phải pháp giải thoát. Chỉ Phật giáo không chấp có hay không, nên mới thấu được lẽ sống chết.",
+     "src": [
+      "ndt67|tập VI, tr. 117; tập VII, tr. 143"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "c",
+     "ai": "Quốc sư Phù Vân và Trần Thái Tông",
+     "khi": "thế kỷ XIII",
+     "o": "Thiền tông chỉ nam tự",
+     "muc": "v-tran",
+     "noi": "Vua lên núi tìm Phật, Quốc sư đáp: núi vốn không có Phật, Phật ở trong tâm; rồi khuyên vua làm vua thì lấy ý muốn của thiên hạ làm ý muốn của mình, lấy tâm của thiên hạ làm tâm của mình. Tu Phật và việc trị nước không tách nhau.",
+     "src": [
+      "ndt2|tr. 298"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "d",
+     "ai": "Hương Hải",
+     "khi": "1627–1715 (tập VI) hoặc 1627–1717 (tập VII)",
+     "o": "bài thơ chép trong Kiến văn tiểu lục của Lê Quý Đôn",
+     "muc": "v-huonghai",
+     "noi": "\"Tam giáo nguyên lai đồng nhất thể\": ba đạo vốn cùng một thể. Nguyễn Đăng Thục đọc bài thơ như một thực nghiệm thiền vượt lên sự đối lập giữa người biết và cái được biết.",
+     "src": [
+      "ndt67|tập VII, tr. 149–151"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "e",
+     "ai": "Chân Nguyên",
+     "khi": "1646–1726",
+     "o": "Tịnh độ yếu nghĩa, Hồng Mông hành",
+     "muc": "v-huonghai",
+     "noi": "Một vũ trụ quan tam giáo Phật, Đạo, Nho: trời, đất, người cùng một nguyên khí; Phật bao cả trời và người. Theo Nguyễn Đăng Thục, Phật đứng cho siêu nhiên, bổ túc cho Nho đứng cho xã hội và Đạo đứng cho thiên nhiên.",
+     "ghi": "Nguyễn Đăng Thục cho rằng Chân Nguyên muốn phục hưng truyền thống tam giáo để đối phó với Nho giáo chính thống \"bế quan\" và với tư tưởng sáng thế từ ngoài vào thời Lê–Nguyễn. Chân Nguyên mượn lời Tuệ Trung Thượng sĩ khi đồng nhất tâm với tính.",
+     "src": [
+      "ndt67|tập VI, tr. 109, 116–117"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "f",
+     "ai": "Lê Quý Đôn",
+     "khi": "thế kỷ XVIII",
+     "o": "Kiến văn tiểu lục",
+     "muc": "v-lequydon",
+     "noi": "Theo Nguyễn Đăng Thục, Lê Quý Đôn cho rằng tính giác Bồ-đề của Phật chính là tự tính, chân tính của Đạo giáo và là \"thành\", \"minh\" của Nho giáo; chỉ tu thiền định mới đi tới chỗ biết thực thể tuyệt đối.",
+     "src": [
+      "ndt67|tập VII, tr. 149"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "g",
+     "ai": "Chŏng Tojŏn",
+     "khi": "cuối thế kỷ XIV",
+     "o": "Triều Tiên, đầu nhà Triều Tiên",
+     "muc": "k-tannho",
+     "noi": "Từ lập trường Tân Nho, phê phán Phật giáo về lý luận lẫn đạo đức, và Phật giáo có lời đáp lại. Đây là lời đáp ngược với lối dung hợp: chỉ một đạo đúng.",
+     "src": [
+      "sepKorConf|§3.1–§3.2"
+     ],
+     "nhan": "da"
+    }
+   ],
+   "lienhe": [
+    {
+     "tu": "f",
+     "den": "d",
+     "loai": "chép lại",
+     "nhan": "da",
+     "can": "Bài thơ \"Tam giáo nguyên lai đồng nhất thể\" của Hương Hải còn lại nhờ Lê Quý Đôn chép vào Kiến văn tiểu lục (Nguyễn Đăng Thục, tập VII, tr. 149–150)."
+    }
+   ],
+   "chung": "[Đánh giá] Sáu lần nêu ở Việt Nam trả lời khác nhau. Mâu Bác dung hợp nhưng vẫn coi Phật là lương thực chính; Cứu Chỉ xếp bậc rõ, Phật đứng trên cả có lẫn không; Phù Vân nối tâm Phật với việc trị nước; Chân Nguyên để Phật bao trùm, Nho và Đạo mỗi bên giữ một phần; Hương Hải và Lê Quý Đôn nói ba đạo cùng một thể. Gom chúng thành một \"truyền thống tam giáo đồng nguyên\" là việc của người đọc về sau. Hương Hải và Chân Nguyên cùng chấn hưng Thiền Trúc Lâm, nhưng Claude chưa thấy văn bản nào cho thấy người này dẫn lời người kia về tam giáo, nên hai lần nêu ấy chưa được nối.",
+   "xepchung": [
+    {
+     "noi": "Nguyễn Đăng Thục gom các lần nêu này thành một truyền thống \"tam giáo đồng nguyên\" riêng của đất Lĩnh Nam, Giao Chỉ, mà thời Lý–Trần lấy làm ý thức hệ dựng nước độc lập, và đặt nó đối lập với sự độc tôn Nho học từ thời Lê Thánh Tông. Cách xếp này là luận điểm của ông; các văn bản trên không tự nhận mình thuộc một truyền thống như vậy.",
+     "src": [
+      "ndt67|tập VI, tr. 52, 109"
+     ],
+     "nhan": "da"
+    },
+    {
+     "noi": "Cuộc phê phán Phật giáo của Chŏng Tojŏn ở Triều Tiên và sự độc tôn Nho học thời Lê mà Nguyễn Đăng Thục mô tả giống nhau về hướng: Tân Nho gạt Phật ra khỏi chỗ ý thức hệ nhà nước. Claude chưa thấy văn bản nào nối hai việc này; đặt cạnh nhau ở đây chỉ vì giống nhau.",
+     "src": [
+      "sepKorConf|§3",
+      "ndt67|tập VI, tr. 52"
+     ],
+     "nhan": "sl"
+    }
+   ],
+   "xepchungGhi": "",
+   "tinhtrang": [
+    {
+     "noi": "Claude chưa tìm được nguồn về cách giới nghiên cứu hôm nay bàn câu hỏi này cho Việt Nam, ngoài Nguyễn Đăng Thục. Nguồn nên tìm tiếp: các nghiên cứu về Thiền uyển tập anh và về tam giáo đời Lý–Trần.",
+     "nhan": "chua"
+    }
+   ]
   }
  ],
  "CACH": [

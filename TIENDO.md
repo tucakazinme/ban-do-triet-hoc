@@ -23,8 +23,8 @@ B. Phủ
 5. Còn trống: Úc bản địa, Polynesia ngoài Māori, Maya, Amazon, đạo đức Hindu và Jaina, Ukraine, Latvia; Đông Nam Á ngoài Việt Nam và Philippines (Thái, Indonesia, Mã Lai, Miến, Khmer) chưa có làn.
 6. Lớp liên hệ mới 24 đường; còn thiếu nhiều đường đã có căn cứ trong nguồn đã đọc (Tân Nho sang Việt Nam, Phật giáo sang Việt Nam qua Ấn Độ trực tiếp, Kyoto với hiện tượng học Đức, Mác-xít sang Trung Hoa và Việt Nam, Africana với Caribe...).
 C. Lớp vấn đề
-7. Việc 7: tiêu chí chọn vấn đề, viết thành quy tắc.
-8. Thêm mục vấn đề theo tiêu chí ấy, gồm một vấn đề dựng từ chất liệu Việt Nam.
+7. [xong 01/11] Việc 7: tiêu chí chọn vấn đề, ở method.html.
+8. [một phần 01/11] Thêm mục vấn đề: đã có "Nho, Phật, Lão quan hệ với nhau thế nào?" (tam-giao, 7 lần nêu, chất liệu Nguyễn Đăng Thục). Ứng viên tiếp: thế giới bên ngoài có độc lập với thức không (Vasubandhu → Huyền Trang → Hossō/Wŏnch'ŭk).
 D. Phần cần Cẩm góp
 9. Việc 4: danh mục bản dịch tiếng Việt của văn bản gốc.
 10. Việc 5: bảng thuật ngữ Việt (chữ gốc, chữ đã chọn, chữ của Bùi Văn Nam Sơn, Nguyễn Đăng Thục).

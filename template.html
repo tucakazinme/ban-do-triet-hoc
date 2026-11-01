@@ -187,7 +187,7 @@ a{text-underline-offset:2px}
 <div class="page">
 <header>
   <h1>Bản đồ các truyền thống triết học</h1>
-  <p>Bản đồ ở mức thô: mỗi truyền thống với các thời kỳ và trường phái chính, người và văn bản tiêu biểu, chỗ đọc tiếp. Điều nào cũng ghi nguồn đã đọc ngày 31/10/2026 và nhãn kiểm. Ba mục vấn đề làm mẫu cho cách ghi một vấn đề qua nhiều lần nêu. Tiêu chí phủ và các giới hạn nằm ở tab Phương pháp; cách đọc và cách sửa bản đồ nằm ở tab Cách dùng.</p>
+  <p>Bản đồ ở mức thô: mỗi truyền thống với các thời kỳ và trường phái chính, người và văn bản tiêu biểu, chỗ đọc tiếp. Điều nào cũng ghi nguồn đã đọc ngày 31/10/2026 và nhãn kiểm. Các mục vấn đề ghi một câu hỏi qua nhiều lần nêu có văn bản nối nhau. Tiêu chí phủ và các giới hạn nằm ở tab Phương pháp; cách đọc và cách sửa bản đồ nằm ở tab Cách dùng.</p>
   <div class="stats" id="stats"></div>
 </header>
 <div class="bar">
@@ -244,7 +244,7 @@ const TABS=[['map','Bản đồ'],['cach','Cách phân loại'],['vande','Vấn 
 document.getElementById('tabs').innerHTML=TABS.map(t=>`<button class="tab" role="tab" data-t="${t[0]}">${t[1]}</button>`).join('');
 function renderStats(){
   const peopleUnique=new Set(NGUOI.map(p=>p.ten)).size;
-document.getElementById('stats').innerHTML=`<span><strong>${LAN.length}</strong> truyền thống</span><span><strong>${MUC.length}</strong> thời kỳ và trường phái</span><span><strong>${peopleUnique}</strong> người</span><span><strong>${VAN.length}</strong> văn bản</span><span><strong>${CACH.length}</strong> cách phân loại</span><span><strong>${LIENHE.length}</strong> liên hệ có văn bản</span><span><strong>${VANDE.length}</strong> mục vấn đề mẫu</span><span><strong>${Object.keys(SRC).length}</strong> nguồn đã đọc</span>`;
+document.getElementById('stats').innerHTML=`<span><strong>${LAN.length}</strong> truyền thống</span><span><strong>${MUC.length}</strong> thời kỳ và trường phái</span><span><strong>${peopleUnique}</strong> người</span><span><strong>${VAN.length}</strong> văn bản</span><span><strong>${CACH.length}</strong> cách phân loại</span><span><strong>${LIENHE.length}</strong> liên hệ có văn bản</span><span><strong>${VANDE.length}</strong> mục vấn đề</span><span><strong>${Object.keys(SRC).length}</strong> nguồn đã đọc</span>`;
 }
 
 function hlSet(){
