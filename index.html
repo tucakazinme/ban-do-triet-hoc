@@ -6,29 +6,35 @@
 <title>Bản đồ các truyền thống triết học</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,650;1,7..72,400&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
-  --paper:#f1f2ee; --sheet:#fcfcfb; --ink:#1c2128; --muted:#5e6670; --line:#d6d9d2;
-  --accent:#30407c; --accent-soft:#e3e6f1;
-  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#6250d6;
-  --da:#256abf; --mot:#8a6400; --chua:#a0412d; --sl:#5e6670;
+  /* giấy cũ: nền ngà, mực nâu đen, son làm điểm nhấn */
+  --paper:#e9e0cc; --sheet:#f7f2e6; --ink:#2b2219; --muted:#6e604c; --line:#d6c9ae;
+  --accent:#8c2f1b; --accent-soft:#efdccb;
+  --s1:#3d64a8; --s2:#bf5a2e; --s3:#2f8f6f; --s4:#b8860b; --s5:#b8506e; --s6:#6f52a3;
+  --da:#2f5a8a; --mot:#8a6412; --chua:#9a3420; --sl:#6e604c;
   --font-display:"Literata","Noto Serif",Georgia,serif;
-  --font-body:"Be Vietnam Pro","Segoe UI",system-ui,sans-serif;
-  --mix:24%;
+  --font-body:"Literata","Noto Serif",Georgia,serif;
+  --font-ui:"Be Vietnam Pro","Segoe UI",system-ui,sans-serif;
+  --mix:20%;
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .27 0 0 0 0 .15 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){
   :root:where(:not([data-theme="light"])){
-    --paper:#15181d; --sheet:#1a1a19; --ink:#f0efec; --muted:#a8a79f; --line:#33332f;
-    --accent:#a9b8f2; --accent-soft:#273055;
-    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#9085e9;
-    --da:#86b6ef; --mot:#e0aa52; --chua:#ee8d78; --sl:#a8a79f; --mix:34%; color-scheme:dark;
+    --paper:#1a1713; --sheet:#221e19; --ink:#ece3d1; --muted:#b4a68d; --line:#3d352b;
+    --accent:#e39272; --accent-soft:#3b2a21;
+    --s1:#5f8be0; --s2:#d9733f; --s3:#3fa883; --s4:#b98a20; --s5:#d9668c; --s6:#9a7fe0;
+    --da:#8fb3e6; --mot:#d9ab55; --chua:#ec8e74; --sl:#b4a68d; --mix:30%; color-scheme:dark;
   }
 }
 *{box-sizing:border-box}
 html,body{margin:0}
-body{background:var(--paper);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.55}
+body{background:var(--paper) var(--grain);color:var(--ink);font-family:var(--font-body);font-size:15.5px;line-height:1.6}
+/* chữ giao diện dùng nét không chân cho gọn; chữ đọc dùng nét có chân */
+header{border-bottom:3px double var(--line);padding-bottom:14px}
+header h1{letter-spacing:.01em}
 button,input,select{font:inherit;color:inherit}
 a{color:var(--accent)}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
@@ -165,6 +171,16 @@ form.ed .two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 form.ed .hint{font-weight:400;font-size:12px;color:var(--muted)}
 .errs{border-left:3px solid var(--chua);padding:6px 10px;color:var(--chua);font-size:13px;background:var(--paper)}
 .ok{border-left:3px solid var(--s3);padding:6px 10px;font-size:13px;background:var(--paper)}
+/* chữ giao diện dùng nét không chân cho gọn; chữ đọc dùng nét có chân */
+.tab,.chip,.btn,.lbl,.stats,.tick,.blk,.blab,.nilchip,.lane .nm,.tag,.kind,h3,select,input,.sres,.edbar,.legend,table.t,.small,form.ed label,.pclose,.lnk{font-family:var(--font-ui)}
+form.ed input,form.ed textarea,form.ed select{font-family:var(--font-ui)}
+/* lớp giấy: đặt cuối để thắng các khai báo nền ở trên */
+.sheet,.card,.panel{background-color:var(--sheet);background-image:var(--grain);border-radius:3px}
+.sheet,.card{box-shadow:0 1px 0 rgb(80 60 30 / .06),0 6px 18px -12px rgb(80 60 30 / .25)}
+.tab[aria-selected="true"]{color:var(--accent)}
+.chip{background:var(--sheet)}
+h2{color:var(--ink)}
+a{text-underline-offset:2px}
 </style>
 </head>
 <body>
