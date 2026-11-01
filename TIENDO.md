@@ -41,3 +41,4 @@ E. Công cụ
 - [01/11] Năm văn bản phương Tây đối chiếu Hirschberger và SEP; còn một năm theo hiểu biết của Claude (Quine 1953). Thêm mục vấn đề tự do ý chí (10 lần nêu, 3 liên hệ). Còn: đọc SEP Kant, Sartre cho lần nêu g, i; thêm Bramhall.
 - [01/11] Thêm CLAUDE.md (bàn giao cho phiên mới), scripts/ocrp.sh, scripts/opac.js.
 - [01/11] Mục vấn đề tự do ý chí: đọc SEP Kant (Cureton) và Sartre (Renaudie), nâng hai lần nêu lên đã kiểm; thêm Bramhall (nguồn Ergo, thư viện Caius), Erasmus và Luther (SEP); 13 lần nêu, 6 liên hệ.
+- [01/11] Thêm mục vấn đề "Tên chung chỉ vào cái gì" (phổ quát; apoha; danh và thực): 14 lần nêu ở Trung Hoa, Ấn Độ, Hồi giáo, châu Âu Latin; 10 liên hệ, gồm Avicenna sang Aquinas và Dignāga sang Khuy Cơ (Katsura 2014). Còn: đọc toàn văn Taber, một mục từ về Nyāya-Vaiśeṣika, Klima §9 về Ockham.

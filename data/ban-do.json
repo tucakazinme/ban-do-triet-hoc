@@ -1220,6 +1220,73 @@
    "d": "tra 01/11/2026",
    "k": "cn",
    "url": "https://plato.stanford.edu/entries/erasmus/"
+  },
+  "sepNames": {
+   "t": "School of Names",
+   "a": "Chris Fraser",
+   "w": "SEP, bản sửa 03/09/2024",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/school-names/"
+  },
+  "sepUnivMed": {
+   "t": "The Medieval Problem of Universals",
+   "a": "Gyula Klima",
+   "w": "SEP, bản sửa 2022",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/universals-medieval/"
+  },
+  "katsura2014": {
+   "t": "The Theory of Apoha in Kuiji's Cheng weishi lun Shuji",
+   "a": "Shoryu Katsura",
+   "w": "trong Chen-kuo Lin, Michael Radich (biên tập), A Distant Mirror, Hamburg University Press 2014, tr. 101–120",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://hup.sub.uni-hamburg.de/oa-pub/catalog/download/79/chapter-06/364?inline=1"
+  },
+  "hattoriDig": {
+   "t": "Dignāga",
+   "a": "Hattori Masaaki",
+   "w": "Encyclopedia of Religion (1987), qua encyclopedia.com",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://www.encyclopedia.com/religion/dictionaries-thesauruses-pictures-and-press-releases/dignaga"
+  },
+  "taberOH": {
+   "t": "Coreference and Qualification: Dignāga Debated by Kumārila and Dharmakīrti",
+   "a": "John Taber",
+   "w": "The Oxford Handbook of Indian Philosophy, chương 13",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://academic.oup.com/edited-volume/27982/chapter/211666607",
+   "note": "Chỉ đọc tóm tắt chương và mục lục."
+  },
+  "kataokaNM": {
+   "t": "A Critical Edition of Bhaṭṭa Jayanta's Nyāyamañjarī: The Buddhist Refutation of Kumārila's Criticism of Apoha",
+   "a": "Kataoka Kei",
+   "w": "Memoirs of the Institute of Oriental Culture 156 (Đại học Tokyo)",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://repository.dl.itc.u-tokyo.ac.jp/record/26934/files/ioc116007.pdf",
+   "note": "Đọc phần tổng quan nghiên cứu ở đầu bài."
+  },
+  "kabsApoha": {
+   "t": "Bài về cách Dharmakīrti bổ sung và biến đổi thuyết apoha của Dignāga",
+   "a": "Journal of the Korean Association for Buddhist Studies",
+   "w": "journal.kabs.re.kr",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://journal.kabs.re.kr/articles/article/Bk5k/",
+   "note": "Đọc tóm tắt và danh mục tài liệu; tên tác giả bài chưa chép."
+  },
+  "nccuApoha": {
+   "t": "Can Dignāga's Apoha Replace Real Universals? (tóm tắt bài giảng)",
+   "a": "Khoa Triết, Đại học Chính trị Quốc gia Đài Loan",
+   "w": "buddhica.nccu.edu.tw, 19/04/2024",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://buddhica.nccu.edu.tw/event/332"
   }
  },
  "VUNG": [
@@ -8775,6 +8842,295 @@
     },
     {
      "noi": "Chưa có lần nêu nào từ phái Hegel và Marx, từ Spinoza (người SEP gọi là hoài nghi tự do ý chí), hay từ Leibniz; cần thêm khi có nguồn nối bằng văn bản.",
+     "nhan": "chua"
+    }
+   ]
+  },
+  {
+   "id": "pho-quat",
+   "ten": "Tên chung chỉ vào cái gì: cái chung có thật không?",
+   "goc": "Vấn đề phổ quát; apoha; danh và thực",
+   "hoi": "Một chữ như \"ngựa\" hay \"bò\" dùng được cho rất nhiều vật riêng lẻ. Cái mà chữ ấy gọi tên là một thực thể chung có thật trong các vật, một khái niệm trong đầu, hay chỉ là chính cái chữ? Câu hỏi được nêu thành tranh luận có văn bản ở ba nơi gần như độc lập: Trung Hoa thời Chiến Quốc, Ấn Độ từ thế kỷ VI, và châu Âu Latin cùng thế giới Hồi giáo từ thời Porphyry; giữa Ấn Độ và Trung Hoa có một sợi nối qua Huyền Trang và Khuy Cơ.",
+   "lan": [
+    {
+     "id": "a",
+     "ai": "Công Tôn Long",
+     "khi": "khoảng 320–250 TCN",
+     "o": "Bạch mã luận",
+     "muc": "c-tientan",
+     "noi": "\"Ngựa trắng không phải là ngựa.\" Các lập luận của luận văn phần lớn khai thác chỗ mập mờ giữa \"là\" theo nghĩa đồng nhất và \"là\" theo nghĩa thuộc loại; có lập luận tách màu ra khỏi hình. Fraser nghiêng về cách đọc ấy và lưu ý văn bản có thể là một bài nhại cố ý.",
+     "src": [
+      "sepNames|§6, §6.1"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "b",
+     "ai": "Phái Mặc gia hậu kỳ",
+     "khi": "thế kỷ III TCN",
+     "o": "các thiên Biện (Dialectics) trong Mặc Tử",
+     "muc": "c-tientan",
+     "noi": "Tên loại (loại danh) chỉ những vật \"giống nhau\" ở một phương diện, như cùng hình dáng; phân biệt bốn kiểu giống nhau. Nhận ra rằng mô hình \"một tên, một vật\" vỡ khi các tên ghép lại, vì phạm vi của tên ghép có thể khác phạm vi của từng phần.",
+     "src": [
+      "sepNames|§1, §2.1–§2.2, §6.1"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "c",
+     "ai": "Tuân Tử",
+     "khi": "thế kỷ III TCN",
+     "o": "Tuân Tử, thiên Chính danh (22.2–22.3) và thiên 3",
+     "muc": "c-tientan",
+     "noi": "Đưa ra \"cộng danh\", tên chung dùng được ở nhiều bậc khái quát khác nhau. Xếp ngụy biện \"ngựa trắng\" vào loại dùng sai tên; chê các nhà biện thuyết như Đặng Tích, Huệ Thi là khảo cứu vô bổ, thiếu lễ nghĩa.",
+     "src": [
+      "sepNames|§3, §6.1"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "d",
+     "ai": "Porphyry",
+     "khi": "khoảng 234–305",
+     "o": "Isagoge (Nhập môn)",
+     "muc": "w-tanplaton",
+     "noi": "Nêu ba câu hỏi rồi gác lại cho \"một cuộc khảo cứu lớn hơn\": giống và loài có thật hay chỉ ở trong tư tưởng; nếu có thật thì là vật thể hay phi vật thể; tách khỏi các vật cảm giác hay ở trong chúng.",
+     "src": [
+      "sepUnivMed|§3"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "e",
+     "ai": "Boethius",
+     "khi": "khoảng 480–524",
+     "o": "các bản chú giải Isagoge",
+     "muc": "w-trungdaisom",
+     "noi": "Một phổ quát thật phải có mặt trọn vẹn trong nhiều vật cùng lúc và cấu thành bản thể của chúng; không vật thật nào đáp ứng điều ấy, nên phổ quát chỉ có trong trí, do trừu tượng hóa mà thành. Giống và loài được hiểu như cái phổ quát nhưng tồn tại trong các vật cảm giác.",
+     "src": [
+      "sepUnivMed|§3–§4"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "f",
+     "ai": "Peter Abelard",
+     "khi": "1079–1142",
+     "o": "",
+     "muc": "w-kinhviensom",
+     "noi": "Phổ quát thật là các chữ chung, vì chúng nói được về nhiều vật. Ông bác cả hai lời giải \"một vật chung\" và \"một tập hợp\"; cái làm cho chữ thành chung là \"trạng thái\" (status) của vật, như \"là người\": có thật, dù không phải một vật và cũng không phải một khái niệm.",
+     "src": [
+      "sepUnivMed|§6"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "g",
+     "ai": "Ibn Sīnā (Avicenna)",
+     "khi": "980–1037",
+     "o": "",
+     "muc": "i-falsafa",
+     "noi": "Phân biệt bản tính xét tự nó (như \"tính ngựa\") với chính bản tính ấy khi có trong các vật riêng hay trong trí. Xét tự nó, bản tính không là một cũng không là nhiều.",
+     "src": [
+      "sepUnivMed|§7"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "h",
+     "ai": "Thomas Aquinas và John Duns Scotus",
+     "khi": "thế kỷ XIII",
+     "o": "Aquinas, Về hữu thể và yếu tính",
+     "muc": "w-trungdai",
+     "noi": "Thuộc \"lối cũ\" (via antiqua) duy thực: phổ quát có trong trí như cái được trừu tượng từ các cá thể. Aquinas giảng lại phân biệt của Avicenna trong Về hữu thể và yếu tính để gỡ một ngụy biện kiểu \"Socrates là một loài\".",
+     "src": [
+      "sepUnivMed|§1, §5, §7–§8"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "i",
+     "ai": "William xứ Ockham và John Buridan",
+     "khi": "thế kỷ XIV",
+     "o": "",
+     "muc": "w-trungdai",
+     "noi": "Mở \"lối mới\" (via moderna) duy danh, dựa trên một khung logic và ngữ nghĩa khác; Buridan hệ thống hóa. Klima cho rằng những khó khăn của lối cũ đã thúc đẩy các đổi mới ngữ nghĩa của Ockham.",
+     "src": [
+      "sepUnivMed|§1, §8"
+     ],
+     "nhan": "mot"
+    },
+    {
+     "id": "j",
+     "ai": "Phái Nyāya: Uddyotakara",
+     "khi": "khoảng 550–610",
+     "o": "Nyāyavārttika",
+     "muc": "a-darsana",
+     "noi": "Phổ quát (jāti) có thật, độc lập, thường còn, có mặt trong mọi cá thể cùng loại; danh từ như \"bò\" chỉ một phổ quát hoặc một vật mang phổ quát. Uddyotakara công kích thuyết apoha của Dignāga ngay khi nó ra đời.",
+     "src": [
+      "hattoriDig",
+      "kabsApoha",
+      "nccuApoha",
+      "kataokaNM|tr. 1–4"
+     ],
+     "nhan": "mot"
+    },
+    {
+     "id": "k",
+     "ai": "Dignāga",
+     "khi": "khoảng 480–540",
+     "o": "Pramāṇasamuccaya, chương 5 (Apoha)",
+     "muc": "a-phatgiao",
+     "noi": "Không có phổ quát khách quan. Nghĩa của chữ là \"loại trừ cái khác\" (anyāpoha): \"bò\" nghĩa là \"không phải không-bò\". Apoha là một dựng tạo của tâm, không có cam kết bản thể, nhưng mang những đặc điểm của phổ quát: là một, thường còn, có mặt khắp các thành viên trong loại.",
+     "src": [
+      "hattoriDig",
+      "katsura2014|tr. 105, 109",
+      "nccuApoha"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "l",
+     "ai": "Kumārila Bhaṭṭa",
+     "khi": "thế kỷ VII",
+     "o": "Ślokavārttika, chương Apoha",
+     "muc": "a-darsana",
+     "noi": "Mọi khó khăn mà Dignāga thấy ở phổ quát khi giải thích việc hai chữ cùng chỉ một vật và việc chữ này bổ nghĩa cho chữ kia cũng là khó khăn của apoha.",
+     "src": [
+      "taberOH",
+      "kataokaNM|tr. 1–4",
+      "hattoriDig"
+     ],
+     "nhan": "mot"
+    },
+    {
+     "id": "m",
+     "ai": "Dharmakīrti",
+     "khi": "thế kỷ VI–VII",
+     "o": "Pramāṇavārttika (chú giải Pramāṇasamuccaya)",
+     "muc": "a-phatgiao",
+     "noi": "Bảo vệ apoha trước các công kích bằng cách nhấn mạnh tính quy ước của nghĩa và sự linh hoạt của chữ. Ông sửa lại hệ thống: Dignāga đi từ trên xuống, từ đặc điểm của khái niệm; Dharmakīrti đi từ dưới lên, từ cách ta xếp các vật riêng thành loại.",
+     "src": [
+      "taberOH",
+      "kabsApoha"
+     ],
+     "nhan": "mot"
+    },
+    {
+     "id": "n",
+     "ai": "Khuy Cơ",
+     "khi": "632–682",
+     "o": "Thành duy thức luận thuật ký",
+     "muc": "c-phatgiao",
+     "noi": "Cộng tướng (gongxiang) là sự loại trừ cái khác (già dư, già phi hỏa); lời nói và nhận thức quy ước chỉ lấy cộng tướng làm đối tượng, còn tự tướng (zixiang) thì không nói ra được, chỉ biết bằng tri giác trực tiếp. Phán đoán \"đây là màu xanh\" hình thành bằng cách loại trừ cái không xanh. Ông dựng một tôn ti trong đó mỗi bậc là tự tướng đối với bậc trên và cộng tướng đối với bậc dưới.",
+     "ghi": "Katsura: Khuy Cơ nắm được ý cốt lõi, nhưng vài điểm có lẽ không phải của Dignāga, như việc cả cộng tướng rốt cuộc cũng không nói ra được, và tôn ti tương đối giữa cộng và tự tướng.",
+     "src": [
+      "katsura2014|tr. 110–118"
+     ],
+     "nhan": "da"
+    }
+   ],
+   "lienhe": [
+    {
+     "tu": "c",
+     "den": "a",
+     "loai": "phê phán",
+     "nhan": "da",
+     "can": "Tuân Tử xếp ngụy biện \"ngựa trắng\" vào loại dùng sai tên (22.3), dù không gọi tên Công Tôn Long (Fraser, SEP §6, §6.1)."
+    },
+    {
+     "tu": "b",
+     "den": "a",
+     "loai": "phản bác",
+     "nhan": "mot",
+     "can": "Fraser (SEP §1): các đoạn trong thiên Biện có vẻ bác các ý của những nhà danh gia; nguồn dùng chữ \"có vẻ\"."
+    },
+    {
+     "tu": "e",
+     "den": "d",
+     "loai": "chú giải",
+     "nhan": "da",
+     "can": "Boethius trả lời ba câu hỏi của Porphyry trong các bản chú giải Isagoge (Klima, SEP §3–§4)."
+    },
+    {
+     "tu": "f",
+     "den": "e",
+     "loai": "đáp lại",
+     "nhan": "mot",
+     "can": "Klima (SEP §6) đặt Abelard trong cuộc bàn mở ra từ câu hỏi của Porphyry và lời đáp của Boethius; Abelard trực tiếp đáp William xứ Champeaux, người chưa có mặt ở đây."
+    },
+    {
+     "tu": "h",
+     "den": "g",
+     "loai": "tiếp nhận",
+     "nhan": "da",
+     "can": "Học thuyết của Avicenna là học thuyết có ảnh hưởng nhất ở thế kỷ XIII, vào giới Latin sau khi Aristotle và các nhà chú giải Ả Rập được dịch ở nửa sau thế kỷ XII; Aquinas giảng lại phân biệt ấy trong Về hữu thể và yếu tính (Klima, SEP §7)."
+    },
+    {
+     "tu": "i",
+     "den": "h",
+     "loai": "phê phán",
+     "nhan": "mot",
+     "can": "Klima (SEP §8): những khó khăn của lối cũ thúc đẩy đổi mới ngữ nghĩa của Ockham. Claude chưa đọc §9 về chính học thuyết Ockham."
+    },
+    {
+     "tu": "j",
+     "den": "k",
+     "loai": "phản bác",
+     "nhan": "da",
+     "can": "Hattori: Uddyotakara (Nyāya), Kumārila (Mīmāṃsā) và Mallavādin (Jaina) công kích kịch liệt các học thuyết trong Pramāṇasamuccaya. Kataoka cũng ghi Dignāga bị Uddyotakara và Kumārila phê phán."
+    },
+    {
+     "tu": "l",
+     "den": "k",
+     "loai": "phản bác",
+     "nhan": "da",
+     "can": "Taber, chương 13 sách Oxford Handbook of Indian Philosophy: \"Phê phán của Kumārila đối với quan niệm của Dignāga\"; Kataoka nói Kumārila phê phán Dignāga."
+    },
+    {
+     "tu": "m",
+     "den": "l",
+     "loai": "đáp lại",
+     "nhan": "da",
+     "can": "Taber: Dharmakīrti bảo vệ thuyết apoha của Dignāga trước các công kích của Kumārila."
+    },
+    {
+     "tu": "n",
+     "den": "k",
+     "loai": "tiếp nhận",
+     "nhan": "mot",
+     "can": "Katsura: Pramāṇasamuccaya không có bản Hán còn lại; Nhân minh chính lý môn luận (Nyāyamukha) bằng chữ Hán không bàn apoha. Katsura đề xuất rằng Huyền Trang giảng các ý của Dignāga, trong đó có apoha, và Khuy Cơ dựa vào đó (tr. 101–105)."
+    }
+   ],
+   "chung": "[Đánh giá] Ba cuộc tranh luận có cấu trúc giống nhau mà gần như không biết đến nhau. Ở Trung Hoa, tranh luận xoay quanh việc dùng tên cho đúng, với hệ quả về trật tự xã hội; ở Ấn Độ, người Phật giáo muốn giải thích ngôn ngữ mà không cam kết có thực thể chung, còn Nyāya và Mīmāṃsā cần phổ quát có thật để bảo đảm nghĩa của chữ và của kinh Veda; ở châu Âu Latin, câu hỏi bắt đầu như một câu hỏi trong sách nhập môn logic rồi được Avicenna định hình lại. Sợi nối duy nhất qua biên giới vùng mà nguồn đã đọc cho thấy là đường Avicenna sang Paris và đường Dignāga sang Trường An qua lời giảng của Huyền Trang; sợi sau mới là đề xuất của Katsura.",
+   "xepchung": [
+    {
+     "noi": "Apoha của Dignāga thường được gọi là \"duy danh luận Phật giáo\" và đặt cạnh duy danh luận của Ockham. Hai bên không có văn bản nối; đặt cạnh nhau chỉ vì giống nhau.",
+     "src": [
+      "nccuApoha"
+     ],
+     "nhan": "sl"
+    },
+    {
+     "noi": "Cuộc bàn của Mặc gia hậu kỳ và Tuân Tử về tên chung hay được so với vấn đề phổ quát ở Hy Lạp và Ấn Độ. Fraser đọc \"ngựa trắng\" chủ yếu như chuyện mập mờ giữa đồng nhất và thuộc loại, tức chuyện ngữ nghĩa nhiều hơn chuyện bản thể của cái chung; đặt cạnh nhau ở đây chỉ vì giống nhau.",
+     "src": [
+      "sepNames|§6.1"
+     ],
+     "nhan": "sl"
+    }
+   ],
+   "xepchungGhi": "",
+   "tinhtrang": [
+    {
+     "noi": "Giới nghiên cứu vẫn bàn apoha có thay được phổ quát thật hay không; một bài giảng năm 2024 ở Đại học Chính trị Quốc gia Đài Loan cho rằng không, vì apoha không đáp ứng ba điều kiện của phổ quát theo Nyāya. Các nghiên cứu gần đây cũng phân biệt rõ hơn lập luận của Dignāga và của Dharmakīrti.",
+     "src": [
+      "nccuApoha",
+      "kabsApoha"
+     ],
+     "nhan": "mot"
+    },
+    {
+     "noi": "Lần nêu của Nyāya, Kumārila và Dharmakīrti mới dựa trên tóm tắt và tổng quan; cần đọc toàn văn Taber hoặc một mục từ chuyên ngành về Nyāya-Vaiśeṣika để ghi lời của chính họ.",
      "nhan": "chua"
     }
    ]
