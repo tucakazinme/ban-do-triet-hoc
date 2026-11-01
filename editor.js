@@ -69,6 +69,7 @@ function refsSrc(k){
   MUC.forEach(m=>{if(has(m.src))out.push('Mục: '+m.ten)});
   LIENHE.forEach(l=>{if(has(l.src))out.push('Liên hệ: '+nmEnd(l.tu)+' → '+nmEnd(l.den))});
   CACH.forEach(c=>{if(has(c.src))out.push('Cách phân loại: '+c.ten)});
+  (D.DICH||[]).forEach(x=>{if(has(x.src))out.push('Bản dịch: '+x.van+(x.dich?' / '+x.dich:''))});
   VANDE.forEach(v=>{v.lan.forEach(f=>{if(has(f.src))out.push('Vấn đề: '+v.ten+' / '+f.ai)});(v.tinhtrang||[]).forEach(t=>{if(has(t.src))out.push('Vấn đề: '+v.ten+' / tình trạng')})});
   return out;
 }

@@ -621,6 +621,154 @@
    "url": "https://www.historicalmaterialism.org/?p=1585",
    "k": "cn",
    "note": "đọc qua đoạn trích"
+  },
+  "dTTKhoi": {
+   "t": "Bài về các bản dịch Luận ngữ sang tiếng Việt",
+   "a": "Trần Tiến Khôi",
+   "w": "Tạp chí Đại học Thăng Long",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://science.thanglong.edu.vn/index.php/vola/article/view/265",
+   "note": "Bài đếm 30 đầu sách Luận ngữ tiếng Việt và ghi số hiệu Thư viện Quốc gia."
+  },
+  "dHUC": {
+   "t": "Mục lục thư viện Trường Đại học Văn hóa Hà Nội",
+   "a": "",
+   "w": "search.huc.edu.vn",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://search.huc.edu.vn"
+  },
+  "dOLVTN": {
+   "t": "Open Library, bản ghi Đạo đức kinh do Vũ Thế Ngọc dịch",
+   "a": "",
+   "w": "openlibrary.org",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://openlibrary.org/works/OL19980322W"
+  },
+  "dNhuongTong": {
+   "t": "Thư mục trên Google Docs có ghi Nam Hoa kinh bản Nhượng Tống",
+   "a": "",
+   "w": "docs.google.com",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "note": "Claude chưa ghi lại đường dẫn của tài liệu này."
+  },
+  "dTCTH21": {
+   "t": "Tạp chí Nghiên cứu Triết học số 21 (2025), danh mục tài liệu tham khảo của một bài về Hàn Phi",
+   "a": "",
+   "w": "vjol.info.vn",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://vjol.info.vn/thvn/article/download/112979/94659/"
+  },
+  "dQHKant": {
+   "t": "Thư viện số Quốc hội, Phê phán lý tính thuần túy",
+   "a": "",
+   "w": "thuvienso.quochoi.vn",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://thuvienso.quochoi.vn/handle/11742/93868"
+  },
+  "dQHHegel": {
+   "t": "Thư viện số Quốc hội, Hiện tượng học tinh thần",
+   "a": "",
+   "w": "thuvienso.quochoi.vn",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://thuvienso.quochoi.vn/handle/11742/96340"
+  },
+  "dNDBVNS": {
+   "t": "Phỏng vấn Bùi Văn Nam Sơn trên báo Nhân Dân",
+   "a": "",
+   "w": "nhandan.vn",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "note": "Claude chưa ghi lại đường dẫn bài phỏng vấn."
+  },
+  "dVJOLPlaton": {
+   "t": "Vấn đề công bằng trong nhà nước lý tưởng của Platon qua tác phẩm Cộng hòa",
+   "a": "Trần Bá Hiệp, Trần Hồng Lưu",
+   "w": "Tạp chí Triết học, 2026",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://vjol.info.vn/phil/article/view/129681",
+   "note": "Bài dẫn bản dịch Cộng hòa của Đỗ Khánh Hoan, ghi năm 2013."
+  },
+  "dVnexPlaton": {
+   "t": "Tin Alpha Books giới thiệu Cộng hòa",
+   "a": "",
+   "w": "VnExpress",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://vnexpress.net/do-vui-khoa-hoc-2430328-p10.html"
+  },
+  "dHPUPlato": {
+   "t": "Mục lục thư viện Đại học Quản lý và Công nghệ Hải Phòng, Plato chuyên khảo. Plato tinh hoa",
+   "a": "",
+   "w": "lib.hpu.edu.vn",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://lib.hpu.edu.vn/handle/123456789/82"
+  },
+  "dTVHS": {
+   "t": "Thư Viện Hoa Sen, các bản PDF kinh luận dịch Việt",
+   "a": "",
+   "w": "thuvienhoasen.org",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://thuvienhoasen.org",
+   "note": "Kho văn bản Phật giáo; mỗi dòng dịch ghi rõ bản nào đã mở."
+  },
+  "dDNSiksa": {
+   "t": "Đại thừa tập Bồ Tát học luận, bản PDF có lời người dịch",
+   "a": "",
+   "w": "dieungu.org",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://dieungu.org/images/file/sFW9YJ1G0QgQAAQJ/dai-thua-tap-bo-tat-hoc-luan.pdf"
+  },
+  "dBoTatHanh": {
+   "t": "Bồ Tát hạnh, Thích Trí Siêu dịch, bản PDF",
+   "a": "",
+   "w": "thuvienhoasen.org",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://thuvienhoasen.org/images/file/DX96Wp1G0QgQAPQj/bo-tat-hanh-thich-tri-sieu-dich.pdf"
+  },
+  "dLamrim": {
+   "t": "Đại luận về giai trình của đạo giác ngộ, kho lưu trữ của Ban Dịch Thuật Lamrim Chenmo",
+   "a": "",
+   "w": "archive.jangchuplamrim.org",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://archive.jangchuplamrim.org"
+  },
+  "dDuyLuc": {
+   "t": "Kinh Pháp Bảo Đàn, Thích Duy Lực dịch và lược giải, bản PDF",
+   "a": "",
+   "w": "docs.google.com",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://docs.google.com/document/d/1acP9nfeVqT2QpiIe9OU0N3o4bJzcCSKS/export?format=pdf"
+  },
+  "dManGiac": {
+   "t": "Kinh Pháp Bảo Đàn, HT. Mãn Giác dịch, bản PDF",
+   "a": "",
+   "w": "niemphat.vn",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://www.niemphat.vn/downloads/dai-tang-kinh/kinh-bac-tong/kinh-phap-bao-dan-luc-to-hue-nang-ht-man-giac-dich.pdf",
+   "note": "Lời đầu sách kể ba bản dịch có trước: Thích Minh Trực, Đoàn Trung Còn, Tô Quế."
+  },
+  "dGRCauXa": {
+   "t": "Goodreads, giới thiệu sách tách từ phần mở đầu phẩm Phân biệt nghiệp, Câu-xá bản Việt",
+   "a": "",
+   "w": "goodreads.com",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://www.goodreads.com/book/show/59956495"
   }
  },
  "VUNG": [
@@ -6921,6 +7069,461 @@
     "ndt2|tr. 277"
    ],
    "noi": "Theo Nguyễn Đăng Thục, Luy Lâu thời Sĩ Nhiếp đã là trung tâm Phật giáo và văn hóa Ấn Độ, có Khang Tăng Hội dịch kinh; Giao Chỉ là chỗ ghé của đường biển từ Ấn Độ và Nam Dương lên Trung Hoa. Năm 200 là mốc Claude ghi để vẽ."
+  }
+ ],
+ "DICH": [
+  {
+   "van": "Luận ngữ",
+   "muc": "c-tientan",
+   "ten": "Luận ngữ",
+   "dich": "Dương Bá Trạc",
+   "nxb": "Vĩnh Thành công ty, Hà Nội",
+   "nam": "1922",
+   "tu": "Hán",
+   "src": [
+    "dTTKhoi"
+   ],
+   "nhan": "da",
+   "ghi": "Thư viện Quốc gia, số hiệu VN 66.01535 theo Trần Tiến Khôi. Bài này đếm 30 đầu sách Luận ngữ tiếng Việt; bảng chỉ chép ba."
+  },
+  {
+   "van": "Luận ngữ",
+   "muc": "c-tientan",
+   "ten": "Luận ngữ quốc văn giải thích",
+   "dich": "Nguyễn Hữu Tiến, Nguyễn Đôn Phục",
+   "nxb": "",
+   "nam": "1933",
+   "tu": "Hán",
+   "src": [
+    "dTTKhoi"
+   ],
+   "nhan": "mot",
+   "ghi": ""
+  },
+  {
+   "van": "Luận ngữ",
+   "muc": "c-tientan",
+   "ten": "Luận ngữ diễn giải",
+   "dich": "Bùi Đình Dương",
+   "nxb": "",
+   "nam": "1945",
+   "tu": "Hán",
+   "src": [
+    "dTTKhoi"
+   ],
+   "nhan": "mot",
+   "ghi": ""
+  },
+  {
+   "van": "Mạnh Tử",
+   "muc": "c-tientan",
+   "ten": "Tứ Thư trọn bộ (có Mạnh Tử)",
+   "dich": "Đoàn Trung Còn",
+   "nxb": "Thuận Hóa",
+   "nam": "2001 (in lại)",
+   "tu": "Hán",
+   "src": [
+    "dHUC"
+   ],
+   "nhan": "da",
+   "ghi": "Nhiều lần in; năm in đầu chưa kiểm. Mạnh Tử của Nguyễn Hiến Lê (Văn Hóa 2011) là sách khảo cứu, có trích dịch, nên không xếp vào đây."
+  },
+  {
+   "van": "Đạo đức kinh",
+   "muc": "c-tientan",
+   "ten": "Lão Tử Đạo đức kinh",
+   "dich": "Thu Giang Nguyễn Duy Cần",
+   "nxb": "",
+   "nam": "1991 (in lại)",
+   "tu": "Hán",
+   "src": [
+    "dHUC"
+   ],
+   "nhan": "da",
+   "ghi": "Năm in đầu chưa kiểm."
+  },
+  {
+   "van": "Đạo đức kinh",
+   "muc": "c-tientan",
+   "ten": "Đạo đức kinh",
+   "dich": "Vũ Thế Ngọc",
+   "nxb": "NXB Tổng hợp TP HCM",
+   "nam": "2011",
+   "tu": "Hán, theo bản lụa Mã Vương Đôi",
+   "src": [
+    "dOLVTN"
+   ],
+   "nhan": "da",
+   "ghi": "Các bản Nguyễn Hiến Lê, Nhượng Tống, Lý Minh Tuấn, Nguyễn Văn Thọ chỉ thấy nhắc ở nguồn yếu, chưa đưa vào."
+  },
+  {
+   "van": "Trang Tử",
+   "muc": "c-tientan",
+   "ten": "Nam Hoa kinh",
+   "dich": "Nhượng Tống",
+   "nxb": "Tân Việt",
+   "nam": "1945",
+   "tu": "Hán",
+   "src": [
+    "dNhuongTong"
+   ],
+   "nhan": "mot",
+   "ghi": ""
+  },
+  {
+   "van": "Trang Tử",
+   "muc": "c-tientan",
+   "ten": "Trang Tử Nam Hoa kinh",
+   "dich": "Thu Giang Nguyễn Duy Cần",
+   "nxb": "",
+   "nam": "",
+   "tu": "Hán",
+   "src": [],
+   "nhan": "chua",
+   "ghi": "Thấy tên sách trên Goodreads và trong một bài ở js.vnu.edu.vn; chưa có bản ghi thư viện."
+  },
+  {
+   "van": "Hàn Phi Tử",
+   "muc": "c-tanhan",
+   "ten": "Hàn Phi Tử",
+   "dich": "Phan Ngọc",
+   "nxb": "NXB Văn học",
+   "nam": "2005",
+   "tu": "Hán",
+   "src": [
+    "dTCTH21",
+    "dHUC"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Hàn Phi Tử",
+   "muc": "c-tanhan",
+   "ten": "Hàn Phi Tử",
+   "dich": "Nguyễn Hiến Lê, Giản Chi",
+   "nxb": "NXB Văn hóa Thông tin",
+   "nam": "1994",
+   "tu": "Hán",
+   "src": [
+    "dTCTH21"
+   ],
+   "nhan": "mot",
+   "ghi": ""
+  },
+  {
+   "van": "Truyền tập lục",
+   "muc": "c-tannho",
+   "ten": "Vương Dương Minh toàn thư",
+   "dich": "chưa rõ",
+   "nxb": "NXB Thông tin và Truyền thông",
+   "nam": "2025",
+   "tu": "chưa rõ",
+   "src": [],
+   "nhan": "chua",
+   "ghi": "Chỉ thấy tin phát hành, chưa thấy tên người dịch. Phan Văn Hùm (1944) viết khảo cứu về Vương Dương Minh, không phải bản dịch."
+  },
+  {
+   "van": "Pháp bảo đàn kinh",
+   "muc": "c-phatgiao",
+   "ten": "Kinh Pháp Bảo Đàn",
+   "dich": "Thích Duy Lực",
+   "nxb": "",
+   "nam": "",
+   "tu": "Hán",
+   "src": [
+    "dDuyLuc"
+   ],
+   "nhan": "da",
+   "ghi": "Có lược giải. Năm in chưa kiểm."
+  },
+  {
+   "van": "Pháp bảo đàn kinh",
+   "muc": "c-phatgiao",
+   "ten": "Kinh Pháp Bảo Đàn",
+   "dich": "HT. Mãn Giác",
+   "nxb": "NXB Tôn Giáo, Hà Nội",
+   "nam": "2003",
+   "tu": "Hán, bản Đôn Hoàng (khoảng 830–860)",
+   "src": [
+    "dManGiac"
+   ],
+   "nhan": "da",
+   "ghi": "Người dịch nói ba bản dịch trước (Thích Minh Trực, Đoàn Trung Còn, Tô Quế) theo bản Tông Bảo 1291. Ba bản ấy chưa kiểm riêng."
+  },
+  {
+   "van": "Cộng hòa",
+   "muc": "w-codien",
+   "ten": "Cộng hòa",
+   "dich": "Đỗ Khánh Hoan",
+   "nxb": "Alpha Books",
+   "nam": "2013",
+   "tu": "chưa rõ",
+   "src": [
+    "dVJOLPlaton",
+    "dVnexPlaton"
+   ],
+   "nhan": "mot",
+   "ghi": "Tin của Alpha Books năm 2013 nói Plato chưa từng được dịch ra tiếng Việt. Bản ghi thư viện dưới đây cho thấy một tuyển tập năm 2008 đã có Nền cộng hòa, nên câu ấy cần xem lại."
+  },
+  {
+   "van": "Cộng hòa",
+   "muc": "w-codien",
+   "ten": "Plato chuyên khảo. Plato tinh hoa (có Nền cộng hòa và nhiều đối thoại khác)",
+   "dich": "chưa rõ",
+   "nxb": "",
+   "nam": "2008",
+   "tu": "chưa rõ",
+   "src": [
+    "dHPUPlato"
+   ],
+   "nhan": "mot",
+   "ghi": "Bản ghi không ghi người dịch. Có thể là bản dịch rút gọn hoặc tuyển; chưa kiểm."
+  },
+  {
+   "van": "Phê phán lý tính thuần túy",
+   "muc": "w-theky19",
+   "ten": "Phê phán lý tính thuần túy",
+   "dich": "Bùi Văn Nam Sơn",
+   "nxb": "NXB Văn học, Công ty sách Thời Đại",
+   "nam": "2004",
+   "tu": "Đức",
+   "src": [
+    "dQHKant",
+    "dNDBVNS"
+   ],
+   "nhan": "da",
+   "ghi": "1342 trang. Ngôn ngữ nguồn suy từ phỏng vấn người dịch, bản ghi thư viện không ghi."
+  },
+  {
+   "van": "Hiện tượng học tinh thần",
+   "muc": "w-theky19",
+   "ten": "Hiện tượng học tinh thần",
+   "dich": "Bùi Văn Nam Sơn",
+   "nxb": "NXB Văn học, Nhà sách Thời đại",
+   "nam": "2006",
+   "tu": "Đức, bản Felix Meiner, Hamburg 1988",
+   "src": [
+    "dQHHegel"
+   ],
+   "nhan": "da",
+   "ghi": "1698 trang."
+  },
+  {
+   "van": "Trung luận",
+   "muc": "a-phatgiao",
+   "ten": "Trung luận",
+   "dich": "Đỗ Đình Đồng",
+   "nxb": "",
+   "nam": "2012",
+   "tu": "Anh, bản Brian Bocking dịch từ Hán của Cưu-ma-la-thập",
+   "src": [
+    "dTVHS"
+   ],
+   "nhan": "da",
+   "ghi": "Dịch qua hai lớp trung gian."
+  },
+  {
+   "van": "Trung luận",
+   "muc": "a-phatgiao",
+   "ten": "Trung luận",
+   "dich": "Thích Thiện Hạnh",
+   "nxb": "",
+   "nam": "2012",
+   "tu": "Hán, bản Cưu-ma-la-thập",
+   "src": [
+    "dTVHS"
+   ],
+   "nhan": "mot",
+   "ghi": ""
+  },
+  {
+   "van": "A-tì-đạt-ma Câu-xá luận",
+   "muc": "a-phatgiao",
+   "ten": "A-tì-đạt-ma Câu-xá",
+   "dich": "chưa ghi ở đoạn đã đọc",
+   "nxb": "Hương Tích",
+   "nam": "2015; in lại 2019",
+   "tu": "chưa rõ",
+   "src": [
+    "dGRCauXa"
+   ],
+   "nhan": "mot",
+   "ghi": "Nguồn chỉ nói bản Việt do Hương Tích ấn hành; người dịch cần kiểm trên sách. Bản Đại cương luận Câu-xá của HT. Thiện Siêu (1999) là sách giảng, không phải bản dịch toàn văn."
+  },
+  {
+   "van": "Śikṣāsamuccaya",
+   "muc": "a-phatgiao",
+   "ten": "Đại thừa tập Bồ Tát học luận",
+   "dich": "HT. Thích Huyền Vi",
+   "nxb": "",
+   "nam": "1990",
+   "tu": "Tạng, Anh, Pháp",
+   "src": [
+    "dDNSiksa"
+   ],
+   "nhan": "mot",
+   "ghi": "Thấy qua lời của một người dịch sau, dịch lại từ Hán; tên người dịch sau chưa chép."
+  },
+  {
+   "van": "Bodhicaryāvatāra",
+   "muc": "a-daoduc",
+   "ten": "Bồ Tát hạnh",
+   "dich": "Thích Trí Siêu",
+   "nxb": "",
+   "nam": "",
+   "tu": "Anh (bản Stephen Batchelor dịch từ Tạng), có tham khảo bản Pháp",
+   "src": [
+    "dBoTatHanh"
+   ],
+   "nhan": "da",
+   "ghi": "Người dịch chuyển kệ thành văn xuôi, theo các bản Anh và Pháp."
+  },
+  {
+   "van": "Lam rim chen mo",
+   "muc": "t-gelug",
+   "ten": "Đại luận về giai trình của đạo giác ngộ (3 tập)",
+   "dich": "Ban Dịch Thuật Lamrim Chenmo",
+   "nxb": "",
+   "nam": "",
+   "tu": "chưa rõ; có lẽ qua bản Anh",
+   "src": [
+    "dLamrim"
+   ],
+   "nhan": "mot",
+   "ghi": "Bản Việt giữ các lời tựa của bản Anh, nên Claude suy ra là dịch qua tiếng Anh."
+  },
+  {
+   "van": "Khóa hư lục",
+   "muc": "v-tran",
+   "ten": "Khóa hư lục",
+   "dich": "Thiều Chửu",
+   "nxb": "Hưng Long",
+   "nam": "1961",
+   "tu": "Hán",
+   "src": [
+    "dTVHS"
+   ],
+   "nhan": "mot",
+   "ghi": "Bốn bản theo bài của Đào Nguyên trên Thư Viện Hoa Sen."
+  },
+  {
+   "van": "Khóa hư lục",
+   "muc": "v-tran",
+   "ten": "Khóa hư lục",
+   "dich": "Nguyễn Đăng Thục",
+   "nxb": "Khuông Việt",
+   "nam": "",
+   "tu": "Hán",
+   "src": [
+    "dTVHS"
+   ],
+   "nhan": "mot",
+   "ghi": ""
+  },
+  {
+   "van": "Khóa hư lục",
+   "muc": "v-tran",
+   "ten": "Khóa hư lục",
+   "dich": "Đào Duy Anh",
+   "nxb": "NXB Khoa học Xã hội",
+   "nam": "1974",
+   "tu": "Hán",
+   "src": [
+    "dTVHS"
+   ],
+   "nhan": "mot",
+   "ghi": ""
+  },
+  {
+   "van": "Khóa hư lục",
+   "muc": "v-tran",
+   "ten": "Khóa hư lục",
+   "dich": "HT. Thích Thanh Kiểm",
+   "nxb": "Thành hội Phật giáo TP HCM",
+   "nam": "1992",
+   "tu": "Hán",
+   "src": [
+    "dTVHS"
+   ],
+   "nhan": "mot",
+   "ghi": ""
+  },
+  {
+   "van": "Milindapañha",
+   "muc": "a-phatgiao",
+   "ten": "Mi Tiên vấn đáp",
+   "dich": "HT. Giới Nghiêm, Giới Đức hiệu đính",
+   "nxb": "",
+   "nam": "",
+   "tu": "chưa rõ",
+   "src": [
+    "dTVHS"
+   ],
+   "nhan": "mot",
+   "ghi": "Một người dịch sau gọi bản này là bản diễn ý. Lời giới thiệu ấy nói các bản Việt sớm dịch từ Hán, các bản gần đây từ Anh."
+  },
+  {
+   "van": "Milindapañha",
+   "muc": "a-phatgiao",
+   "ten": "Milinda vấn đạo",
+   "dich": "chưa chép tên",
+   "nxb": "",
+   "nam": "",
+   "tu": "Pāli",
+   "src": [
+    "dTVHS"
+   ],
+   "nhan": "mot",
+   "ghi": ""
+  },
+  {
+   "van": "Suy niệm về triết học đệ nhất",
+   "muc": "w-candaisom",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [],
+   "nhan": "chua",
+   "ghi": "Chưa tìm thấy bản dịch trong các lượt tra."
+  },
+  {
+   "van": "Đạo đức học Nicomachus",
+   "muc": "w-codien",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [],
+   "nhan": "chua",
+   "ghi": "Chưa tìm thấy bản dịch trong các lượt tra."
+  },
+  {
+   "van": "Muqaddimah",
+   "muc": "i-haucodien",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [],
+   "nhan": "chua",
+   "ghi": "Chưa tìm thấy bản dịch trong các lượt tra."
+  },
+  {
+   "van": "Thiên Chủ thực nghĩa",
+   "muc": "k-thuchoc",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [],
+   "nhan": "chua",
+   "ghi": "Chưa tìm thấy bản dịch tiếng Việt hiện đại trong các lượt tra."
   }
  ]
 }

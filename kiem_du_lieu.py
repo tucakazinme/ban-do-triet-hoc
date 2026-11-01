@@ -117,6 +117,17 @@ if '—' in raw:
     n = raw.count('—')
     canh.append(f'Có {n} dấu gạch ngang dài (—) trong dữ liệu')
 
+# bản dịch tiếng Việt
+for i, x in enumerate(D.get('DICH', [])):
+    cho = f'Bản dịch {i} ({x.get("van")})'
+    if not x.get('van'):
+        loi.append(f'{cho}: thiếu tên văn bản gốc')
+    if x.get('muc') and x['muc'] not in muc:
+        loi.append(f'{cho}: không có mục {x["muc"]}')
+    if x.get('nhan') not in ('da', 'mot', 'chua', 'sl'):
+        loi.append(f'{cho}: nhãn phải là da, mot, chua hoặc sl')
+    kiem_nguon(x.get('src'), cho, can=x.get('nhan') != 'chua')
+
 # nguồn không ai dẫn
 dung = set()
 def gom(ds):
@@ -125,6 +136,7 @@ def gom(ds):
 for m in MUC: gom(m.get('src'))
 for l in LIENHE: gom(l.get('src'))
 for c in CACH: gom(c.get('src'))
+for x in D.get('DICH', []): gom(x.get('src'))
 for v in VANDE:
     for f in v['lan']: gom(f.get('src'))
     for t in v.get('tinhtrang', []): gom(t.get('src'))
@@ -133,7 +145,7 @@ for k in SRC:
     if k not in dung:
         canh.append(f'Nguồn {k} không được mục nào dẫn')
 
-print(f'{len(MUC)} mục, {len(LIENHE)} liên hệ, {len(SRC)} nguồn, {len(CACH)} cách phân loại, {len(VANDE)} vấn đề')
+print(f'{len(MUC)} mục, {len(LIENHE)} liên hệ, {len(SRC)} nguồn, {len(CACH)} cách phân loại, {len(VANDE)} vấn đề, {len(D.get("DICH", []))} dòng bản dịch')
 for c in canh:
     print('Cảnh báo:', c)
 for l in loi:

@@ -203,7 +203,7 @@ a{text-underline-offset:2px}
 <script>
 /*SNAP*/
 (function(){
-let D,SRC,VUNG,LAN,MUC,VANDE,CACH,PHU,LIENHE;
+let DICH=[],dichOf={},D,SRC,VUNG,LAN,MUC,VANDE,CACH,PHU,LIENHE;
 let byMuc,byLan,byVung,byCach,byVD,nameCount,NGUOI,VAN,inCach,inVD,lkOf,IDX=[];
 const SC={1:'var(--s1)',2:'var(--s2)',3:'var(--s3)',4:'var(--s4)',5:'var(--s5)',6:'var(--s6)'};
 const NHAN={da:['Đã kiểm','t-da'],mot:['Đã kiểm một phần','t-mot'],chua:['Chưa kiểm','t-chua'],sl:['Suy luận','t-sl']};
@@ -217,7 +217,7 @@ function srcLine(s){const [k,sec]=s.split('|');const S=SRC[k];if(!S)return '';re
 function ppLink(slug){return `<a href="https://philpapers.org/browse/${esc(slug)}" target="_blank" rel="noopener">PhilPapers: ${esc(slug.replace(/-/g,' '))}</a>`}
 
 function setData(d){
-  D=d;({SRC,VUNG,LAN,MUC,VANDE,CACH,PHU,LIENHE}=d);
+  D=d;({SRC,VUNG,LAN,MUC,VANDE,CACH,PHU,LIENHE}=d);DICH=d.DICH||[];dichOf={};DICH.forEach(x=>(dichOf[x.muc]=dichOf[x.muc]||[]).push(x));
   byMuc=Object.fromEntries(MUC.map(m=>[m.id,m]));byLan=Object.fromEntries(LAN.map(l=>[l.id,l]));byVung=Object.fromEntries(VUNG.map(v=>[v.id,v]));
   byCach=Object.fromEntries(CACH.map(c=>[c.id,c]));byVD=Object.fromEntries(VANDE.map(v=>[v.id,v]));
   nameCount={};MUC.forEach(m=>nameCount[m.ten]=(nameCount[m.ten]||0)+1);
@@ -288,13 +288,15 @@ function renderVD(){
     <div><h3>Tình trạng hôm nay</h3><ul class="links">${v.tinhtrang.map(t=>`<li>${esc(t.noi)} ${tag(t.nhan)}${t.src?`<div class="small">${t.src.map(s=>`<a href="${esc(SRC[s].url)}" target="_blank" rel="noopener">${esc(SRC[s].t)}</a>`).join('; ')}</div>`:''}</li>`).join('')}</ul></div>
     <div><button class="chip" data-hl="v:${v.id}">Xem trên bản đồ</button></div></article>`}).join('')}</div>`;
 }
+function dichRow(x){const m=byMuc[x.muc];return `<tr data-lan="${m?m.lan:''}"><td>${esc(x.van)}</td><td>${x.ten?esc(x.ten):'<span class="tag t-chua">chưa thấy bản dịch</span>'}${x.ghi?`<div class="small">${esc(x.ghi)}</div>`:''}</td><td>${esc(x.dich)}</td><td class="small">${esc([x.nxb,x.nam].filter(Boolean).join(', '))}</td><td class="small">${esc(x.tu)}</td><td>${tag(x.nhan)}</td><td>${m?`<button class="lnk" data-m="${m.id}">${cn(m)}</button>`:''}${x.src.length?`<div class="small">${x.src.map(k=>SRC[k]?(SRC[k].url?`<a href="${esc(SRC[k].url)}" target="_blank" rel="noopener">${esc(SRC[k].w||SRC[k].t)}</a>`:esc(SRC[k].w||SRC[k].t)):'').join('; ')}</div>`:''}</td></tr>`}
 function renderNguoi(){
   const order=Object.fromEntries(LAN.map((l,i)=>[l.id,i]));
   const ps=[...NGUOI].sort((a,b)=>order[byMuc[a.muc].lan]-order[byMuc[b.muc].lan]||((byMuc[a.muc].span||[9999])[0]-(byMuc[b.muc].span||[9999])[0]));
   const vs=[...VAN].sort((a,b)=>order[byMuc[a.muc].lan]-order[byMuc[b.muc].lan]);
   return `<div class="sheet"><div class="ctrl"><label class="lbl" for="lanSel">Truyền thống</label><select id="lanSel"><option value="">mọi truyền thống</option>${LAN.map(l=>`<option value="${l.id}">${esc(l.ten)}</option>`).join('')}</select><span class="small">Năm ghi như nguồn ghi; ô trống nghĩa là nguồn đã đọc không ghi năm.</span></div>
   <h3>Người (${ps.length} dòng, một người có thể hiện ở nhiều mục)</h3><div class="tablewrap"><table class="t" id="tNguoi"><thead><tr><th>Tên</th><th>Tên gốc</th><th>Năm</th><th>Truyền thống</th><th>Mục</th></tr></thead><tbody>${ps.map(p=>{const m=byMuc[p.muc];return `<tr data-lan="${m.lan}"><td>${esc(p.ten)}</td><td class="muted">${esc(p.goc)}</td><td class="y">${esc(p.nam)}</td><td>${esc(byLan[m.lan].ten)}</td><td><button class="lnk" data-m="${m.id}">${cn(m)}</button></td></tr>`}).join('')}</tbody></table></div>
-  <h3 style="margin-top:18px">Văn bản (${vs.length})</h3><div class="tablewrap"><table class="t" id="tVan"><thead><tr><th>Văn bản</th><th>Người viết</th><th>Năm</th><th>Mục</th></tr></thead><tbody>${vs.map(v=>{const m=byMuc[v.muc];return `<tr data-lan="${m.lan}"><td>${esc(v.ten)}</td><td>${esc(v.ai)}</td><td class="y">${esc(v.nam)}</td><td><button class="lnk" data-m="${m.id}">${cn(m)}</button></td></tr>`}).join('')}</tbody></table></div></div>`;
+  <h3 style="margin-top:18px">Văn bản (${vs.length})</h3><div class="tablewrap"><table class="t" id="tVan"><thead><tr><th>Văn bản</th><th>Người viết</th><th>Năm</th><th>Mục</th></tr></thead><tbody>${vs.map(v=>{const m=byMuc[v.muc];return `<tr data-lan="${m.lan}"><td>${esc(v.ten)}</td><td>${esc(v.ai)}</td><td class="y">${esc(v.nam)}</td><td><button class="lnk" data-m="${m.id}">${cn(m)}</button></td></tr>`}).join('')}</tbody></table></div>
+  <h3 style="margin-top:18px">Bản dịch tiếng Việt (${DICH.filter(x=>x.dich).length} bản, ${new Set(DICH.map(x=>x.van)).size} văn bản đã tra)</h3><p class="small">Thử nghiệm, tra trên web ngày 01/11/2026, chưa cầm sách. Cột Dịch từ ghi ngôn ngữ của bản người dịch dùng; "chưa rõ" khi nguồn không ghi. Dòng không có tên bản dịch là văn bản đã tra mà chưa thấy bản dịch.</p><div class="tablewrap"><table class="t" id="tDich"><thead><tr><th>Văn bản gốc</th><th>Bản dịch</th><th>Người dịch</th><th>Nơi in, năm</th><th>Dịch từ</th><th>Nhãn</th><th>Mục</th></tr></thead><tbody>${DICH.map(dichRow).join('')}</tbody></table></div></div>`;
 }
 function renderPP(){
   return `<div class="sheet method">${METHOD_HTML}
@@ -309,6 +311,7 @@ function panelMuc(id){
   h+=`<p>${esc(m.mo)}</p>`;
   if(m.nguoi&&m.nguoi.length)h+=`<div><h3>Người</h3><ul class="pl">${m.nguoi.map(p=>`<li><span>${esc(p[0])}${p[1]?` <span class="o">${esc(p[1])}</span>`:''}</span><span class="y">${esc(p[2])}</span></li>`).join('')}</ul></div>`;
   if(m.van&&m.van.length)h+=`<div><h3>Văn bản</h3><ul class="pl">${m.van.map(v=>`<li><span>${esc(v[0])}${v[1]?` <span class="o">${esc(v[1])}</span>`:''}</span><span class="y">${esc(v[2])}</span></li>`).join('')}</ul></div>`;
+  if(dichOf[id])h+=`<div><h3>Bản dịch tiếng Việt</h3><ul class="pl">${dichOf[id].map(x=>`<li><span>${esc(x.van)}: ${x.ten?esc(x.ten)+(x.dich?', '+esc(x.dich):''):'chưa thấy bản dịch'} ${tag(x.nhan)}</span><span class="y">${esc(x.nam)}</span></li>`).join('')}</ul><p class="small">Chi tiết ở <button class="lnk" data-gotab="nguoi">tab Người và văn bản</button>.</p></div>`;
   if(m.ck)h+=`<p class="ck">${tag('chua')} ${esc(m.ck)}</p>`;
   const lks=[...new Set([...(lkOf[id]||[]),...(lkOf['lan:'+m.lan]||[])])];
   if(lks.length)h+=`<div><h3>Liên hệ có văn bản</h3><ul class="links">${lks.map(lkItem).join('')}</ul></div>`;
@@ -392,7 +395,7 @@ document.addEventListener('click',e=>{
 });
 document.addEventListener('change',e=>{
   if(e.target.id==='hlSel'){state.hl=e.target.value;state.hlGroup=-1;render()}
-  if(e.target.id==='lanSel'){const v=e.target.value;document.querySelectorAll('#tNguoi tr[data-lan],#tVan tr[data-lan]').forEach(r=>r.classList.toggle('hidden',!!v&&r.dataset.lan!==v))}
+  if(e.target.id==='lanSel'){const v=e.target.value;document.querySelectorAll('#tNguoi tr[data-lan],#tVan tr[data-lan],#tDich tr[data-lan]').forEach(r=>r.classList.toggle('hidden',!!v&&r.dataset.lan!==v))}
 });
 // tìm
 function buildIDX(){
