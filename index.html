@@ -9,24 +9,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,650;1,7..72,400&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{
-  /* giấy cũ: nền ngà, mực nâu đen, son làm điểm nhấn */
-  --paper:#e9e0cc; --sheet:#f7f2e6; --ink:#2b2219; --muted:#6e604c; --line:#d6c9ae;
-  --accent:#8c2f1b; --accent-soft:#efdccb;
+  /* giấy cũ tông lạnh: nền giấy dó xám, mực đen xanh, chàm làm điểm nhấn */
+  --paper:#dfe1dc; --sheet:#f3f3ef; --ink:#1f252b; --muted:#5d6670; --line:#cbcfc8;
+  --accent:#2c4a7c; --accent-soft:#dfe5ee;
   --s1:#3d64a8; --s2:#bf5a2e; --s3:#2f8f6f; --s4:#b8860b; --s5:#b8506e; --s6:#6f52a3;
-  --da:#2f5a8a; --mot:#8a6412; --chua:#9a3420; --sl:#6e604c;
+  --da:#2f5a8a; --mot:#7d5f12; --chua:#9a3420; --sl:#5d6670;
   --font-display:"Literata","Noto Serif",Georgia,serif;
   --font-body:"Literata","Noto Serif",Georgia,serif;
   --font-ui:"Be Vietnam Pro","Segoe UI",system-ui,sans-serif;
   --mix:20%;
-  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .35 0 0 0 0 .27 0 0 0 0 .15 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .2 0 0 0 0 .24 0 0 0 0 .28 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){
   :root:where(:not([data-theme="light"])){
-    --paper:#1a1713; --sheet:#221e19; --ink:#ece3d1; --muted:#b4a68d; --line:#3d352b;
-    --accent:#e39272; --accent-soft:#3b2a21;
+    --paper:#15181b; --sheet:#1c2024; --ink:#e4e7e6; --muted:#a1a9b0; --line:#343a40;
+    --accent:#9fb6e2; --accent-soft:#25304a;
     --s1:#5f8be0; --s2:#d9733f; --s3:#3fa883; --s4:#b98a20; --s5:#d9668c; --s6:#9a7fe0;
-    --da:#8fb3e6; --mot:#d9ab55; --chua:#ec8e74; --sl:#b4a68d; --mix:30%; color-scheme:dark;
+    --da:#8fb3e6; --mot:#d9ab55; --chua:#ec8e74; --sl:#a1a9b0; --mix:30%; color-scheme:dark;
   }
 }
 *{box-sizing:border-box}
@@ -176,7 +176,7 @@ form.ed .hint{font-weight:400;font-size:12px;color:var(--muted)}
 form.ed input,form.ed textarea,form.ed select{font-family:var(--font-ui)}
 /* lớp giấy: đặt cuối để thắng các khai báo nền ở trên */
 .sheet,.card,.panel{background-color:var(--sheet);background-image:var(--grain);border-radius:3px}
-.sheet,.card{box-shadow:0 1px 0 rgb(80 60 30 / .06),0 6px 18px -12px rgb(80 60 30 / .25)}
+.sheet,.card{box-shadow:0 1px 0 rgb(30 40 55 / .06),0 6px 18px -12px rgb(30 40 55 / .25)}
 .tab[aria-selected="true"]{color:var(--accent)}
 .chip{background:var(--sheet)}
 h2{color:var(--ink)}
