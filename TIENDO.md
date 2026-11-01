@@ -30,6 +30,7 @@ D. Phần cần Cẩm góp
 10. Việc 5: bảng thuật ngữ Việt (chữ gốc, chữ đã chọn, chữ của Bùi Văn Nam Sơn, Nguyễn Đăng Thục).
 E. Công cụ
 11. Trình sửa cho mục vấn đề, vùng và truyền thống.
-12. Kiểm dữ liệu tự động khi có commit (GitHub Actions): khóa nguồn, mã mục, dấu gạch ngang dài.
+12. [xong 01/11] Kiểm dữ liệu tự động: kiem_du_lieu.py và .github/workflows/kiem-du-lieu.yml.
 13. Thử trên điện thoại; giao diện sửa trên màn hình hẹp.
 14. Quyết định số phận bản artifact trên claude.ai (giữ làm bản sao để xem, hay thôi).
+- [01/11] Bố cục một cột, phiếu thành ngăn trượt (Cẩm chọn); tab Cách dùng.
