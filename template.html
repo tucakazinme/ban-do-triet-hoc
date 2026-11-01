@@ -140,6 +140,22 @@ table.t{width:100%;border-collapse:collapse;font-size:13.5px}
 .method h2{font-size:19px;margin-top:6px}
 .lnk{border:0;background:none;padding:0;color:var(--accent);cursor:pointer;text-decoration:underline;text-underline-offset:2px;font-size:inherit;text-align:left}
 .hidden{display:none!important}
+.searchwrap{display:flex;gap:8px;align-items:center}
+.edbar{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;background:var(--accent-soft);border-radius:8px;padding:8px 12px;font-size:13px}
+.edbar .st{margin-right:auto}
+.btn{border:1px solid var(--line);background:var(--sheet);border-radius:6px;padding:4px 10px;font-size:13px;cursor:pointer}
+.btn.pri{background:var(--accent);color:var(--sheet);border-color:var(--accent)}
+.btn.dng{color:var(--chua);border-color:var(--chua)}
+.btn:disabled{opacity:.5;cursor:default}
+.edrow{display:flex;flex-wrap:wrap;gap:6px;margin-top:4px}
+form.ed{display:grid;gap:10px;font-size:13.5px}
+form.ed label{display:grid;gap:3px;font-weight:500;font-size:12.5px;color:var(--muted)}
+form.ed input[type=text],form.ed input[type=number],form.ed input[type=password],form.ed input[type=url],form.ed textarea,form.ed select{font:inherit;font-size:13.5px;color:var(--ink);background:var(--sheet);border:1px solid var(--line);border-radius:6px;padding:6px 8px;width:100%}
+form.ed textarea{min-height:70px;resize:vertical}
+form.ed .two{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+form.ed .hint{font-weight:400;font-size:12px;color:var(--muted)}
+.errs{border-left:3px solid var(--chua);padding:6px 10px;color:var(--chua);font-size:13px;background:var(--paper)}
+.ok{border-left:3px solid var(--s3);padding:6px 10px;font-size:13px;background:var(--paper)}
 </style>
 </head>
 <body>
@@ -151,51 +167,60 @@ table.t{width:100%;border-collapse:collapse;font-size:13.5px}
 </header>
 <div class="bar">
   <div class="tabs" role="tablist" id="tabs"></div>
-  <div class="searchwrap"><input type="search" id="q" placeholder="Tìm người, văn bản, thời kỳ, vấn đề" aria-label="Tìm"><div class="sres" id="sres" role="listbox"></div></div>
+  <div class="searchwrap"><button class="chip" id="edBtn" aria-pressed="false">Sửa dữ liệu</button> <input type="search" id="q" placeholder="Tìm người, văn bản, thời kỳ, vấn đề" aria-label="Tìm"><div class="sres" id="sres" role="listbox"></div></div>
 </div>
+<div class="edbar hidden" id="edbar"></div>
 <div class="work">
   <main id="main"></main>
   <aside class="sheet panel" id="panel" aria-live="polite"></aside>
 </div>
 </div>
 <script>
-/*DATA*/
+/*SNAP*/
 (function(){
+let D,SRC,VUNG,LAN,MUC,VANDE,CACH,PHU,LIENHE;
+let byMuc,byLan,byVung,byCach,byVD,nameCount,NGUOI,VAN,inCach,inVD,lkOf,IDX=[];
 const SC={1:'var(--s1)',2:'var(--s2)',3:'var(--s3)',4:'var(--s4)',5:'var(--s5)',6:'var(--s6)'};
 const NHAN={da:['Đã kiểm','t-da'],mot:['Đã kiểm một phần','t-mot'],chua:['Chưa kiểm','t-chua'],sl:['Suy luận','t-sl']};
-const byMuc=Object.fromEntries(MUC.map(m=>[m.id,m]));
-const byLan=Object.fromEntries(LAN.map(l=>[l.id,l]));
-const byVung=Object.fromEntries(VUNG.map(v=>[v.id,v]));
-const byCach=Object.fromEntries(CACH.map(c=>[c.id,c]));
-const byVD=Object.fromEntries(VANDE.map(v=>[v.id,v]));
 function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 function fold(s){return String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[đĐ]/g,'d').toLowerCase()}
 function color(m){return SC[byVung[byLan[m.lan].vung].mau]}
-const nameCount={};MUC.forEach(m=>nameCount[m.ten]=(nameCount[m.ten]||0)+1);
 function cn(m){return esc(m.ten)+(nameCount[m.ten]>1?` <span class="muted">· ${esc(byLan[m.lan].ten)}</span>`:'')}
 function yr(y){return y<0?(-y)+' TCN':String(y)}
 function tag(k){const n=NHAN[k];return n?`<span class="tag ${n[1]}">${n[0]}</span>`:''}
 function srcLine(s){const [k,sec]=s.split('|');const S=SRC[k];if(!S)return '';return `<li>${S.url?`<a href="${esc(S.url)}" target="_blank" rel="noopener">${esc(S.t)}</a>`:`<i>${esc(S.t)}</i>`}${S.a?', '+esc(S.a):''}${S.w?'. '+esc(S.w):''}${S.d?', '+esc(S.d):''}${sec?'. Phần: '+esc(sec):''}${S.note?'. <span class="small">'+esc(S.note)+'</span>':''} <span class="tag ${S.k==='cn'?'t-da':'t-mot'}">${S.k==='cn'?'nguồn chuyên ngành':'nguồn phổ thông'}</span></li>`}
 function ppLink(slug){return `<a href="https://philpapers.org/browse/${esc(slug)}" target="_blank" rel="noopener">PhilPapers: ${esc(slug.replace(/-/g,' '))}</a>`}
 
-// người và văn bản
-const NGUOI=[],VAN=[];
-MUC.forEach(m=>{(m.nguoi||[]).forEach(p=>NGUOI.push({ten:p[0],goc:p[1],nam:p[2],muc:m.id}));(m.van||[]).forEach(v=>VAN.push({ten:v[0],ai:v[1],nam:v[2],muc:m.id}))});
-const inCach={},inVD={};
-CACH.forEach(c=>c.nhom.forEach(g=>g.muc.forEach(id=>{(inCach[id]=inCach[id]||new Set()).add(c.id)})));
-VANDE.forEach(v=>v.lan.forEach(f=>{(inVD[f.muc]=inVD[f.muc]||new Set()).add(v.id)}));
+function setData(d){
+  D=d;({SRC,VUNG,LAN,MUC,VANDE,CACH,PHU,LIENHE}=d);
+  byMuc=Object.fromEntries(MUC.map(m=>[m.id,m]));byLan=Object.fromEntries(LAN.map(l=>[l.id,l]));byVung=Object.fromEntries(VUNG.map(v=>[v.id,v]));
+  byCach=Object.fromEntries(CACH.map(c=>[c.id,c]));byVD=Object.fromEntries(VANDE.map(v=>[v.id,v]));
+  nameCount={};MUC.forEach(m=>nameCount[m.ten]=(nameCount[m.ten]||0)+1);
+  NGUOI=[];VAN=[];
+  MUC.forEach(m=>{(m.nguoi||[]).forEach(p=>NGUOI.push({ten:p[0],goc:p[1],nam:p[2],muc:m.id}));(m.van||[]).forEach(v=>VAN.push({ten:v[0],ai:v[1],nam:v[2],muc:m.id}))});
+  inCach={};inVD={};
+  CACH.forEach(c=>c.nhom.forEach(g=>g.muc.forEach(id=>{(inCach[id]=inCach[id]||new Set()).add(c.id)})));
+  VANDE.forEach(v=>v.lan.forEach(f=>{(inVD[f.muc]=inVD[f.muc]||new Set()).add(v.id)}));
+  lkOf={};LIENHE.forEach((l,i)=>{[l.tu,l.den].forEach(e=>{(lkOf[e]=lkOf[e]||[]).push(i)})});
+  if(!state.vung)state.vung=new Set(VUNG.map(v=>v.id));
+  if(state.sel&&state.sel.k==='m'&&!byMuc[state.sel.id])state.sel=null;
+  if(state.sel&&state.sel.k==='l'&&!LIENHE[state.sel.i])state.sel=null;
+  if(state.hl.startsWith('c:')&&!byCach[state.hl.slice(2)]){state.hl='';state.hlGroup=-1}
+  buildIDX();renderStats();
+}
 
 // thang thời gian không đều
 const BK=[-1100,0,1000,1600,2030],FR=[0,.17,.39,.62,1];
 function xf(y){y=Math.max(BK[0],Math.min(BK[4],y));for(let i=0;i<4;i++){if(y<=BK[i+1]){return FR[i]+(y-BK[i])/(BK[i+1]-BK[i])*(FR[i+1]-FR[i])}}return 1}
 const TICKS=[-1000,-500,0,250,500,750,1000,1200,1400,1600,1700,1800,1900,2000];
 
-const state={tab:'map',sel:null,hl:'',hlGroup:-1,vung:new Set(VUNG.map(v=>v.id)),lk:true};
-const lkOf={};LIENHE.forEach((l,i)=>{[l.tu,l.den].forEach(e=>{(lkOf[e]=lkOf[e]||[]).push(i)})});
+const state={tab:'map',sel:null,hl:'',hlGroup:-1,vung:null,lk:true,edit:false};
 const TABS=[['map','Bản đồ'],['cach','Cách phân loại'],['vande','Vấn đề'],['nguoi','Người và văn bản'],['pp','Phương pháp và nguồn']];
 document.getElementById('tabs').innerHTML=TABS.map(t=>`<button class="tab" role="tab" data-t="${t[0]}">${t[1]}</button>`).join('');
-const peopleUnique=new Set(NGUOI.map(p=>p.ten)).size;
+function renderStats(){
+  const peopleUnique=new Set(NGUOI.map(p=>p.ten)).size;
 document.getElementById('stats').innerHTML=`<span><strong>${LAN.length}</strong> truyền thống</span><span><strong>${MUC.length}</strong> thời kỳ và trường phái</span><span><strong>${peopleUnique}</strong> người</span><span><strong>${VAN.length}</strong> văn bản</span><span><strong>${CACH.length}</strong> cách phân loại</span><span><strong>${LIENHE.length}</strong> liên hệ có văn bản</span><span><strong>${VANDE.length}</strong> mục vấn đề mẫu</span><span><strong>${Object.keys(SRC).length}</strong> nguồn đã đọc</span>`;
+}
 
 function hlSet(){
   if(state.hl.startsWith('c:')){const c=byCach[state.hl.slice(2)];const gs=state.hlGroup>=0?[c.nhom[state.hlGroup]]:c.nhom;return new Set(gs.flatMap(g=>g.muc))}
@@ -225,7 +250,7 @@ function renderMap(){
   return h;
 }
 function renderCach(){
-  return `<div class="cards"><p class="small">Mỗi cách phân loại là của một người hay một nhóm, ở một thời. Đặt cạnh nhau, chúng cho thấy không cách nào trung lập. Bấm "Xem trên bản đồ" để làm nổi các mục thuộc một cách.</p>${CACH.map(c=>`<article class="card" id="cach-${c.id}"><h2>${esc(c.ten)}</h2><div class="meta">Của: ${esc(c.cuaAi)}${c.khi?'. Thời: '+esc(c.khi):''}</div><p>${esc(c.phamvi)}</p><div class="gr">${c.nhom.map(g=>`<div>${esc(g.ten)}</div><div class="chips">${g.muc.length?g.muc.map(id=>`<button class="chip sm" data-m="${id}"><i style="background:${color(byMuc[id])}"></i>${cn(byMuc[id])}</button>`).join(''):'<span class="small">không gắn mục nào</span>'}</div>`).join('')}</div>${c.ghi?`<p class="small">${esc(c.ghi)}</p>`:''}<div><h3>Nguồn</h3><ul class="src">${c.src.map(srcLine).join('')}</ul></div><div><button class="chip" data-hl="c:${c.id}">Xem trên bản đồ</button></div></article>`).join('')}</div>`;
+  return `<div class="cards"><p class="small">Mỗi cách phân loại là của một người hay một nhóm, ở một thời. Đặt cạnh nhau, chúng cho thấy không cách nào trung lập. Bấm "Xem trên bản đồ" để làm nổi các mục thuộc một cách.</p>${CACH.map(c=>`<article class="card" id="cach-${c.id}"><h2>${esc(c.ten)}</h2><div class="meta">Của: ${esc(c.cuaAi)}${c.khi?'. Thời: '+esc(c.khi):''}</div><p>${esc(c.phamvi)}</p><div class="gr">${c.nhom.map(g=>`<div>${esc(g.ten)}</div><div class="chips">${g.muc.length?g.muc.map(id=>`<button class="chip sm" data-m="${id}"><i style="background:${color(byMuc[id])}"></i>${cn(byMuc[id])}</button>`).join(''):'<span class="small">không gắn mục nào</span>'}</div>`).join('')}</div>${c.ghi?`<p class="small">${esc(c.ghi)}</p>`:''}<div><h3>Nguồn</h3><ul class="src">${c.src.map(srcLine).join('')}</ul></div><div><button class="chip" data-hl="c:${c.id}">Xem trên bản đồ</button>${edHook('cach',c.id)}</div></article>`).join('')}${edHook('cachnew')}</div>`;
 }
 function renderVD(){
   return `<div class="cards"><p class="small">Mỗi mục ghi riêng từng lần một người nêu vấn đề: ai, khi nào, ở đâu, nói gì. Hai lần nêu chỉ nối với nhau khi có căn cứ trong văn bản hay trong nghiên cứu; những gì người đời sau đặt cạnh nhau vì giống nhau thì ghi riêng.</p>${VANDE.map(v=>{
@@ -250,7 +275,7 @@ function renderPP(){
   return `<div class="sheet method">${METHOD_HTML}
   <h2>Đối chiếu phủ với PhilPapers</h2><p class="small">Mỗi dòng là một danh mục truyền thống hoặc thời kỳ trong hai cụm History of Western Philosophy và Philosophical Traditions, tra ngày 31/10/2026. Dòng không có mục nào là chỗ bản đồ còn hở.</p>
   <div class="tablewrap"><table class="t"><thead><tr><th>Danh mục PhilPapers</th><th>Mục trên bản đồ</th><th>Ghi chú</th></tr></thead><tbody>${PHU.map(r=>`<tr><td>${esc(r[0])}</td><td><div class="chips">${r[1].length?r[1].map(id=>`<button class="chip sm" data-m="${id}"><i style="background:${color(byMuc[id])}"></i>${cn(byMuc[id])}</button>`).join(''):'<span class="tag t-chua">chưa phủ</span>'}</div></td><td class="small">${esc(r[2])}</td></tr>`).join('')}</tbody></table></div>
-  <h2>Các nguồn đã đọc</h2><ul class="src">${Object.keys(SRC).map(srcLine).join('')}</ul></div>`;
+  <h2>Các nguồn đã đọc</h2>${edHook('srcnew')}<ul class="src">${Object.keys(SRC).map(k=>state.edit?srcLine(k).replace(/<\/li>$/,edHook('src',k)+'</li>'):srcLine(k)).join('')}</ul></div>`;
 }
 function panelMuc(id){
   const m=byMuc[id],l=byLan[m.lan];
@@ -266,6 +291,7 @@ function panelMuc(id){
   if(cs.length)h+=`<div><h3>Có trong cách phân loại</h3><div class="chips">${cs.map(c=>`<button class="chip sm" data-gocach="${c}">${esc(byCach[c].ten)}</button>`).join('')}</div></div>`;
   if(vs.length)h+=`<div><h3>Có trong mục vấn đề</h3><div class="chips">${vs.map(v=>`<button class="chip sm" data-govd="${v}">${esc(byVD[v].ten)}</button>`).join('')}</div></div>`;
   h+=`<div><h3>Nguồn ${tag('da')}</h3><ul class="src">${m.src.map(srcLine).join('')}</ul></div>`;
+  h+=edHook('muc',id);
   const doc=[...(m.doc||[]).map(d=>`<li><a href="${esc(d[1])}" target="_blank" rel="noopener">${esc(d[0])}</a></li>`),...(m.pp||[]).map(s=>`<li>${ppLink(s)}</li>`)];
   if(doc.length)h+=`<div><h3>Đọc tiếp</h3><ul class="src">${doc.join('')}</ul><p class="small">Các mục từ SEP ở đây đã thấy trong mục lục hoặc đã mở ngày 31/10/2026; danh mục PhilPapers đã thấy trong cây danh mục.</p></div>`;
   return h;
@@ -305,11 +331,11 @@ function lkBtn(e){return e.startsWith('lan:')?esc(byLan[e.slice(4)].ten):`<butto
 function lkItem(i){const l=LIENHE[i];return `<li><button class="lnk" data-lk="${i}">${esc(nmEnd(l.tu))} → ${esc(nmEnd(l.den))}</button>: ${esc(l.loai)}. ${tag(l.nhan)}</li>`}
 function panelLink(i){
   const l=LIENHE[i];
-  return `<span class="kind">Liên hệ có văn bản</span><div><h2>${esc(nmEnd(l.tu))} → ${esc(nmEnd(l.den))}</h2><p class="goc">${esc(l.loai)}, vẽ ở năm ${esc(yr(l.nam))}</p></div><div class="chips">${lkBtn(l.tu)} <span>→</span> ${lkBtn(l.den)}</div><p>${esc(l.noi)}</p><div class="box"><span><b>Nhãn</b> ${tag(l.nhan)}</span></div><div><h3>Nguồn</h3><ul class="src">${l.src.map(srcLine).join('')}</ul></div>`;
+  return `<span class="kind">Liên hệ có văn bản</span><div><h2>${esc(nmEnd(l.tu))} → ${esc(nmEnd(l.den))}</h2><p class="goc">${esc(l.loai)}, vẽ ở năm ${esc(yr(l.nam))}</p></div><div class="chips">${lkBtn(l.tu)} <span>→</span> ${lkBtn(l.den)}</div><p>${esc(l.noi)}</p><div class="box"><span><b>Nhãn</b> ${tag(l.nhan)}</span></div><div><h3>Nguồn</h3><ul class="src">${l.src.map(srcLine).join('')}</ul></div>`+edHook('lk',i);
 }
 function panel(){
   const p=document.getElementById('panel');
-  p.innerHTML=state.sel&&state.sel.k==='m'?panelMuc(state.sel.id):state.sel&&state.sel.k==='l'?panelLink(state.sel.i):panelIntro();
+  p.innerHTML=state.sel&&(state.sel.k==='form'||state.sel.k==='gh')?edPanel():state.sel&&state.sel.k==='m'?panelMuc(state.sel.id):state.sel&&state.sel.k==='l'?panelLink(state.sel.i):panelIntro();
   p.scrollTop=0;
 }
 function openLk(i){state.sel={k:'l',i};panel();document.querySelectorAll('.blk').forEach(b=>b.removeAttribute('aria-current'));if(state.tab==='map')drawLinks();if(window.innerWidth<1180)document.getElementById('panel').scrollIntoView({behavior:'smooth',block:'start'})}
@@ -332,12 +358,14 @@ document.addEventListener('change',e=>{
   if(e.target.id==='lanSel'){const v=e.target.value;document.querySelectorAll('#tNguoi tr[data-lan],#tVan tr[data-lan]').forEach(r=>r.classList.toggle('hidden',!!v&&r.dataset.lan!==v))}
 });
 // tìm
-const IDX=[];
+function buildIDX(){
+IDX=[];
 MUC.forEach(m=>IDX.push({k:'thời kỳ',t:m.ten,s:byLan[m.lan].ten,f:fold(m.ten+' '+m.goc+' '+m.mo),go:()=>openMuc(m.id)}));
 NGUOI.forEach(p=>IDX.push({k:'người',t:p.ten,s:byMuc[p.muc].ten,f:fold(p.ten+' '+p.goc),go:()=>openMuc(p.muc)}));
 VAN.forEach(v=>IDX.push({k:'văn bản',t:v.ten,s:byMuc[v.muc].ten,f:fold(v.ten+' '+v.ai),go:()=>openMuc(v.muc)}));
 VANDE.forEach(v=>IDX.push({k:'vấn đề',t:v.ten,s:'',f:fold(v.ten+' '+v.goc+' '+v.hoi),go:()=>{state.tab='vande';render();document.getElementById('vd-'+v.id).scrollIntoView({behavior:'smooth'})}}));
 CACH.forEach(c=>IDX.push({k:'cách phân loại',t:c.ten,s:c.cuaAi,f:fold(c.ten+' '+c.cuaAi+' '+c.phamvi),go:()=>{state.tab='cach';render();document.getElementById('cach-'+c.id).scrollIntoView({behavior:'smooth'})}}));
+}
 const sres=document.getElementById('sres');let hits=[];
 function hideRes(){sres.style.display='none'}
 document.getElementById('q').addEventListener('input',e=>{
@@ -349,7 +377,13 @@ document.getElementById('q').addEventListener('input',e=>{
 sres.addEventListener('click',e=>{const b=e.target.closest('[data-hit]');if(!b)return;const x=hits[+b.dataset.hit];hideRes();x.go()});
 document.addEventListener('keydown',e=>{if(e.key==='Escape')hideRes()});
 document.addEventListener('click',e=>{if(!e.target.closest('.searchwrap'))hideRes()},true);
-render();panel();
+/*EDITOR*/
+async function boot(){
+  let d=null;
+  if(/^https?:/.test(location.protocol)){try{const r=await fetch('data/ban-do.json',{cache:'no-store'});if(r.ok)d=await r.json()}catch(e){}}
+  setData(d||__SNAP);render();panel();
+}
+boot();
 let rt;window.addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{if(state.tab==='map')render()},200)});
 })();
 </script>

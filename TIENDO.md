@@ -11,3 +11,4 @@
 - [xong 01/11] Việc 3: 10 mục mới (Salamanca, Lvov–Warszawa, Caribe gốc Phi, Philippines x2, Māori, Andes, bản địa Bắc Mỹ, mỹ học Ấn Độ, đạo đức Phật giáo Ấn Độ) trong data_src2.js, data_nodes2.js. Việc 6: 24 liên hệ (LIENHE trong data_nodes2.js), vẽ bằng SVG trong template. Đã đăng bản 1793466537-a0bd.
 - [01/11] Việc 8: nửa 1 xong, đã sửa theo kiem_doclap_1.md (update4.py). Chờ nửa 2.
 - [xong 01/11] Việc 8: hai báo cáo kiem_doclap_1.md, kiem_doclap_2.md; đã sửa (update4.py, update5.py) và đăng bản 1793478557-7138. Chưa làm: mục ngoài mẫu; m-thuocdia dẫn sepLatAm §3.1 cho Las Casas chưa kiểm; ranh giới phân tích/lục địa và mốc phương Tây khác vẫn dựa Wikipedia.
+- [01/11] Chuyển kho sang dữ liệu JSON (data/ban-do.json) và thêm trình sửa trên trang (editor.js), ghi qua GitHub API. Từ nay kho là nguồn chính; thư mục bando chỉ còn là bản cũ.
