@@ -1170,6 +1170,56 @@
    "d": "tra 01/11/2026",
    "k": "cn",
    "url": "https://plato.stanford.edu/entries/alexander-aphrodisias/"
+  },
+  "sepKantMoral": {
+   "t": "Kant's Moral Philosophy",
+   "a": "Adam Cureton",
+   "w": "SEP, bản sửa 02/10/2025",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/kant-moral/"
+  },
+  "sepSartre": {
+   "t": "Jean-Paul Sartre",
+   "a": "Pierre-Jean Renaudie",
+   "w": "SEP, bản sửa 10/07/2026",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/sartre/"
+  },
+  "ergoHobbesBramhall": {
+   "t": "Bài về cuộc trao đổi của Hobbes và Bramhall về tự do",
+   "a": "Ergo (tạp chí triết học)",
+   "w": "journals.publishing.umich.edu",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://journals.publishing.umich.edu/ergo/article/7660/galley/4765/view",
+   "note": "Claude đọc phần mở đầu và chú thích về niên biểu các văn bản; tên tác giả bài chưa chép."
+  },
+  "caiusHobbes": {
+   "t": "Philosophy in exile: Of Libertie and Necessity (1654)",
+   "a": "Thư viện Gonville and Caius College, Cambridge",
+   "w": "cai.cam.ac.uk",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://cai.cam.ac.uk/library/featured-books/philosophy-in-exile",
+   "note": "Trang giới thiệu sách cổ của thư viện, dựa trên phần dẫn nhập của Vere Chappell (1999)."
+  },
+  "sepLuther": {
+   "t": "Martin Luther",
+   "a": "Volker Leppin",
+   "w": "SEP, bản sửa 16/01/2025",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/luther/"
+  },
+  "sepErasmus": {
+   "t": "Desiderius Erasmus",
+   "a": "Eric MacPhail",
+   "w": "SEP, bản sửa 19/09/2025",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/erasmus/"
   }
  },
  "VUNG": [
@@ -8499,7 +8549,7 @@
      "khi": "thế kỷ III TCN",
      "o": "",
      "muc": "w-hylaphoa",
-     "noi": "Mọi lựa chọn đều do nguyên nhân quy định, nhưng hành động vẫn \"tùy ở ta\" khi nó đến từ lựa chọn có lý trí của chính ta chứ không do cưỡng ép bên ngoài.",
+     "noi": "Mọi lựa chọn đều do nguyên nhân quy định, nhưng hành động vẫn \"tùy ở ta\" khi nó đến từ lựa chọn có lý trí của chính ta, không do cưỡng ép bên ngoài.",
      "src": [
       "sepFreewill|§1.1"
      ],
@@ -8543,16 +8593,56 @@
      "nhan": "da"
     },
     {
+     "id": "l",
+     "ai": "Erasmus",
+     "khi": "1524, 1526–1527",
+     "o": "Bàn về tự do ý chí (De libero arbitrio, 1524); Hyperaspistes (1526–1527)",
+     "muc": "w-phuchung",
+     "noi": "Gom các chứng cứ Kinh Thánh cho và chống tự do ý chí mà không thấy đồng thuận hay lời giải bằng lý tính; nghiêng về hoài nghi và theo phán quyết của Giáo hội. Khẳng định tự do ý chí: khả năng sống đạo đức của con người có thật nhưng giới hạn và cần ân sủng. Chối tự do ý chí thì phá nền đạo đức của hành động.",
+     "src": [
+      "sepErasmus|§1, §2, §6",
+      "sepLuther|§1"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "m",
+     "ai": "Martin Luther",
+     "khi": "1525",
+     "o": "Về ý chí nô lệ (De servo arbitrio)",
+     "muc": "w-phuchung",
+     "noi": "Trong quan hệ với Thiên Chúa và sự cứu rỗi, con người không có tự do lựa chọn: ý chí bị cầm giữ bởi ý Thiên Chúa hoặc ý Satan, như con ngựa có người cưỡi. Ý chí chịu một tất yếu bất biến nhưng không bị cưỡng ép: người ta vẫn muốn điều mình làm. Tự do lựa chọn đúng nghĩa chỉ thuộc về Thiên Chúa; con người chỉ tự do trong những việc thấp hơn, như của cải. Sự biết trước của Thiên Chúa làm mọi việc thành tất yếu.",
+     "src": [
+      "sepLuther|§4"
+     ],
+     "nhan": "da"
+    },
+    {
      "id": "e",
      "ai": "Thomas Hobbes",
      "khi": "thế kỷ XVII",
-     "o": "Leviathan; cuộc tranh luận với giám mục John Bramhall",
+     "o": "Of Liberty and Necessity (1654); Leviathan (1651); Questions concerning Liberty, Necessity, and Chance (1656)",
      "muc": "w-kinhnghiem",
      "noi": "Tự do là không gặp cản trở bên ngoài khi làm điều mình muốn; tự do ý chí tương thích với thuyết tất định. Khen chê và trừng phạt được biện minh bằng hệ quả.",
      "src": [
       "sepFreewill|§1.2, §2.4",
       "sepCompat|§2.1",
-      "sepHobbes|§1"
+      "sepHobbes|§1",
+      "caiusHobbes"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "k",
+     "ai": "John Bramhall",
+     "khi": "1594–1663",
+     "o": "thư gửi Hầu tước Newcastle (sau buổi bàn năm 1645 ở Paris); Bảo vệ tự do thật (1655); Phê bình ông Hobbes (1658)",
+     "muc": "w-kinhnghiem",
+     "noi": "Giám mục Anh giáo, bảo vệ tự do của ý chí trong khung kinh viện, phân biệt tự do thực thi, tự do chọn loại, tự do giữa có và không, tự do giữa hai điều trái nhau. Ông lập luận rằng nếu mọi hành động là tất yếu thì luật pháp, lòng mộ đạo và nhiều thể chế khác mất chỗ đứng. Hobbes chê các phân biệt ấy là vô nghĩa và coi những \"điều bất tiện\" ấy không phải lý lẽ.",
+     "ghi": "Cuộc trao đổi bắt đầu từ một buổi bàn năm 1645 ở nhà William Cavendish tại Paris; thư của Hobbes bị in năm 1654 khi chưa được ông cho phép (Of Liberty and Necessity); Bramhall đáp năm 1655, Hobbes đáp lại năm 1656 (Questions concerning Liberty, Necessity, and Chance), Bramhall đáp tiếp năm 1658.",
+     "src": [
+      "ergoHobbesBramhall|phần 1 và chú thích 1–2",
+      "caiusHobbes"
      ],
      "nhan": "da"
     },
@@ -8573,13 +8663,14 @@
      "id": "g",
      "ai": "Immanuel Kant",
      "khi": "1724–1804",
-     "o": "",
+     "o": "Nền tảng siêu hình học về đức lý; Phê phán lý tính thực hành (1788)",
      "muc": "w-khaisangduc",
-     "noi": "Một trong số ít ngoại lệ của thời cận đại: tự do đòi hỏi một sự tự quyết sâu hơn những phân tích tương thích kiểu cổ điển.",
+     "noi": "Kant lo rằng thuyết tất định nhân quả sẽ loại bỏ loại nhân quả mà đạo đức giả định, tức một nhân quả hành động độc lập với nguyên nhân bên ngoài. Ông đặt ý chí tự do ở thế giới tự thân (noumenon) và tất định ở thế giới hiện tượng. Tự do là tự trị: bị ràng buộc bởi luật do chính mình đặt ra; ta hành động \"dưới ý niệm về tự do\". Trong cuốn Phê phán thứ hai, ông khẳng định ta bị luật đạo đức ràng buộc rồi từ đó suy ra tự trị. Một số nhà nghiên cứu (Hudson, Korsgaard, Allison, Hill) đọc Kant theo lối tương thích: hai thế giới là hai góc nhìn về một thế giới.",
      "src": [
+      "sepKantMoral|§1, §10",
       "sepFreewill|§1.2"
      ],
-     "nhan": "mot"
+     "nhan": "da"
     },
     {
      "id": "h",
@@ -8595,15 +8686,16 @@
     },
     {
      "id": "i",
-     "ai": "Jean-Paul Sartre và các nhà hiện sinh",
+     "ai": "Jean-Paul Sartre",
      "khi": "giữa thế kỷ XX",
-     "o": "",
+     "o": "Tồn tại và hư vô (1943)",
      "muc": "w-hiensinh",
-     "noi": "Tồn tại có trước bản chất; tự do gắn với lo âu của việc phải chọn, và tính đích thực là nhận lấy sự tự do ấy.",
+     "noi": "Tự do có gốc ở sự tách biệt bản thể học giữa cái vị-tha (ý thức, cái phủ định) và cái tự-tại. Tự do không phải là khả năng làm bất cứ điều gì: nó chỉ thành hiện thực trong dự phóng và hành động, luôn trong một hoàn cảnh thực tại; việc chọn cách đáp lại hoàn cảnh thường diễn ra trước phản tư. Bị kết án phải tự do kéo theo lo âu và trách nhiệm. Ngụy tín là chối bỏ tự do của mình. Những lối giải thích tất định coi đời mình chỉ là sản phẩm của quá khứ là một kiểu tự lừa dối. Về sau, trong Phê phán lý tính biện chứng, Sartre cho thấy tự do bị các cấu trúc vật chất và xã hội giới hạn.",
      "src": [
+      "sepSartre|§4.1–§4.2, §5, §6",
       "sepExist|§3–§4"
      ],
-     "nhan": "mot"
+     "nhan": "da"
     },
     {
      "id": "j",
@@ -8639,9 +8731,30 @@
      "loai": "cùng lối",
      "nhan": "mot",
      "can": "Coates (SEP §2): thuyết tương thích cổ điển do các nhà kinh nghiệm Hobbes và Hume phát triển. Nguồn đặt hai người chung một lối nhưng không nói Hume dẫn Hobbes."
+    },
+    {
+     "tu": "e",
+     "den": "k",
+     "loai": "tranh luận qua lại",
+     "nhan": "da",
+     "can": "Hai bên đọc và trả lời từng điểm của nhau qua bốn văn bản từ 1654 tới 1658; bản 1656 của Hobbes in lại nguyên văn Bramhall cùng lời đáp (Ergo, chú thích 1)."
+    },
+    {
+     "tu": "k",
+     "den": "d",
+     "loai": "tiếp nhận",
+     "nhan": "mot",
+     "can": "Bài trên Ergo dẫn Pink (2016) về khung kinh viện và quan niệm tự do mà Bramhall dùng và Hobbes phản bác. Nguồn không nói Bramhall dẫn riêng Aquinas hay Scotus."
+    },
+    {
+     "tu": "m",
+     "den": "l",
+     "loai": "phản bác",
+     "nhan": "da",
+     "can": "Leppin (SEP §4): Về ý chí nô lệ đi theo cấu trúc của sách Erasmus, đáp từng điểm, và buộc Erasmus vào thuyết Pelagius; Erasmus đáp lại bằng Hyperaspistes (§1)."
     }
    ],
-   "chung": "[Đánh giá] Hai chỗ nối có văn bản cho thấy câu hỏi được truyền qua tranh luận chứ không chỉ lặp lại: Alexander đáp phái Khắc kỷ, và triết học phân tích thế kỷ XX đáp phân tích của Hume. Hobbes cũng tranh luận trực tiếp với giám mục Bramhall (SEP Hobbes §1), nhưng bản đồ chưa ghi Bramhall thành một lần nêu. Các lần nêu khác (Augustine, Aquinas và Scotus, Kant, Schopenhauer, Sartre) chắc chắn đọc người đi trước, nhưng nguồn đã đọc chưa cho thấy ai trả lời văn bản nào, nên chưa nối.",
+   "chung": "[Đánh giá] Bốn chỗ nối có văn bản cho thấy câu hỏi được truyền qua tranh luận: Alexander đáp phái Khắc kỷ; Luther đáp Erasmus từng điểm và Erasmus đáp lại; Hobbes và Bramhall trả lời nhau qua bốn văn bản trong mười hai năm, Bramhall đứng trên khung kinh viện mà Hobbes gạt đi; triết học phân tích thế kỷ XX đáp phân tích của Hume. Kant và Sartre đi theo hai lối khác hẳn lối tương thích: Kant đặt tự do ở thế giới tự thân và đồng nhất nó với tự trị đạo đức, Sartre đặt nó ở cấu trúc của ý thức và coi thuyết tất định là một kiểu tự lừa dối. Các nguồn đã đọc chưa cho thấy Kant hay Sartre trả lời trực tiếp văn bản nào ở đây, nên hai lần nêu ấy chưa được nối.",
    "xepchung": [
     {
      "noi": "Franklin (SEP) gạt ra ngoài các truyền thống khác và chỉ người đọc tới Marchal và Wenzel (2017) cho Trung Hoa, Chakrabarti (2017) cho Ấn Độ. Cuộc tranh luận về định mệnh và hành vi trong kalām Hồi giáo cũng hay được đặt cạnh câu hỏi này; bản đồ chưa có lần nêu nào ngoài phương Tây nối được bằng văn bản.",
@@ -8661,7 +8774,7 @@
      "nhan": "da"
     },
     {
-     "noi": "Lần nêu của Kant và của Sartre mới dựa vào câu tóm tắt trong mục từ tổng quát; cần đọc SEP về Kant và về Sartre để ghi lời của chính họ.",
+     "noi": "Chưa có lần nêu nào từ phái Hegel và Marx, từ Spinoza (người SEP gọi là hoài nghi tự do ý chí), hay từ Leibniz; cần thêm khi có nguồn nối bằng văn bản.",
      "nhan": "chua"
     }
    ]
