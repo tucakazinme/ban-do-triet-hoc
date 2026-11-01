@@ -623,13 +623,13 @@
    "note": "đọc qua đoạn trích"
   },
   "dTTKhoi": {
-   "t": "Bài về các bản dịch Luận ngữ sang tiếng Việt",
+   "t": "Văn bản Luận ngữ và một số đánh giá của người Việt về tác phẩm",
    "a": "Trần Tiến Khôi",
    "w": "Tạp chí Đại học Thăng Long",
    "d": "tra 01/11/2026",
    "k": "cn",
    "url": "https://science.thanglong.edu.vn/index.php/vola/article/view/265",
-   "note": "Bài đếm 30 đầu sách Luận ngữ tiếng Việt và ghi số hiệu Thư viện Quốc gia."
+   "note": "Danh mục tham khảo ghi số hiệu thư viện; phần thân bài chia bản quốc ngữ thành trích dịch và dịch toàn văn."
   },
   "dHUC": {
    "t": "Mục lục thư viện Trường Đại học Văn hóa Hà Nội",
@@ -769,6 +769,72 @@
    "d": "tra 01/11/2026",
    "k": "pt",
    "url": "https://www.goodreads.com/book/show/59956495"
+  },
+  "dTTKhoiPDF": {
+   "t": "Văn bản Luận ngữ và một số đánh giá của người Việt về tác phẩm, bản PDF",
+   "a": "Trần Tiến Khôi",
+   "w": "Trường Đại học Thăng Long",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://science.thanglong.edu.vn/index.php/vola/article/download/265/160/896"
+  },
+  "dHPUKHD": {
+   "t": "Mục lục thư viện HPU, Khổng học đăng",
+   "a": "",
+   "w": "lib.hpu.edu.vn",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://lib.hpu.edu.vn/handle/123456789/59"
+  },
+  "dIndacanda": {
+   "t": "Luận văn về giáo lý Phật giáo trong Milindapañho, chú thích về bản Việt",
+   "a": "",
+   "w": "docs.google.com",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://docs.google.com/document/d/1ZbBDS9fFjtVtAGoRYYUzfisyBAfnDvAC/export?format=pdf",
+   "note": "Chú thích ghi Milinda vấn đạo là bản dịch của Chánh Thân (Indacanda) và dẫn tệp tại phuocson.org."
+  },
+  "dThienHanhDT": {
+   "t": "Duy thức học: Bát thức quy củ tụng, Duy thức tam thập tụng, Tỷ kheo Thiện Hạnh dịch giải",
+   "a": "",
+   "w": "thuvienhoasen.org",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://thuvienhoasen.org/images/file/QsFbhc0h2QgQAM8p/duy-thuc-hoc.pdf"
+  },
+  "dDharmaEb": {
+   "t": "Dharma Ebooks, trang Vasubandhu",
+   "a": "",
+   "w": "dharmaebooks.org",
+   "d": "tra 01/11/2026",
+   "k": "pt",
+   "url": "https://dharmaebooks.org/tag/vasubandhu/"
+  },
+  "dHPUAuro": {
+   "t": "Mục lục thư viện HPU, Áo nghĩa thư Upanishads (Shri Aurobindo)",
+   "a": "",
+   "w": "lib.hpu.edu.vn",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://lib.hpu.edu.vn/handle/123456789/215"
+  },
+  "dQHRousseau": {
+   "t": "Thư viện số Quốc hội, Khế ước xã hội, Học viện Công dân 2006–2007",
+   "a": "",
+   "w": "thuvienso.quochoi.vn",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://thuvienso.quochoi.vn/handle/11742/35018"
+  },
+  "dQHHTD": {
+   "t": "Thư viện số Quốc hội, bản ghi có Hoàng Thanh Đạm trong danh sách người góp",
+   "a": "",
+   "w": "thuvienso.quochoi.vn",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://thuvienso.quochoi.vn/handle/11742/94676",
+   "note": "Claude chỉ thấy danh sách người góp, chưa thấy nhan đề đầy đủ của bản ghi."
   }
  },
  "VUNG": [
@@ -7084,7 +7150,7 @@
     "dTTKhoi"
    ],
    "nhan": "da",
-   "ghi": "Thư viện Quốc gia, số hiệu VN 66.01535 theo Trần Tiến Khôi. Bài này đếm 30 đầu sách Luận ngữ tiếng Việt; bảng chỉ chép ba."
+   "ghi": "Thư viện Quốc gia, số hiệu VN 66.01535 theo Trần Tiến Khôi. Nguồn chỉ ghi nhan đề, không nói rõ là bản dịch hay trích dịch."
   },
   {
    "van": "Luận ngữ",
@@ -7097,8 +7163,8 @@
    "src": [
     "dTTKhoi"
    ],
-   "nhan": "mot",
-   "ghi": ""
+   "nhan": "da",
+   "ghi": "Thư viện Viện Sử học, số hiệu Vv.129. Trần Tiến Khôi xếp vào loại trích dịch."
   },
   {
    "van": "Luận ngữ",
@@ -7111,8 +7177,79 @@
    "src": [
     "dTTKhoi"
    ],
+   "nhan": "da",
+   "ghi": "Thư viện Viện Sử học, số hiệu Vb.2558. Trần Tiến Khôi xếp vào loại trích dịch."
+  },
+  {
+   "van": "Luận ngữ",
+   "muc": "c-tientan",
+   "ten": "Luận ngữ trích cú diễn âm",
+   "dich": "Ưng Ân (hiệu Quật Đình)",
+   "nxb": "",
+   "nam": "1930",
+   "tu": "Hán",
+   "src": [
+    "dTTKhoi"
+   ],
+   "nhan": "da",
+   "ghi": "Thư viện Quốc gia, số hiệu M33.6076. Chưa rõ viết bằng chữ Nôm hay quốc ngữ."
+  },
+  {
+   "van": "Luận ngữ",
+   "muc": "c-tientan",
+   "ten": "Khổng học đăng (có phần Luận ngữ trích lục diễn giải)",
+   "dich": "Phan Bội Châu",
+   "nxb": "NXB Văn hóa Thông tin",
+   "nam": "2008 (in lại)",
+   "tu": "Hán",
+   "src": [
+    "dHPUKHD",
+    "dTTKhoiPDF"
+   ],
+   "nhan": "da",
+   "ghi": "Trích dịch trong một sách khảo cứu."
+  },
+  {
+   "van": "Luận ngữ",
+   "muc": "c-tientan",
+   "ten": "Luận ngữ",
+   "dich": "Đoàn Trung Còn",
+   "nxb": "",
+   "nam": "",
+   "tu": "Hán",
+   "src": [
+    "dTTKhoiPDF"
+   ],
    "nhan": "mot",
-   "ghi": ""
+   "ghi": "Trần Tiến Khôi xếp vào loại dịch toàn văn."
+  },
+  {
+   "van": "Luận ngữ",
+   "muc": "c-tientan",
+   "ten": "Luận ngữ",
+   "dich": "Lê Phục Thiện",
+   "nxb": "",
+   "nam": "",
+   "tu": "Hán",
+   "src": [
+    "dTTKhoiPDF"
+   ],
+   "nhan": "mot",
+   "ghi": "Trần Tiến Khôi xếp vào loại dịch toàn văn."
+  },
+  {
+   "van": "Luận ngữ",
+   "muc": "c-tientan",
+   "ten": "Luận ngữ",
+   "dich": "Nguyễn Hiến Lê",
+   "nxb": "",
+   "nam": "",
+   "tu": "Hán",
+   "src": [
+    "dTTKhoiPDF"
+   ],
+   "nhan": "mot",
+   "ghi": "Trần Tiến Khôi xếp vào loại dịch toàn văn. Có lẽ là phần dịch trong Khổng Tử và Luận ngữ (NXB Văn học 2003); chưa kiểm."
   },
   {
    "van": "Mạnh Tử",
@@ -7467,12 +7604,13 @@
    "van": "Milindapañha",
    "muc": "a-phatgiao",
    "ten": "Milinda vấn đạo",
-   "dich": "chưa chép tên",
+   "dich": "Tỳ khưu Indacanda (Chánh Thân)",
    "nxb": "",
    "nam": "",
    "tu": "Pāli",
    "src": [
-    "dTVHS"
+    "dTVHS",
+    "dIndacanda"
    ],
    "nhan": "mot",
    "ghi": ""
@@ -7524,6 +7662,124 @@
    "src": [],
    "nhan": "chua",
    "ghi": "Chưa tìm thấy bản dịch tiếng Việt hiện đại trong các lượt tra."
+  },
+  {
+   "van": "Duy thức tam thập tụng",
+   "muc": "a-phatgiao",
+   "ten": "Duy thức tam thập tụng (in chung Bát thức quy củ tụng)",
+   "dich": "Tỷ kheo Thiện Hạnh",
+   "nxb": "Phật học viện Kim Quang, Huế",
+   "nam": "2017 (PL 2561)",
+   "tu": "Hán, bản Huyền Trang",
+   "src": [
+    "dThienHanhDT"
+   ],
+   "nhan": "da",
+   "ghi": "Dịch và giải."
+  },
+  {
+   "van": "Duy thức tam thập tụng",
+   "muc": "a-phatgiao",
+   "ten": "Duy thức tam thập tụng",
+   "dich": "Thích Nhất Hạnh",
+   "nxb": "",
+   "nam": "",
+   "tu": "chưa rõ",
+   "src": [
+    "dDharmaEb"
+   ],
+   "nhan": "mot",
+   "ghi": "Bản Việt và Anh. Từ điển trên niemphat.vn nói Thành duy thức luận (chú giải của Huyền Trang) chưa có bản Việt; câu ấy chưa kiểm."
+  },
+  {
+   "van": "Upaniṣad",
+   "muc": "a-veda",
+   "ten": "Áo nghĩa thư Upanishads (Isha, Kena, Mundaka)",
+   "dich": "chưa rõ",
+   "nxb": "NXB Văn hóa Thông tin",
+   "nam": "2011",
+   "tu": "chưa rõ; có lẽ qua bản Anh của Aurobindo",
+   "src": [
+    "dHPUAuro"
+   ],
+   "nhan": "mot",
+   "ghi": "Bản ghi đứng tên Shri Aurobindo, không ghi người dịch. Một bản ghi khác cùng thư viện (Áo nghĩa thư, NXB Lao Động 2011, đứng tên Ian P. McGreal) có lẽ chỉ là chương giới thiệu 8 trang."
+  },
+  {
+   "van": "Khế ước xã hội",
+   "muc": "w-candaisom",
+   "ten": "Khế ước xã hội",
+   "dich": "chưa rõ",
+   "nxb": "Học viện Công dân",
+   "nam": "2006–2007",
+   "tu": "chưa rõ",
+   "src": [
+    "dQHRousseau"
+   ],
+   "nhan": "mot",
+   "ghi": "Bản phát hành của một tổ chức, 200 trang; người dịch chưa thấy ghi."
+  },
+  {
+   "van": "Khế ước xã hội",
+   "muc": "w-candaisom",
+   "ten": "Bàn về khế ước xã hội",
+   "dich": "Hoàng Thanh Đạm",
+   "nxb": "",
+   "nam": "",
+   "tu": "Pháp",
+   "src": [
+    "dQHHTD"
+   ],
+   "nhan": "chua",
+   "ghi": "Claude nhớ có bản dịch của Hoàng Thanh Đạm; tìm được một bản ghi Thư viện Quốc hội có tên ông nhưng chưa xác nhận là sách này. Một trang web luật nhắc bản của Dương Văn Hóa; nguồn yếu, chưa đưa thành dòng riêng."
+  },
+  {
+   "van": "Tồn tại và thời gian",
+   "muc": "w-lucdia",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [],
+   "nhan": "chua",
+   "ghi": "Chưa tìm thấy bản dịch trong các lượt tra."
+  },
+  {
+   "van": "Tractatus Logico-Philosophicus",
+   "muc": "w-phantich",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [],
+   "nhan": "chua",
+   "ghi": "Chưa tìm thấy bản dịch trong các lượt tra."
+  },
+  {
+   "van": "Ḥayy ibn Yaqẓān",
+   "muc": "i-falsafa",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [],
+   "nhan": "chua",
+   "ghi": "Chưa tìm thấy bản dịch trong các lượt tra."
+  },
+  {
+   "van": "Yoga Sūtra",
+   "muc": "a-darsana",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [],
+   "nhan": "chua",
+   "ghi": "Lượt tra chỉ ra bản tiếng Anh; chưa thấy bản Việt có ghi người dịch."
   }
  ]
 }

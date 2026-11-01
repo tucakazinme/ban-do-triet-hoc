@@ -26,7 +26,7 @@ C. Lớp vấn đề
 7. [xong 01/11] Việc 7: tiêu chí chọn vấn đề, ở method.html.
 8. [một phần 01/11] Thêm mục vấn đề: đã có "Nho, Phật, Lão quan hệ với nhau thế nào?" (tam-giao, 7 lần nêu, chất liệu Nguyễn Đăng Thục). Ứng viên tiếp: thế giới bên ngoài có độc lập với thức không (Vasubandhu → Huyền Trang → Hossō/Wŏnch'ŭk).
 D. Phần cần Cẩm góp
-9. Việc 4: danh mục bản dịch tiếng Việt của văn bản gốc. [01/11] Đã làm thử 21 văn bản, 29 dòng bản dịch (khóa DICH trong data, bảng ở tab Người và văn bản). Còn: kiểm người dịch Câu-xá, Milinda vấn đạo, Cộng hòa (ngôn ngữ nguồn); tra Ḥayy ibn Yaqẓān, Yoga Sūtra; mở rộng ra các mục khác; tìm thư mục thư viện quốc gia có tra được từ xa không.
+9. Việc 4: danh mục bản dịch tiếng Việt của văn bản gốc. [01/11] Đã tra 28 văn bản, 39 bản dịch ở 20 văn bản (khóa DICH trong data, bảng ở tab Người và văn bản). Còn: kiểm người dịch Câu-xá, Milinda vấn đạo, Cộng hòa (ngôn ngữ nguồn); mở rộng ra các mục khác; OPAC Thư viện Quốc gia (opac.nlv.gov.vn) mở được nhưng chưa biết dạng địa chỉ tìm kiếm; cần Cẩm thử một lượt tìm và gửi đường dẫn kết quả.
 10. Việc 5: bảng thuật ngữ Việt (chữ gốc, chữ đã chọn, chữ của Bùi Văn Nam Sơn, Nguyễn Đăng Thục).
 E. Công cụ
 11. Trình sửa cho mục vấn đề, vùng và truyền thống.
