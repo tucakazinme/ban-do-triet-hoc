@@ -1010,6 +1010,166 @@
    "d": "tra 01/11/2026",
    "k": "cn",
    "url": "https://plato.stanford.edu/entries/foucault/"
+  },
+  "sepFrege": {
+   "t": "Gottlob Frege",
+   "a": "Edward N. Zalta",
+   "w": "SEP, bản sửa 01/08/2026",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/frege/"
+  },
+  "sepWitt": {
+   "t": "Ludwig Wittgenstein",
+   "a": "Anat Matar",
+   "w": "SEP, bản sửa 17/09/2026",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/wittgenstein/"
+  },
+  "sepRawls": {
+   "t": "John Rawls",
+   "a": "Leif Wenar",
+   "w": "SEP, bản sửa 03/09/2025",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/rawls/"
+  },
+  "sepPopper": {
+   "t": "Karl Popper",
+   "a": "Stephen Thornton",
+   "w": "SEP, bản sửa 31/07/2026",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/popper/"
+  },
+  "sepNietzsche": {
+   "t": "Friedrich Nietzsche",
+   "a": "R. Lanier Anderson",
+   "w": "SEP, bản sửa 25/06/2026",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/nietzsche/"
+  },
+  "sepLeibniz": {
+   "t": "Gottfried Wilhelm Leibniz",
+   "a": "Brandon C. Look",
+   "w": "SEP, bản sửa 24/07/2013",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/leibniz/"
+  },
+  "sepHobbes": {
+   "t": "Thomas Hobbes",
+   "a": "Stewart Duncan",
+   "w": "SEP, bản sửa 01/03/2025",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/hobbes/"
+  },
+  "sepBerkeley": {
+   "t": "George Berkeley",
+   "a": "David Hilbert",
+   "w": "SEP, bản sửa 12/08/2026",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/berkeley/"
+  },
+  "sepSchop": {
+   "t": "Arthur Schopenhauer",
+   "a": "Robert Wicks",
+   "w": "SEP, bản sửa 09/09/2021",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/schopenhauer/"
+  },
+  "sepMill": {
+   "t": "John Stuart Mill",
+   "a": "Christopher Macleod",
+   "w": "SEP, 25/08/2016",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/mill/"
+  },
+  "sepSidgwick": {
+   "t": "Henry Sidgwick",
+   "a": "Barton Schultz",
+   "w": "SEP, bản sửa 02/10/2023",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/sidgwick/"
+  },
+  "sepComte": {
+   "t": "Auguste Comte",
+   "a": "Michel Bourdeau",
+   "w": "SEP, bản sửa 13/01/2026",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/comte/"
+  },
+  "sepBolzano": {
+   "t": "Bernard Bolzano",
+   "a": "Edgar Morscher",
+   "w": "SEP, bản sửa 11/12/2018",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/bolzano/"
+  },
+  "sepBrentano": {
+   "t": "Franz Brentano",
+   "a": "Wolfgang Huemer",
+   "w": "SEP, bản sửa 30/01/2019",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/brentano/"
+  },
+  "sepPoincare": {
+   "t": "Henri Poincaré",
+   "a": "David Stump",
+   "w": "SEP, bản sửa 10/09/2026",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/poincare/"
+  },
+  "sepRigid": {
+   "t": "Rigid Designators",
+   "a": "Joseph LaPorte",
+   "w": "SEP, bản sửa 03/02/2022",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/rigid-designators/"
+  },
+  "sepPersId": {
+   "t": "Personal Identity",
+   "a": "Eric T. Olson",
+   "w": "SEP, bản sửa 30/06/2023",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/identity-personal/"
+  },
+  "sepFreewill": {
+   "t": "Free Will",
+   "a": "Christopher Franklin",
+   "w": "SEP, bản sửa 03/11/2022",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/freewill/"
+  },
+  "sepCompat": {
+   "t": "Compatibilism",
+   "a": "D. Justin Coates",
+   "w": "SEP, bản sửa 16/04/2024",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/compatibilism/"
+  },
+  "sepAlex": {
+   "t": "Alexander of Aphrodisias",
+   "a": "Marije Martijn",
+   "w": "SEP, bản sửa 13/08/2026",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/alexander-aphrodisias/"
   }
  },
  "VUNG": [
@@ -1305,8 +1465,7 @@
     "classical-greek-philosophy",
     "plato",
     "aristotle"
-   ],
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   ]
   },
   {
    "id": "w-hylaphoa",
@@ -1415,8 +1574,7 @@
     "academic-skeptics",
     "pyrrhonists"
    ],
-   "uoc": true,
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "uoc": true
   },
   {
    "id": "w-tanplaton",
@@ -1584,8 +1742,7 @@
     "augustine",
     "boethius"
    ],
-   "uoc": true,
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "uoc": true
   },
   {
    "id": "w-kinhviensom",
@@ -1740,8 +1897,7 @@
    "pp": [
     "13th14th-century-philosophy",
     "thomas-aquinas"
-   ],
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   ]
   },
   {
    "id": "w-phuchung",
@@ -1841,8 +1997,7 @@
    "pp": [
     "15th16th-century-philosophy"
    ],
-   "uoc": true,
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "uoc": true
   },
   {
    "id": "w-candaisom",
@@ -1932,7 +2087,9 @@
    "src": [
     "hirsch2|tr. 82, 114–230",
     "sepEnlight|§1.1",
-    "pp"
+    "pp",
+    "hirsch2|tr. 116, 163",
+    "sepLeibniz|§3"
    ],
    "pp": [
     "17th18th-century-french-philosophy",
@@ -1941,7 +2098,7 @@
     "gottfried-wilhelm-leibniz"
    ],
    "uoc": true,
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "ck": "Năm văn bản theo Hirschberger (Descartes tr. 116, Spinoza tr. 163) và SEP (Leibniz)."
   },
   {
    "id": "w-kinhnghiem",
@@ -2081,7 +2238,10 @@
    "src": [
     "hirsch2|tr. 67, 231–302",
     "sepEnlight|§1.2",
-    "pp"
+    "pp",
+    "hirsch2|tr. 245, 274",
+    "sepHobbes",
+    "sepBerkeley"
    ],
    "pp": [
     "17th18th-century-british-philosophy",
@@ -2089,7 +2249,7 @@
     "john-locke"
    ],
    "uoc": true,
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "ck": "Năm văn bản theo Hirschberger (Locke tr. 245, Hume tr. 274), SEP Khai sáng, Hobbes, Berkeley."
   },
   {
    "id": "w-khaisang",
@@ -2295,13 +2455,14 @@
    "src": [
     "hirsch2|tr. 313–433",
     "sepEnlight|§1.1",
-    "pp"
+    "pp",
+    "hirsch2|tr. 332"
    ],
    "pp": [
     "17th18th-century-german-philosophy",
     "immanuel-kant"
    ],
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "ck": "Năm văn bản theo SEP Khai sáng và Hirschberger tr. 332."
   },
   {
    "id": "w-theky19",
@@ -2375,24 +2536,25 @@
     [
      "Khoa học logic",
      "Hegel",
-     "1812–1816"
+     "1811–1816"
     ],
     [
      "Các nguyên lý của triết học pháp quyền",
      "Hegel",
-     "1820"
+     "1821"
     ]
    ],
    "src": [
     "hirsch2|tr. 434–520",
-    "pp"
+    "pp",
+    "hirsch2|tr. 435, 485"
    ],
    "pp": [
     "german-idealism",
     "g-w-f-hegel"
    ],
    "uoc": true,
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "ck": "Năm văn bản theo Hirschberger (Fichte tr. 435; Hegel tr. 485)."
   },
   {
    "id": "w-hauhegel",
@@ -2446,7 +2608,7 @@
     [
      "Thế giới như là ý chí và biểu tượng",
      "Schopenhauer",
-     "1819"
+     "1818, đề năm 1819"
     ],
     [
      "Bản chất Kitô giáo",
@@ -2481,7 +2643,10 @@
    ],
    "src": [
     "hirsch2|tr. 538–624",
-    "pp"
+    "pp",
+    "hirsch2|tr. 556, 559, 583",
+    "sepSchop|§1",
+    "sepNietzsche"
    ],
    "pp": [
     "karl-marx",
@@ -2490,7 +2655,7 @@
     "arthur-schopenhauer"
    ],
    "uoc": true,
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "ck": "Năm văn bản theo Hirschberger (Feuerbach tr. 556, Marx tr. 559, Kierkegaard tr. 583) và SEP (Schopenhauer, Nietzsche)."
   },
   {
    "id": "w-anh19",
@@ -2569,13 +2734,16 @@
    ],
    "src": [
     "hirsch2|tr. 628–632",
-    "pp"
+    "pp",
+    "hirsch2|tr. 629",
+    "sepMill",
+    "sepSidgwick"
    ],
    "pp": [
     "19th-century-british-philosophy"
    ],
    "uoc": true,
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "ck": "Năm văn bản theo Hirschberger (Hệ thống logic tr. 629) và SEP (Mill, Sidgwick)."
   },
   {
    "id": "w-phap19",
@@ -2619,13 +2787,15 @@
    ],
    "src": [
     "hirsch2|tr. 626–627",
-    "pp"
+    "pp",
+    "sepComte",
+    "sepPoincare"
    ],
    "pp": [
     "19th-century-french-philosophy"
    ],
    "uoc": true,
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "ck": "Năm văn bản theo SEP (Comte, Poincaré)."
   },
   {
    "id": "w-ao",
@@ -2694,14 +2864,16 @@
    ],
    "src": [
     "hirsch2|tr. 530–537",
-    "pp"
+    "pp",
+    "sepBolzano",
+    "sepBrentano|§1, §7.1"
    ],
    "pp": [
     "19th-century-austrian-philosophy",
     "franz-brentano"
    ],
    "uoc": true,
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "ck": "Năm văn bản theo SEP (Bolzano, Brentano)."
   },
   {
    "id": "w-tankant",
@@ -2824,13 +2996,14 @@
    ],
    "src": [
     "hirsch2|tr. 667–690",
-    "pp"
+    "pp",
+    "hirsch2|tr. 668"
    ],
    "pp": [
     "henri-bergson"
    ],
    "uoc": true,
-   "ck": "Trang cuối của chương 27 trong Hirschberger do Claude ước (chương 28 bắt đầu trước tr. 702). Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "ck": "Năm văn bản theo Hirschberger tr. 668. Trang cuối của chương 27 do Claude ước (chương 28 bắt đầu trước tr. 702)."
   },
   {
    "id": "w-thucdung",
@@ -2995,7 +3168,9 @@
    "src": [
     "sepRussell|§2–§4",
     "iepOLP|§2",
-    "pp"
+    "pp",
+    "sepFrege",
+    "sepWitt"
    ],
    "pp": [
     "20th-century-analytic-philosophy",
@@ -3004,7 +3179,7 @@
     "ludwig-wittgenstein"
    ],
    "uoc": true,
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "ck": "Năm văn bản theo SEP (Frege, Russell, Wittgenstein)."
   },
   {
    "id": "w-thucchung",
@@ -3277,12 +3452,15 @@
    ],
    "src": [
     "sepQuine|§3, §7",
-    "pp"
+    "pp",
+    "sepRawls|§1",
+    "sepRigid",
+    "sepPersId"
    ],
    "pp": [
     "20th-century-analytic-philosophy"
    ],
-   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+   "ck": "Năm văn bản theo SEP (Quine, Rawls, Parfit). Năm 1980 của Kripke theo cách SEP dẫn, chưa thấy nhan đề trong phần đã đọc; năm 1953 của Từ một quan điểm logic theo hiểu biết của Claude."
   },
   {
    "id": "w-khoahoc",
@@ -3290,10 +3468,10 @@
    "ten": "Triết học khoa học thế kỷ XX",
    "goc": "20th-century philosophy of science",
    "span": [
-    1934,
+    1935,
     1994
    ],
-   "moc": "Bird (SEP): Cấu trúc các cuộc cách mạng khoa học (1962); hội nghị London 1965 do Popper chủ tọa, kỷ yếu Phê phán và sự tăng trưởng tri thức (1970) do Lakatos và Musgrave biên tập. Mốc đầu theo Logik der Forschung của Popper (1934), mốc cuối do Claude ước.",
+   "moc": "Bird (SEP): Cấu trúc các cuộc cách mạng khoa học (1962); hội nghị London 1965 do Popper chủ tọa, kỷ yếu Phê phán và sự tăng trưởng tri thức (1970) do Lakatos và Musgrave biên tập. Thornton (SEP) ghi Logik der Forschung năm 1935 và Xã hội mở năm 1945; mốc đầu lấy theo năm ấy, mốc cuối do Claude ước.",
    "mo": "Khoa học tiến lên bằng phép bác bỏ hay bằng những cuộc cách mạng hệ hình; chương trình nghiên cứu; tính bất khả thông ước.",
    "nguoi": [
     [
@@ -3321,7 +3499,7 @@
     [
      "Logik der Forschung",
      "Popper",
-     "1934"
+     "1935 (SEP)"
     ],
     [
      "Cấu trúc các cuộc cách mạng khoa học",
@@ -3341,7 +3519,8 @@
    ],
    "src": [
     "sepKuhn|§1–§2",
-    "pp"
+    "pp",
+    "sepPopper|§1"
    ],
    "pp": [
     "20th-century-philosophy-of-science"
@@ -8307,6 +8486,185 @@
      "nhan": "chua"
     }
    ]
+  },
+  {
+   "id": "tu-do-y-chi",
+   "ten": "Ý chí có tự do không, nếu mọi việc đều có nguyên nhân?",
+   "goc": "Tự do ý chí và thuyết tất định",
+   "hoi": "Nếu mọi sự xảy ra đều do nguyên nhân có trước, do số mệnh hay do Thượng đế định, thì việc ta làm có còn \"tùy ở ta\" không, và ta có đáng bị khen chê không? Câu hỏi chạy suốt triết học phương Tây, từ phái Khắc kỷ tới thế kỷ XX, với những cuộc tranh luận mà các bên đọc và trả lời nhau.",
+   "lan": [
+    {
+     "id": "a",
+     "ai": "Chrysippus và phái Khắc kỷ",
+     "khi": "thế kỷ III TCN",
+     "o": "",
+     "muc": "w-hylaphoa",
+     "noi": "Mọi lựa chọn đều do nguyên nhân quy định, nhưng hành động vẫn \"tùy ở ta\" khi nó đến từ lựa chọn có lý trí của chính ta chứ không do cưỡng ép bên ngoài.",
+     "src": [
+      "sepFreewill|§1.1"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "b",
+     "ai": "Alexander xứ Aphrodisias",
+     "khi": "khoảng năm 200",
+     "o": "Về số mệnh (De fato)",
+     "muc": "w-hylaphoa",
+     "noi": "Phần lớn tác phẩm tấn công thuyết tất định: số mệnh kiểu Khắc kỷ làm việc cân nhắc thành thừa và phá hỏng đạo đức. Hành động thật sự tự do đòi hỏi rằng, lúc hành động, ta vừa có thể làm vừa có thể không làm điều ta làm. Martijn coi ông là người khởi xướng lập trường về sau gọi là thuyết tự do (libertarianism).",
+     "src": [
+      "sepAlex|§6",
+      "sepFreewill|§1.1"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "c",
+     "ai": "Augustine",
+     "khi": "354–430",
+     "o": "",
+     "muc": "w-trungdaisom",
+     "noi": "Ý chí tự quyết, nhưng ham muốn sắp đặt sai có thể làm ta không muốn trọn lòng; tự do thật cần ân sủng của Thiên Chúa. Giới nghiên cứu chia rẽ về việc ông theo thuyết tự do hay thuyết tương thích, và về việc Thiên Chúa có định mọi sự không.",
+     "src": [
+      "sepFreewill|§1.1"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "d",
+     "ai": "Thomas Aquinas và John Duns Scotus",
+     "khi": "thế kỷ XIII",
+     "o": "",
+     "muc": "w-trungdai",
+     "noi": "Aquinas: ý chí không bị cột vào phương tiện cụ thể nào, nhưng trong một hoàn cảnh toàn thể nhất định, người ta tất yếu muốn như mình muốn; có người đọc ông là thuyết tương thích. Scotus: không gì ngoài ý chí là nguyên nhân toàn phần của hoạt động của nó; ngay lúc muốn, các khả năng khác vẫn còn mở. Franklin gọi Scotus là nhà tự do mạnh nhất thời trung đại.",
+     "src": [
+      "sepFreewill|§1.1"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "e",
+     "ai": "Thomas Hobbes",
+     "khi": "thế kỷ XVII",
+     "o": "Leviathan; cuộc tranh luận với giám mục John Bramhall",
+     "muc": "w-kinhnghiem",
+     "noi": "Tự do là không gặp cản trở bên ngoài khi làm điều mình muốn; tự do ý chí tương thích với thuyết tất định. Khen chê và trừng phạt được biện minh bằng hệ quả.",
+     "src": [
+      "sepFreewill|§1.2, §2.4",
+      "sepCompat|§2.1",
+      "sepHobbes|§1"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "f",
+     "ai": "David Hume",
+     "khi": "1711–1776",
+     "o": "Nghiên cứu về giác tính con người (1748)",
+     "muc": "w-kinhnghiem",
+     "noi": "Tự do ý chí đòi hỏi thuyết tất định. \"Có thể làm khác\" nghĩa là: nếu ta đã muốn khác thì ta đã làm khác; hiểu như vậy thì tự do không mâu thuẫn với tất định.",
+     "src": [
+      "sepFreewill|§1.2",
+      "sepCompat|§2.2"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "g",
+     "ai": "Immanuel Kant",
+     "khi": "1724–1804",
+     "o": "",
+     "muc": "w-khaisangduc",
+     "noi": "Một trong số ít ngoại lệ của thời cận đại: tự do đòi hỏi một sự tự quyết sâu hơn những phân tích tương thích kiểu cổ điển.",
+     "src": [
+      "sepFreewill|§1.2"
+     ],
+     "nhan": "mot"
+    },
+    {
+     "id": "h",
+     "ai": "Arthur Schopenhauer",
+     "khi": "1788–1860",
+     "o": "Những vấn đề nền tảng của đạo đức học, khảo luận thứ nhất",
+     "muc": "w-hauhegel",
+     "noi": "\"Bạn có thể làm điều bạn muốn, nhưng ở mỗi khoảnh khắc, bạn chỉ có thể muốn một việc nhất định.\" Mọi động cơ của ý chí đều bị quy định trước bởi quan hệ nhân quả; tự ý thức không cho ta biết nguồn của các động cơ ấy. Hirschberger phê phán: đó là lý thuyết thay cho sự kiện, chưa bao giờ được chứng minh.",
+     "src": [
+      "hirsch2|tr. 551–552"
+     ],
+     "nhan": "da"
+    },
+    {
+     "id": "i",
+     "ai": "Jean-Paul Sartre và các nhà hiện sinh",
+     "khi": "giữa thế kỷ XX",
+     "o": "",
+     "muc": "w-hiensinh",
+     "noi": "Tồn tại có trước bản chất; tự do gắn với lo âu của việc phải chọn, và tính đích thực là nhận lấy sự tự do ấy.",
+     "src": [
+      "sepExist|§3–§4"
+     ],
+     "nhan": "mot"
+    },
+    {
+     "id": "j",
+     "ai": "Strawson, Ginet, Frankfurt, van Inwagen",
+     "khi": "1962–1983",
+     "o": "\"Tự do và oán giận\" (1962); Ginet (1966); Frankfurt (1969, 1971)",
+     "muc": "w-phantichhau",
+     "noi": "Strawson đặt trách nhiệm trên các thái độ phản ứng như oán giận, phẫn nộ. Lập luận hệ quả (Ginet 1966): không ai có quyền đối với quá khứ và quy luật tự nhiên, nên nếu tất định đúng thì không ai có quyền đối với tương lai. Frankfurt bác nguyên tắc rằng trách nhiệm đòi hỏi khả năng làm khác, rồi định nghĩa tự do ý chí bằng các mong muốn bậc cao. Chisholm và van Inwagen bác phân tích có điều kiện của Hume và Ayer.",
+     "src": [
+      "sepCompat|§2.2, §3.1–§3.3, §4.2"
+     ],
+     "nhan": "da"
+    }
+   ],
+   "lienhe": [
+    {
+     "tu": "b",
+     "den": "a",
+     "loai": "phản bác",
+     "nhan": "da",
+     "can": "Martijn (SEP §6): Về số mệnh cho rằng nỗ lực của phái Khắc kỷ bảo vệ lập trường tương thích phải thất bại, dù Alexander không gọi tên họ."
+    },
+    {
+     "tu": "j",
+     "den": "f",
+     "loai": "phản bác",
+     "nhan": "da",
+     "can": "Coates (SEP §2.2): Chisholm (1964) và van Inwagen (1983) bác phân tích có điều kiện về \"có thể làm khác\" mà Hume, Hobart, Ayer dùng."
+    },
+    {
+     "tu": "f",
+     "den": "e",
+     "loai": "cùng lối",
+     "nhan": "mot",
+     "can": "Coates (SEP §2): thuyết tương thích cổ điển do các nhà kinh nghiệm Hobbes và Hume phát triển. Nguồn đặt hai người chung một lối nhưng không nói Hume dẫn Hobbes."
+    }
+   ],
+   "chung": "[Đánh giá] Hai chỗ nối có văn bản cho thấy câu hỏi được truyền qua tranh luận chứ không chỉ lặp lại: Alexander đáp phái Khắc kỷ, và triết học phân tích thế kỷ XX đáp phân tích của Hume. Hobbes cũng tranh luận trực tiếp với giám mục Bramhall (SEP Hobbes §1), nhưng bản đồ chưa ghi Bramhall thành một lần nêu. Các lần nêu khác (Augustine, Aquinas và Scotus, Kant, Schopenhauer, Sartre) chắc chắn đọc người đi trước, nhưng nguồn đã đọc chưa cho thấy ai trả lời văn bản nào, nên chưa nối.",
+   "xepchung": [
+    {
+     "noi": "Franklin (SEP) gạt ra ngoài các truyền thống khác và chỉ người đọc tới Marchal và Wenzel (2017) cho Trung Hoa, Chakrabarti (2017) cho Ấn Độ. Cuộc tranh luận về định mệnh và hành vi trong kalām Hồi giáo cũng hay được đặt cạnh câu hỏi này; bản đồ chưa có lần nêu nào ngoài phương Tây nối được bằng văn bản.",
+     "src": [
+      "sepFreewill"
+     ],
+     "nhan": "sl"
+    }
+   ],
+   "xepchungGhi": "",
+   "tinhtrang": [
+    {
+     "noi": "Cuộc tranh luận hiện nay xoay quanh lập luận hệ quả, các ví dụ kiểu Frankfurt, và lối tiếp cận bằng thái độ phản ứng của Strawson; thuyết tương thích được làm mới sau cú phản bác vào phân tích có điều kiện.",
+     "src": [
+      "sepCompat|§3"
+     ],
+     "nhan": "da"
+    },
+    {
+     "noi": "Lần nêu của Kant và của Sartre mới dựa vào câu tóm tắt trong mục từ tổng quát; cần đọc SEP về Kant và về Sartre để ghi lời của chính họ.",
+     "nhan": "chua"
+    }
+   ]
   }
  ],
  "CACH": [
@@ -9594,12 +9952,12 @@
    "den": "w-lucdia",
    "nam": 1900,
    "loai": "thầy trò",
-   "nhan": "mot",
+   "nhan": "da",
    "src": [
-    "hirsch2|tr. 536",
-    "pp"
+    "sepBrentano|§1, §7.1",
+    "hirsch2|tr. 536"
    ],
-   "noi": "Husserl học Brentano ở Vienna; khái niệm tính ý hướng của Brentano là điểm xuất phát của Những nghiên cứu logic. Nguồn đã đọc chỉ xếp Brentano và trường phái Áo cạnh nhau; quan hệ thầy trò theo hiểu biết của Claude."
+   "noi": "Huemer (SEP): sau năm 1880 Husserl và Twardowski học với Brentano."
   },
   {
    "tu": "w-lucdia",
