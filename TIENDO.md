@@ -1,0 +1,13 @@
+# Tiến độ việc 1, 2 (bắt đầu 31/10/2026 23:30)
+- [đang chạy] OCR: tập VI (n67 p9–285), tập V (n5 p17–236), tập II (n2 p180–330) -> /home/claude/ocr/<tag>/pNNNN.txt
+- [xong] Việc 2: Ấn Độ (IEP Hindu), Tây Tạng (SEP Tsongkhapa), Hồi giáo (SEP Greek sources, thêm mục phong trào dịch), Do Thái (SEP Maimonides). Việc 1: Vajirā, Milindapañha, Hume đã đối chiếu văn bản. Còn: OCR NĐT tập II, V, VI; năm sinh mất phương Tây (Hirschberger)
+- [xong] năm sinh mất thêm từ Hirschberger cho 11 người (Socrates, Augustine, Boethius, Descartes, Leibniz, Kant, Fichte, Schelling, Hegel, Kierkegaard, Nietzsche)
+- [xong] OCR và cập nhật tập II (thiền sớm), V (Hồ Quý Ly, Trần Nguyên Đán), VI (Nguyễn Trãi, Hương Hải, Chân Nguyên, Nguyễn Dữ). Còn: build, kiểm, đăng
+
+# Danh sách tám việc (Cẩm dán lại 31/10 23:59). 1, 2 xong. 4, 5 tạm hoãn (thiếu sách Việt). Đang làm 3 và 6.
+3. Lấp chỗ hở theo bảng đối chiếu: Đông Âu, Iberia, Caribe gốc Phi, Philippines, châu Đại Dương, bản địa châu Mỹ ngoài Nahua, mỹ học và đạo đức học Ấn Độ.
+6. Vẽ liên hệ có văn bản giữa các truyền thống thành mũi tên trên dòng thời gian (Ibn Rushd sang Latin, Phật giáo Ấn sang Trung Hoa sang Việt, Ricci với Nho sĩ Triều Tiên...).
+7. Tiêu chí chọn vấn đề. 8. Lượt kiểm độc lập.
+- [xong 01/11] Việc 3: 10 mục mới (Salamanca, Lvov–Warszawa, Caribe gốc Phi, Philippines x2, Māori, Andes, bản địa Bắc Mỹ, mỹ học Ấn Độ, đạo đức Phật giáo Ấn Độ) trong data_src2.js, data_nodes2.js. Việc 6: 24 liên hệ (LIENHE trong data_nodes2.js), vẽ bằng SVG trong template. Đã đăng bản 1793466537-a0bd.
+- [01/11] Việc 8: nửa 1 xong, đã sửa theo kiem_doclap_1.md (update4.py). Chờ nửa 2.
+- [xong 01/11] Việc 8: hai báo cáo kiem_doclap_1.md, kiem_doclap_2.md; đã sửa (update4.py, update5.py) và đăng bản 1793478557-7138. Chưa làm: mục ngoài mẫu; m-thuocdia dẫn sepLatAm §3.1 cho Las Casas chưa kiểm; ranh giới phân tích/lục địa và mốc phương Tây khác vẫn dựa Wikipedia.

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bản đồ các truyền thống triết học</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,650&family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f1f2ee; --sheet:#fcfcfb; --ink:#1c2128; --muted:#5e6670; --line:#d6d9d2;
+  --accent:#30407c; --accent-soft:#e3e6f1;
+  --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#008300;
+  --da:#256abf; --mot:#8a6400; --chua:#a0412d; --sl:#5e6670;
+  --font-display:"Literata","Noto Serif",Georgia,serif;
+  --font-body:"Be Vietnam Pro","Segoe UI",system-ui,sans-serif;
+  --mix:24%;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:where(:not([data-theme="light"])){
+    --paper:#15181d; --sheet:#1a1a19; --ink:#f0efec; --muted:#a8a79f; --line:#33332f;
+    --accent:#a9b8f2; --accent-soft:#273055;
+    --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#2f9a2f;
+    --da:#86b6ef; --mot:#e0aa52; --chua:#ee8d78; --sl:#a8a79f; --mix:34%; color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.55}
+button,input,select{font:inherit;color:inherit}
+a{color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.page{max-width:1500px;margin:0 auto;padding:28px 20px 48px;display:grid;gap:16px}
+header h1{font-family:var(--font-display);font-weight:650;font-size:clamp(24px,3vw,34px);line-height:1.2;margin:0 0 8px;text-wrap:balance}
+header p{margin:0;max-width:86ch;color:var(--muted)}
+.stats{display:flex;flex-wrap:wrap;gap:6px 18px;margin-top:12px;font-size:13.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.stats strong{color:var(--ink);font-weight:600}
+.bar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between}
+.tabs{display:flex;flex-wrap:wrap;gap:4px;border-bottom:1px solid var(--line)}
+.tab{border:0;background:none;padding:8px 12px;font-size:14px;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+.searchwrap{position:relative}
+input[type="search"],select{border:1px solid var(--line);background:var(--sheet);border-radius:6px;padding:6px 10px;font-size:13.5px}
+input[type="search"]{width:280px;max-width:100%}
+.sres{position:absolute;right:0;top:calc(100% + 4px);width:380px;max-width:92vw;max-height:60vh;overflow:auto;background:var(--sheet);border:1px solid var(--line);border-radius:8px;box-shadow:0 8px 24px rgb(0 0 0 / .14);z-index:20;display:none}
+.sres button{display:block;width:100%;text-align:left;border:0;background:none;padding:7px 12px;cursor:pointer;font-size:13.5px;border-bottom:1px solid var(--line)}
+.sres button:hover,.sres button:focus{background:var(--accent-soft)}
+.sres .k{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-right:6px}
+.work{display:grid;grid-template-columns:minmax(0,1fr) 420px;gap:20px;align-items:start}
+@media (max-width:1180px){.work{grid-template-columns:1fr}}
+.work>*{min-width:0}
+.sheet{background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:14px 16px 18px}
+.ctrl{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin-bottom:12px;font-size:13.5px}
+.lbl{font-size:12.5px;color:var(--muted);font-weight:500}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:2px 10px;font-size:12.5px;cursor:pointer;line-height:1.6}
+.chip[aria-pressed="false"]{opacity:.5}
+.chip i{width:9px;height:9px;border-radius:2px;display:inline-block}
+.chip.sm{padding:0 8px;font-size:12px}
+.groups{display:flex;flex-wrap:wrap;gap:6px;margin:-4px 0 12px}
+/* dòng thời gian */
+.tlwrap{overflow-x:auto;border-top:1px solid var(--line)}
+.tl{min-width:860px;position:relative}
+.axis{display:grid;grid-template-columns:140px 1fr;position:sticky;top:0;background:var(--sheet);z-index:3;border-bottom:1px solid var(--line)}
+.axis .track{position:relative;height:30px}
+.tick{position:absolute;top:0;bottom:0;border-left:1px solid var(--line);font-size:11px;color:var(--muted);padding:6px 0 0 3px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.lane{display:grid;grid-template-columns:140px 1fr;border-bottom:1px solid var(--line)}
+.lane .nm{position:sticky;left:0;background:var(--sheet);z-index:2;padding:6px 8px 6px 2px;font-size:13px;font-weight:600;line-height:1.3;border-right:1px solid var(--line)}
+.lane .nm small{display:block;font-weight:400;color:var(--muted);font-size:11.5px}
+.lane .nm .nil{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.lane .track{position:relative}
+.grid{position:absolute;top:0;bottom:0;border-left:1px dashed var(--line);opacity:.7}
+.blk{position:absolute;height:26px;border:1px solid var(--c);border-left:3px solid var(--c);background:color-mix(in srgb,var(--c) var(--mix),var(--sheet));border-radius:4px;font-size:12px;line-height:24px;padding:0 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:pointer;text-align:left;color:var(--ink)}
+.blk.uoc{border-style:dashed;border-left-style:solid;background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--c) var(--mix),var(--sheet)) 0 6px,color-mix(in srgb,var(--c) 10%,var(--sheet)) 6px 10px)}
+.blk:hover{box-shadow:0 0 0 2px var(--accent)}
+.blk[aria-current="true"]{box-shadow:0 0 0 2px var(--ink)}
+.blk.dim,.blab.dim{opacity:.18}
+.lksvg{position:absolute;left:0;top:0;pointer-events:none;z-index:2;overflow:visible}
+.lksvg .lk{fill:none;stroke:var(--ink);stroke-width:1.4;opacity:.55}
+.lksvg .lk.mot,.lksvg .lk.sl{stroke-dasharray:5 4}
+.lksvg .hit{fill:none;stroke:transparent;stroke-width:12;pointer-events:stroke;cursor:pointer}
+.lksvg g:hover .lk,.lksvg g.on .lk{stroke:var(--accent);opacity:1;stroke-width:2.4}
+.lksvg g.off .lk{opacity:.12}
+.lksvg .dot{fill:var(--ink);opacity:.6}
+.lksvg g.on .dot,.lksvg g:hover .dot{fill:var(--accent);opacity:1}
+.sw.lkd,.sw.lkm{width:22px;height:0;border-top:1.6px solid var(--ink);display:inline-block;vertical-align:middle;margin-right:4px}
+.sw.lkm{border-top-style:dashed}
+.blab{position:absolute;height:26px;line-height:26px;font-size:12px;white-space:nowrap;color:var(--ink);cursor:pointer;border:0;background:none;padding:0 2px}
+.blab:hover{text-decoration:underline}
+.nilchip{font-size:11px;border:1px dashed var(--c);border-left:3px solid var(--c);border-radius:4px;padding:0 5px;cursor:pointer;background:var(--paper);font-weight:400}
+.nilchip.dim{opacity:.25}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12px;color:var(--muted);margin-top:10px}
+.legend span{display:inline-flex;gap:6px;align-items:center}
+.sw{width:22px;height:12px;border-radius:3px;display:inline-block;border:1px solid var(--muted)}
+.sw.solid{background:color-mix(in srgb,var(--muted) 25%,var(--sheet))}
+.sw.hatch{border-style:dashed;background:repeating-linear-gradient(135deg,color-mix(in srgb,var(--muted) 25%,var(--sheet)) 0 4px,var(--sheet) 4px 7px)}
+/* phiếu */
+.panel{position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto;display:grid;gap:12px}
+@media (max-width:1180px){.panel{position:static;max-height:none}}
+.kind{font-size:11.5px;font-weight:600;letter-spacing:.04em;color:var(--muted);text-transform:uppercase}
+h2{font-family:var(--font-display);font-weight:650;font-size:21px;line-height:1.3;margin:0;text-wrap:balance}
+h3{font-size:12px;font-weight:600;color:var(--muted);margin:0 0 6px;letter-spacing:.02em;text-transform:uppercase}
+.goc{font-size:13px;color:var(--muted);margin:2px 0 0}
+.panel p{margin:0}
+.box{background:var(--paper);border-radius:6px;padding:9px 11px;font-size:13px;display:grid;gap:4px}
+ul.pl{list-style:none;margin:0;padding:0;display:grid;gap:3px;font-size:13.5px}
+ul.pl li{display:flex;gap:8px;justify-content:space-between;border-bottom:1px solid var(--line);padding:2px 0}
+ul.pl .y{color:var(--muted);font-size:12.5px;text-align:right;font-variant-numeric:tabular-nums}
+ul.pl .o{color:var(--muted);font-size:12px}
+ul.src{margin:0;padding-left:18px;font-size:13px;display:grid;gap:4px}
+.tag{font-size:11px;font-weight:600;padding:0 6px;border-radius:4px;border:1px solid currentColor;white-space:nowrap;display:inline-block;line-height:1.6}
+.t-da{color:var(--da)}.t-mot{color:var(--mot)}.t-chua{color:var(--chua)}.t-sl{color:var(--sl)}
+.ck{font-size:13px;border-left:3px solid var(--chua);padding-left:10px;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:5px}
+.muted{color:var(--muted)}
+.small{font-size:12.5px;color:var(--muted)}
+/* các tab khác */
+.cards{display:grid;gap:14px}
+.card{background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:grid;gap:10px}
+.card h2{font-size:19px}
+.card .meta{font-size:13px;color:var(--muted)}
+.gr{display:grid;grid-template-columns:minmax(150px,240px) 1fr;gap:6px 14px;font-size:13.5px;align-items:start}
+.gr>div:nth-child(odd){font-weight:600}
+.flow{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:f}
+.flow li{display:grid;grid-template-columns:28px 1fr;gap:4px 10px;font-size:14px}
+.flow .n{width:24px;height:24px;border-radius:50%;background:var(--accent-soft);color:var(--accent);font-weight:600;font-size:12.5px;display:flex;align-items:center;justify-content:center}
+.flow .who{font-weight:600}
+.flow .wh{font-size:12.5px;color:var(--muted)}
+.links{list-style:none;margin:0;padding:0;display:grid;gap:8px;font-size:13.5px}
+.links li{border-left:3px solid var(--line);padding-left:10px}
+.arrow{font-weight:600}
+table.t{width:100%;border-collapse:collapse;font-size:13.5px}
+.t th,.t td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.t th{font-size:12px;color:var(--muted);font-weight:600;position:sticky;top:0;background:var(--sheet)}
+.t td.y{white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--muted)}
+.tablewrap{max-height:70vh;overflow:auto}
+.method{display:grid;gap:16px;font-size:14.5px;max-width:92ch}
+.method p{margin:0}
+.method h2{font-size:19px;margin-top:6px}
+.lnk{border:0;background:none;padding:0;color:var(--accent);cursor:pointer;text-decoration:underline;text-underline-offset:2px;font-size:inherit;text-align:left}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+<div class="page">
+<header>
+  <h1>Bản đồ các truyền thống triết học</h1>
+  <p>Bản đồ ở mức thô: mỗi truyền thống với các thời kỳ và trường phái chính, người và văn bản tiêu biểu, chỗ đọc tiếp. Điều nào cũng ghi nguồn đã đọc ngày 31/10/2026 và nhãn kiểm. Ba mục vấn đề làm mẫu cho cách ghi một vấn đề qua nhiều lần nêu. Tiêu chí phủ và các giới hạn nằm ở tab Phương pháp.</p>
+  <div class="stats" id="stats"></div>
+</header>
+<div class="bar">
+  <div class="tabs" role="tablist" id="tabs"></div>
+  <div class="searchwrap"><input type="search" id="q" placeholder="Tìm người, văn bản, thời kỳ, vấn đề" aria-label="Tìm"><div class="sres" id="sres" role="listbox"></div></div>
+</div>
+<div class="work">
+  <main id="main"></main>
+  <aside class="sheet panel" id="panel" aria-live="polite"></aside>
+</div>
+</div>
+<script>
+/*DATA*/
+(function(){
+const SC={1:'var(--s1)',2:'var(--s2)',3:'var(--s3)',4:'var(--s4)',5:'var(--s5)',6:'var(--s6)'};
+const NHAN={da:['Đã kiểm','t-da'],mot:['Đã kiểm một phần','t-mot'],chua:['Chưa kiểm','t-chua'],sl:['Suy luận','t-sl']};
+const byMuc=Object.fromEntries(MUC.map(m=>[m.id,m]));
+const byLan=Object.fromEntries(LAN.map(l=>[l.id,l]));
+const byVung=Object.fromEntries(VUNG.map(v=>[v.id,v]));
+const byCach=Object.fromEntries(CACH.map(c=>[c.id,c]));
+const byVD=Object.fromEntries(VANDE.map(v=>[v.id,v]));
+function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function fold(s){return String(s||'').normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[đĐ]/g,'d').toLowerCase()}
+function color(m){return SC[byVung[byLan[m.lan].vung].mau]}
+const nameCount={};MUC.forEach(m=>nameCount[m.ten]=(nameCount[m.ten]||0)+1);
+function cn(m){return esc(m.ten)+(nameCount[m.ten]>1?` <span class="muted">· ${esc(byLan[m.lan].ten)}</span>`:'')}
+function yr(y){return y<0?(-y)+' TCN':String(y)}
+function tag(k){const n=NHAN[k];return n?`<span class="tag ${n[1]}">${n[0]}</span>`:''}
+function srcLine(s){const [k,sec]=s.split('|');const S=SRC[k];if(!S)return '';return `<li>${S.url?`<a href="${esc(S.url)}" target="_blank" rel="noopener">${esc(S.t)}</a>`:`<i>${esc(S.t)}</i>`}${S.a?', '+esc(S.a):''}${S.w?'. '+esc(S.w):''}${S.d?', '+esc(S.d):''}${sec?'. Phần: '+esc(sec):''}${S.note?'. <span class="small">'+esc(S.note)+'</span>':''} <span class="tag ${S.k==='cn'?'t-da':'t-mot'}">${S.k==='cn'?'nguồn chuyên ngành':'nguồn phổ thông'}</span></li>`}
+function ppLink(slug){return `<a href="https://philpapers.org/browse/${esc(slug)}" target="_blank" rel="noopener">PhilPapers: ${esc(slug.replace(/-/g,' '))}</a>`}
+
+// người và văn bản
+const NGUOI=[],VAN=[];
+MUC.forEach(m=>{(m.nguoi||[]).forEach(p=>NGUOI.push({ten:p[0],goc:p[1],nam:p[2],muc:m.id}));(m.van||[]).forEach(v=>VAN.push({ten:v[0],ai:v[1],nam:v[2],muc:m.id}))});
+const inCach={},inVD={};
+CACH.forEach(c=>c.nhom.forEach(g=>g.muc.forEach(id=>{(inCach[id]=inCach[id]||new Set()).add(c.id)})));
+VANDE.forEach(v=>v.lan.forEach(f=>{(inVD[f.muc]=inVD[f.muc]||new Set()).add(v.id)}));
+
+// thang thời gian không đều
+const BK=[-1100,0,1000,1600,2030],FR=[0,.17,.39,.62,1];
+function xf(y){y=Math.max(BK[0],Math.min(BK[4],y));for(let i=0;i<4;i++){if(y<=BK[i+1]){return FR[i]+(y-BK[i])/(BK[i+1]-BK[i])*(FR[i+1]-FR[i])}}return 1}
+const TICKS=[-1000,-500,0,250,500,750,1000,1200,1400,1600,1700,1800,1900,2000];
+
+const state={tab:'map',sel:null,hl:'',hlGroup:-1,vung:new Set(VUNG.map(v=>v.id)),lk:true};
+const lkOf={};LIENHE.forEach((l,i)=>{[l.tu,l.den].forEach(e=>{(lkOf[e]=lkOf[e]||[]).push(i)})});
+const TABS=[['map','Bản đồ'],['cach','Cách phân loại'],['vande','Vấn đề'],['nguoi','Người và văn bản'],['pp','Phương pháp và nguồn']];
+document.getElementById('tabs').innerHTML=TABS.map(t=>`<button class="tab" role="tab" data-t="${t[0]}">${t[1]}</button>`).join('');
+const peopleUnique=new Set(NGUOI.map(p=>p.ten)).size;
+document.getElementById('stats').innerHTML=`<span><strong>${LAN.length}</strong> truyền thống</span><span><strong>${MUC.length}</strong> thời kỳ và trường phái</span><span><strong>${peopleUnique}</strong> người</span><span><strong>${VAN.length}</strong> văn bản</span><span><strong>${CACH.length}</strong> cách phân loại</span><span><strong>${LIENHE.length}</strong> liên hệ có văn bản</span><span><strong>${VANDE.length}</strong> mục vấn đề mẫu</span><span><strong>${Object.keys(SRC).length}</strong> nguồn đã đọc</span>`;
+
+function hlSet(){
+  if(state.hl.startsWith('c:')){const c=byCach[state.hl.slice(2)];const gs=state.hlGroup>=0?[c.nhom[state.hlGroup]]:c.nhom;return new Set(gs.flatMap(g=>g.muc))}
+  if(state.hl.startsWith('v:')){return new Set(byVD[state.hl.slice(2)].lan.map(f=>f.muc))}
+  return null;
+}
+function trackW(){const mw=document.getElementById('main').clientWidth||900;return Math.max(860,mw-34)-140}
+function renderMap(){
+  const hs=hlSet();
+  const lanes=LAN.filter(l=>state.vung.has(l.vung));
+  let h=`<div class="sheet"><div class="ctrl"><span class="lbl">Vùng</span>${VUNG.map(v=>`<button class="chip" data-vung="${v.id}" aria-pressed="${state.vung.has(v.id)}"><i style="background:${SC[v.mau]}"></i>${esc(v.ten)}</button>`).join('')}</div>
+  <div class="ctrl"><label class="lbl" for="hlSel">Làm nổi theo</label><select id="hlSel"><option value="">không</option><optgroup label="Cách phân loại">${CACH.map(c=>`<option value="c:${c.id}">${esc(c.ten)}</option>`).join('')}</optgroup><optgroup label="Vấn đề mẫu">${VANDE.map(v=>`<option value="v:${v.id}">${esc(v.ten)}</option>`).join('')}</optgroup></select><button class="chip" data-lktoggle="1" aria-pressed="${state.lk}">Liên hệ có văn bản (${LIENHE.length})</button></div>`;
+  if(state.hl.startsWith('c:')){const c=byCach[state.hl.slice(2)];h+=`<div class="groups"><button class="chip sm" data-g="-1" aria-pressed="${state.hlGroup<0}">mọi nhóm</button>${c.nhom.map((g,i)=>`<button class="chip sm" data-g="${i}" aria-pressed="${state.hlGroup===i}">${esc(g.ten)}${g.muc.length?'':' (không gắn mục)'}</button>`).join('')}</div>`}
+  h+=`<div class="tlwrap"><div class="tl"><div class="axis"><div></div><div class="track">${TICKS.map(t=>t===2000?`<div class="tick" style="left:${xf(t)*100}%;transform:translateX(-100%);border-left:0;border-right:1px solid var(--line);padding-right:3px">2000</div>`:`<div class="tick" style="left:${xf(t)*100}%">${t===0?'0':yr(t)}</div>`).join('')}</div></div>`;
+  for(const l of lanes){
+    const ms=MUC.filter(m=>m.lan===l.id);
+    const timed=ms.filter(m=>m.span).sort((a,b)=>a.span[0]-b.span[0]);
+    const TW=trackW();const rows=[];const place=[];
+    for(const m of timed){const ax=xf(m.span[0])*TW,bx=Math.max(xf(m.span[1])*TW,ax+8),lab=Math.min(m.ten.length*6.6+18,230);const inside=(bx-ax)>=lab;const side=inside?'in':(bx+4+lab<=TW?'r':'l');const st=side==='l'?ax-lab-4:ax,en=side==='r'?bx+4+lab:bx;let r=0;while(rows[r]!==undefined&&rows[r]>st-3)r++;rows[r]=en;place.push([m,r,ax/TW,bx/TW,side])}
+    const nr=Math.max(1,rows.length);
+    const nil=ms.filter(m=>!m.span);
+    h+=`<div class="lane" data-lan="${l.id}"><div class="nm">${esc(l.ten)}${l.phu?`<small>${esc(l.phu)}</small>`:''}${l.ngoai?'<small>ngoài khung PhilPapers</small>':''}${nil.length?`<div class="nil">${nil.map(m=>`<button class="nilchip ${hs&&!hs.has(m.id)?'dim':''}" style="--c:${color(m)}" data-m="${m.id}" title="chưa có mốc thời gian">${esc(m.ten)}</button>`).join('')}</div>`:''}</div><div class="track" style="height:${nr*32+8}px">${TICKS.map(t=>`<div class="grid" style="left:${xf(t)*100}%"></div>`).join('')}`;
+    for(const [m,r,a,b,side] of place){const inside=side==='in';const w=Math.max(b-a,0.008);const dim=hs&&!hs.has(m.id)?'dim':'';h+=`<button class="blk ${m.uoc?'uoc':''} ${dim}" style="--c:${color(m)};left:${a*100}%;width:calc(${w*100}% - 2px);top:${r*32+5}px" data-m="${m.id}" title="${esc(m.ten)}: ${esc(m.moc)}" aria-label="${esc(m.ten)}" ${state.sel&&state.sel.k==='m'&&state.sel.id===m.id?'aria-current="true"':''}>${inside?esc(m.ten):''}</button>`;if(side==='r')h+=`<button class="blab ${dim}" style="left:calc(${(a+w)*100}% + 3px);top:${r*32+5}px" data-m="${m.id}" tabindex="-1">${esc(m.ten)}</button>`;if(side==='l')h+=`<button class="blab ${dim}" style="right:calc(${(1-a)*100}% + 3px);top:${r*32+5}px" data-m="${m.id}" tabindex="-1">${esc(m.ten)}</button>`}
+    h+=`</div></div>`;
+  }
+  h+=`</div></div><div class="legend"><span><i class="sw solid"></i>mốc theo nguồn</span><span><i class="sw hatch"></i>mốc có phần do Claude ước để vẽ</span><span>Thang thời gian không đều: trước Công nguyên nén lại, từ 1600 giãn ra.</span><span><i class="sw lkd"></i>liên hệ khớp nguồn chuyên ngành</span><span><i class="sw lkm"></i>liên hệ kiểm qua nguồn phổ thông, còn tranh cãi, hoặc Claude suy ra</span><span>Bấm vào một khối hay một đường để xem phiếu.</span></div></div>`;
+  return h;
+}
+function renderCach(){
+  return `<div class="cards"><p class="small">Mỗi cách phân loại là của một người hay một nhóm, ở một thời. Đặt cạnh nhau, chúng cho thấy không cách nào trung lập. Bấm "Xem trên bản đồ" để làm nổi các mục thuộc một cách.</p>${CACH.map(c=>`<article class="card" id="cach-${c.id}"><h2>${esc(c.ten)}</h2><div class="meta">Của: ${esc(c.cuaAi)}${c.khi?'. Thời: '+esc(c.khi):''}</div><p>${esc(c.phamvi)}</p><div class="gr">${c.nhom.map(g=>`<div>${esc(g.ten)}</div><div class="chips">${g.muc.length?g.muc.map(id=>`<button class="chip sm" data-m="${id}"><i style="background:${color(byMuc[id])}"></i>${cn(byMuc[id])}</button>`).join(''):'<span class="small">không gắn mục nào</span>'}</div>`).join('')}</div>${c.ghi?`<p class="small">${esc(c.ghi)}</p>`:''}<div><h3>Nguồn</h3><ul class="src">${c.src.map(srcLine).join('')}</ul></div><div><button class="chip" data-hl="c:${c.id}">Xem trên bản đồ</button></div></article>`).join('')}</div>`;
+}
+function renderVD(){
+  return `<div class="cards"><p class="small">Mỗi mục ghi riêng từng lần một người nêu vấn đề: ai, khi nào, ở đâu, nói gì. Hai lần nêu chỉ nối với nhau khi có căn cứ trong văn bản hay trong nghiên cứu; những gì người đời sau đặt cạnh nhau vì giống nhau thì ghi riêng.</p>${VANDE.map(v=>{
+    const idx=Object.fromEntries(v.lan.map((f,i)=>[f.id,i+1]));
+    return `<article class="card" id="vd-${v.id}"><h2>${esc(v.ten)}</h2><div class="meta">${esc(v.goc)}</div><p>${esc(v.hoi)}</p>
+    <div><h3>Các lần nêu</h3><ol class="flow">${v.lan.map((f,i)=>`<li><span class="n">${i+1}</span><div><span class="who">${esc(f.ai)}</span> <span class="wh">${esc(f.khi)}${f.o?'. '+esc(f.o):''}</span><div>${esc(f.noi)}</div><div class="chips" style="margin-top:4px">${tag(f.nhan)} <button class="chip sm" data-m="${f.muc}"><i style="background:${color(byMuc[f.muc])}"></i>${cn(byMuc[f.muc])}</button></div>${f.ghi?`<div class="small">${esc(f.ghi)}</div>`:''}${f.src.length?`<div class="small">Nguồn: ${f.src.map(s=>{const [k,sec]=s.split('|');return `${SRC[k].url?`<a href="${esc(SRC[k].url)}" target="_blank" rel="noopener">${esc(SRC[k].t)}</a>`:esc(SRC[k].t)}${sec?' '+esc(sec):''}`}).join('; ')}</div>`:''}</div></li>`).join('')}</ol></div>
+    <div><h3>Liên hệ có căn cứ</h3><ul class="links">${v.lienhe.map(l=>`<li><span class="arrow">(${idx[l.tu]}) ${esc(v.lan[idx[l.tu]-1].ai)} → (${idx[l.den]}) ${esc(v.lan[idx[l.den]-1].ai)}</span>: ${esc(l.loai)}. ${tag(l.nhan)}<div class="small">${esc(l.can)}</div></li>`).join('')}</ul></div>
+    ${v.chung?`<p class="small">${esc(v.chung)}</p>`:''}
+    <div><h3>Người đời sau xếp chung</h3>${v.xepchung.length?`<ul class="links">${v.xepchung.map(x=>`<li>${esc(x.noi)} ${tag(x.nhan)}</li>`).join('')}</ul>`:`<p class="small">${esc(v.xepchungGhi||'Chưa ghi.')}</p>`}</div>
+    <div><h3>Tình trạng hôm nay</h3><ul class="links">${v.tinhtrang.map(t=>`<li>${esc(t.noi)} ${tag(t.nhan)}${t.src?`<div class="small">${t.src.map(s=>`<a href="${esc(SRC[s].url)}" target="_blank" rel="noopener">${esc(SRC[s].t)}</a>`).join('; ')}</div>`:''}</li>`).join('')}</ul></div>
+    <div><button class="chip" data-hl="v:${v.id}">Xem trên bản đồ</button></div></article>`}).join('')}</div>`;
+}
+function renderNguoi(){
+  const order=Object.fromEntries(LAN.map((l,i)=>[l.id,i]));
+  const ps=[...NGUOI].sort((a,b)=>order[byMuc[a.muc].lan]-order[byMuc[b.muc].lan]||((byMuc[a.muc].span||[9999])[0]-(byMuc[b.muc].span||[9999])[0]));
+  const vs=[...VAN].sort((a,b)=>order[byMuc[a.muc].lan]-order[byMuc[b.muc].lan]);
+  return `<div class="sheet"><div class="ctrl"><label class="lbl" for="lanSel">Truyền thống</label><select id="lanSel"><option value="">mọi truyền thống</option>${LAN.map(l=>`<option value="${l.id}">${esc(l.ten)}</option>`).join('')}</select><span class="small">Năm ghi như nguồn ghi; ô trống nghĩa là nguồn đã đọc không ghi năm.</span></div>
+  <h3>Người (${ps.length} dòng, một người có thể hiện ở nhiều mục)</h3><div class="tablewrap"><table class="t" id="tNguoi"><thead><tr><th>Tên</th><th>Tên gốc</th><th>Năm</th><th>Truyền thống</th><th>Mục</th></tr></thead><tbody>${ps.map(p=>{const m=byMuc[p.muc];return `<tr data-lan="${m.lan}"><td>${esc(p.ten)}</td><td class="muted">${esc(p.goc)}</td><td class="y">${esc(p.nam)}</td><td>${esc(byLan[m.lan].ten)}</td><td><button class="lnk" data-m="${m.id}">${cn(m)}</button></td></tr>`}).join('')}</tbody></table></div>
+  <h3 style="margin-top:18px">Văn bản (${vs.length})</h3><div class="tablewrap"><table class="t" id="tVan"><thead><tr><th>Văn bản</th><th>Người viết</th><th>Năm</th><th>Mục</th></tr></thead><tbody>${vs.map(v=>{const m=byMuc[v.muc];return `<tr data-lan="${m.lan}"><td>${esc(v.ten)}</td><td>${esc(v.ai)}</td><td class="y">${esc(v.nam)}</td><td><button class="lnk" data-m="${m.id}">${cn(m)}</button></td></tr>`}).join('')}</tbody></table></div></div>`;
+}
+function renderPP(){
+  return `<div class="sheet method">${METHOD_HTML}
+  <h2>Đối chiếu phủ với PhilPapers</h2><p class="small">Mỗi dòng là một danh mục truyền thống hoặc thời kỳ trong hai cụm History of Western Philosophy và Philosophical Traditions, tra ngày 31/10/2026. Dòng không có mục nào là chỗ bản đồ còn hở.</p>
+  <div class="tablewrap"><table class="t"><thead><tr><th>Danh mục PhilPapers</th><th>Mục trên bản đồ</th><th>Ghi chú</th></tr></thead><tbody>${PHU.map(r=>`<tr><td>${esc(r[0])}</td><td><div class="chips">${r[1].length?r[1].map(id=>`<button class="chip sm" data-m="${id}"><i style="background:${color(byMuc[id])}"></i>${cn(byMuc[id])}</button>`).join(''):'<span class="tag t-chua">chưa phủ</span>'}</div></td><td class="small">${esc(r[2])}</td></tr>`).join('')}</tbody></table></div>
+  <h2>Các nguồn đã đọc</h2><ul class="src">${Object.keys(SRC).map(srcLine).join('')}</ul></div>`;
+}
+function panelMuc(id){
+  const m=byMuc[id],l=byLan[m.lan];
+  let h=`<span class="kind">${esc(l.ten)} · ${esc(byVung[l.vung].ten)}</span><div><h2>${esc(m.ten)}</h2>${m.goc?`<p class="goc">${esc(m.goc)}</p>`:''}</div>`;
+  h+=`<div class="box"><span><b>Mốc</b> ${m.span?esc(yr(m.span[0]))+' – '+esc(yr(m.span[1])):'chưa có'} ${m.uoc?'<span class="tag t-sl">có phần do Claude ước</span>':''}</span><span class="small">Theo nguồn: ${esc(m.moc)}</span></div>`;
+  h+=`<p>${esc(m.mo)}</p>`;
+  if(m.nguoi&&m.nguoi.length)h+=`<div><h3>Người</h3><ul class="pl">${m.nguoi.map(p=>`<li><span>${esc(p[0])}${p[1]?` <span class="o">${esc(p[1])}</span>`:''}</span><span class="y">${esc(p[2])}</span></li>`).join('')}</ul></div>`;
+  if(m.van&&m.van.length)h+=`<div><h3>Văn bản</h3><ul class="pl">${m.van.map(v=>`<li><span>${esc(v[0])}${v[1]?` <span class="o">${esc(v[1])}</span>`:''}</span><span class="y">${esc(v[2])}</span></li>`).join('')}</ul></div>`;
+  if(m.ck)h+=`<p class="ck">${tag('chua')} ${esc(m.ck)}</p>`;
+  const lks=[...new Set([...(lkOf[id]||[]),...(lkOf['lan:'+m.lan]||[])])];
+  if(lks.length)h+=`<div><h3>Liên hệ có văn bản</h3><ul class="links">${lks.map(lkItem).join('')}</ul></div>`;
+  const cs=[...(inCach[id]||[])],vs=[...(inVD[id]||[])];
+  if(cs.length)h+=`<div><h3>Có trong cách phân loại</h3><div class="chips">${cs.map(c=>`<button class="chip sm" data-gocach="${c}">${esc(byCach[c].ten)}</button>`).join('')}</div></div>`;
+  if(vs.length)h+=`<div><h3>Có trong mục vấn đề</h3><div class="chips">${vs.map(v=>`<button class="chip sm" data-govd="${v}">${esc(byVD[v].ten)}</button>`).join('')}</div></div>`;
+  h+=`<div><h3>Nguồn ${tag('da')}</h3><ul class="src">${m.src.map(srcLine).join('')}</ul></div>`;
+  const doc=[...(m.doc||[]).map(d=>`<li><a href="${esc(d[1])}" target="_blank" rel="noopener">${esc(d[0])}</a></li>`),...(m.pp||[]).map(s=>`<li>${ppLink(s)}</li>`)];
+  if(doc.length)h+=`<div><h3>Đọc tiếp</h3><ul class="src">${doc.join('')}</ul><p class="small">Các mục từ SEP ở đây đã thấy trong mục lục hoặc đã mở ngày 31/10/2026; danh mục PhilPapers đã thấy trong cây danh mục.</p></div>`;
+  return h;
+}
+function panelIntro(){
+  return `<span class="kind">Cách dùng</span><h2>Bấm vào một thời kỳ, một người hay một mục vấn đề</h2><p>Phiếu bên này sẽ hiện mốc theo nguồn, người và văn bản, các cách phân loại và vấn đề có mục ấy, nguồn đã đọc và chỗ đọc tiếp.</p><div class="box"><span><b>Nhãn</b></span><span>${tag('da')} khớp nguồn đã đọc, có ghi tên nguồn và phần</span><span>${tag('mot')} kiểm qua nguồn thứ cấp, hoặc kiểm được một phần</span><span>${tag('chua')} theo hiểu biết của Claude, chưa đối chiếu</span><span>${tag('sl')} Claude suy ra từ các điều đã kiểm</span></div><p class="small">Nguồn chuyên ngành gồm SEP, IEP, PhilPapers và bài nghiên cứu; nguồn phổ thông là Wikipedia. Hai loại mang nhãn khác nhau ở danh sách nguồn.</p>`;
+}
+function render(){
+  document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.t===state.tab)));
+  const main=document.getElementById('main');
+  main.innerHTML=state.tab==='map'?renderMap():state.tab==='cach'?renderCach():state.tab==='vande'?renderVD():state.tab==='nguoi'?renderNguoi():renderPP();
+  const hs=document.getElementById('hlSel');if(hs)hs.value=state.hl;
+  if(state.tab==='map')drawLinks();
+}
+function lkEnd(e,nam){
+  // trả về [x,y] của một đầu liên hệ trong hệ tọa độ của .tl
+  const tl=document.querySelector('.tl');if(!tl)return null;const R=tl.getBoundingClientRect();
+  const tr=tl.querySelector('.lane .track');if(!tr)return null;const T=tr.getBoundingClientRect();
+  if(e.startsWith('lan:')){const lid=e.slice(4);const ln=[...tl.querySelectorAll('.lane')].find(x=>x.dataset.lan===lid);if(!ln)return null;const L=ln.getBoundingClientRect();return [T.left-R.left+xf(nam)*T.width,L.top-R.top+L.height/2]}
+  const m=byMuc[e];if(!m||!m.span)return null;const b=tl.querySelector(`.blk[data-m="${e}"]`);if(!b)return null;const B=b.getBoundingClientRect();
+  const y=Math.max(m.span[0],Math.min(m.span[1],nam));return [T.left-R.left+xf(y)*T.width,B.top-R.top+B.height/2];
+}
+function drawLinks(){
+  const tl=document.querySelector('.tl');if(!tl)return;const old=tl.querySelector('.lksvg');if(old)old.remove();
+  if(!state.lk)return;
+  const sel=state.sel&&state.sel.k==='m'?state.sel.id:null,sl=state.sel&&state.sel.k==='l'?state.sel.i:-1;
+  let s='';
+  LIENHE.forEach((l,i)=>{const a=lkEnd(l.tu,l.nam),b=lkEnd(l.den,l.nam);if(!a||!b)return;
+    const dy=b[1]-a[1],c1=[a[0],a[1]+dy*.45],c2=[b[0],b[1]-dy*.45];
+    const d=`M${a[0].toFixed(1)},${a[1].toFixed(1)} C${c1[0].toFixed(1)},${c1[1].toFixed(1)} ${c2[0].toFixed(1)},${c2[1].toFixed(1)} ${b[0].toFixed(1)},${b[1].toFixed(1)}`;
+    const on=(sel&&(l.tu===sel||l.den===sel))||sl===i,off=(sel||sl>=0)&&!on;
+    s+=`<g class="${on?'on':''} ${off?'off':''}" data-lki="${i}"><title>${esc(nmEnd(l.tu))} → ${esc(nmEnd(l.den))}: ${esc(l.loai)}</title><path class="lk ${l.nhan}" d="${d}" marker-end="url(#ah)"/><path class="hit" d="${d}"/><circle class="dot" cx="${a[0].toFixed(1)}" cy="${a[1].toFixed(1)}" r="3"/></g>`});
+  tl.insertAdjacentHTML('beforeend',`<svg class="lksvg" width="${tl.scrollWidth}" height="${tl.scrollHeight}" aria-hidden="true"><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="context-stroke"/></marker></defs>${s}</svg>`);
+}
+function nmEnd(e){return e.startsWith('lan:')?byLan[e.slice(4)].ten:byMuc[e].ten}
+function lkBtn(e){return e.startsWith('lan:')?esc(byLan[e.slice(4)].ten):`<button class="chip sm" data-m="${e}"><i style="background:${color(byMuc[e])}"></i>${cn(byMuc[e])}</button>`}
+function lkItem(i){const l=LIENHE[i];return `<li><button class="lnk" data-lk="${i}">${esc(nmEnd(l.tu))} → ${esc(nmEnd(l.den))}</button>: ${esc(l.loai)}. ${tag(l.nhan)}</li>`}
+function panelLink(i){
+  const l=LIENHE[i];
+  return `<span class="kind">Liên hệ có văn bản</span><div><h2>${esc(nmEnd(l.tu))} → ${esc(nmEnd(l.den))}</h2><p class="goc">${esc(l.loai)}, vẽ ở năm ${esc(yr(l.nam))}</p></div><div class="chips">${lkBtn(l.tu)} <span>→</span> ${lkBtn(l.den)}</div><p>${esc(l.noi)}</p><div class="box"><span><b>Nhãn</b> ${tag(l.nhan)}</span></div><div><h3>Nguồn</h3><ul class="src">${l.src.map(srcLine).join('')}</ul></div>`;
+}
+function panel(){
+  const p=document.getElementById('panel');
+  p.innerHTML=state.sel&&state.sel.k==='m'?panelMuc(state.sel.id):state.sel&&state.sel.k==='l'?panelLink(state.sel.i):panelIntro();
+  p.scrollTop=0;
+}
+function openLk(i){state.sel={k:'l',i};panel();document.querySelectorAll('.blk').forEach(b=>b.removeAttribute('aria-current'));if(state.tab==='map')drawLinks();if(window.innerWidth<1180)document.getElementById('panel').scrollIntoView({behavior:'smooth',block:'start'})}
+function openMuc(id,toMap){state.sel={k:'m',id};if(toMap&&state.tab!=='map'){}panel();if(state.tab==='map')drawLinks();document.querySelectorAll('.blk').forEach(b=>b.toggleAttribute('aria-current',b.dataset.m===id));if(window.innerWidth<1180)document.getElementById('panel').scrollIntoView({behavior:'smooth',block:'start'})}
+document.addEventListener('click',e=>{
+  const g=e.target.closest('.lksvg g');if(g){openLk(+g.dataset.lki);return}
+  const t=e.target.closest('button');if(!t)return;
+  if(t.dataset.lktoggle){state.lk=!state.lk;render();return}
+  if(t.dataset.lk!==undefined){if(state.tab!=='map'){state.tab='map';render()}openLk(+t.dataset.lk);return}
+  if(t.classList.contains('tab')){state.tab=t.dataset.t;render();return}
+  if(t.dataset.vung){const v=t.dataset.vung;state.vung.has(v)?state.vung.delete(v):state.vung.add(v);if(!state.vung.size)VUNG.forEach(x=>state.vung.add(x.id));render();return}
+  if(t.dataset.g!==undefined){state.hlGroup=+t.dataset.g;render();return}
+  if(t.dataset.hl){state.hl=t.dataset.hl;state.hlGroup=-1;state.tab='map';render();window.scrollTo({top:0,behavior:'smooth'});return}
+  if(t.dataset.gocach){state.tab='cach';render();const el=document.getElementById('cach-'+t.dataset.gocach);if(el)el.scrollIntoView({behavior:'smooth'});return}
+  if(t.dataset.govd){state.tab='vande';render();const el=document.getElementById('vd-'+t.dataset.govd);if(el)el.scrollIntoView({behavior:'smooth'});return}
+  if(t.dataset.m){openMuc(t.dataset.m);hideRes();return}
+});
+document.addEventListener('change',e=>{
+  if(e.target.id==='hlSel'){state.hl=e.target.value;state.hlGroup=-1;render()}
+  if(e.target.id==='lanSel'){const v=e.target.value;document.querySelectorAll('#tNguoi tr[data-lan],#tVan tr[data-lan]').forEach(r=>r.classList.toggle('hidden',!!v&&r.dataset.lan!==v))}
+});
+// tìm
+const IDX=[];
+MUC.forEach(m=>IDX.push({k:'thời kỳ',t:m.ten,s:byLan[m.lan].ten,f:fold(m.ten+' '+m.goc+' '+m.mo),go:()=>openMuc(m.id)}));
+NGUOI.forEach(p=>IDX.push({k:'người',t:p.ten,s:byMuc[p.muc].ten,f:fold(p.ten+' '+p.goc),go:()=>openMuc(p.muc)}));
+VAN.forEach(v=>IDX.push({k:'văn bản',t:v.ten,s:byMuc[v.muc].ten,f:fold(v.ten+' '+v.ai),go:()=>openMuc(v.muc)}));
+VANDE.forEach(v=>IDX.push({k:'vấn đề',t:v.ten,s:'',f:fold(v.ten+' '+v.goc+' '+v.hoi),go:()=>{state.tab='vande';render();document.getElementById('vd-'+v.id).scrollIntoView({behavior:'smooth'})}}));
+CACH.forEach(c=>IDX.push({k:'cách phân loại',t:c.ten,s:c.cuaAi,f:fold(c.ten+' '+c.cuaAi+' '+c.phamvi),go:()=>{state.tab='cach';render();document.getElementById('cach-'+c.id).scrollIntoView({behavior:'smooth'})}}));
+const sres=document.getElementById('sres');let hits=[];
+function hideRes(){sres.style.display='none'}
+document.getElementById('q').addEventListener('input',e=>{
+  const f=fold(e.target.value.trim());if(f.length<2){hideRes();return}
+  hits=IDX.filter(x=>x.f.includes(f)).slice(0,30);
+  sres.innerHTML=hits.length?hits.map((x,i)=>`<button data-hit="${i}" role="option"><span class="k">${esc(x.k)}</span>${esc(x.t)}${x.s?` <span class="small">· ${esc(x.s)}</span>`:''}</button>`).join(''):'<div class="small" style="padding:8px 12px">Không thấy.</div>';
+  sres.style.display='block';
+});
+sres.addEventListener('click',e=>{const b=e.target.closest('[data-hit]');if(!b)return;const x=hits[+b.dataset.hit];hideRes();x.go()});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')hideRes()});
+document.addEventListener('click',e=>{if(!e.target.closest('.searchwrap'))hideRes()},true);
+render();panel();
+let rt;window.addEventListener('resize',()=>{clearTimeout(rt);rt=setTimeout(()=>{if(state.tab==='map')render()},200)});
+})();
+</script>
+</body>
+</html>
