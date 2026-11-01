@@ -258,12 +258,6 @@
    "url": "https://www.gutenberg.org/ebooks/4705",
    "k": "cn"
   },
-  "wpWestern": {
-   "t": "Western philosophy",
-   "w": "Wikipedia tiếng Anh",
-   "url": "https://en.wikipedia.org/wiki/Western_philosophy",
-   "k": "pt"
-  },
   "wpIslamic": {
    "t": "Islamic philosophy",
    "w": "Wikipedia tiếng Anh",
@@ -904,6 +898,118 @@
    "d": "tra 01/11/2026",
    "k": "pt",
    "url": "https://en.wikipedia.org/wiki/Cheng_Weishi_Lun"
+  },
+  "sepMedieval": {
+   "t": "Medieval Philosophy",
+   "a": "John Marenbon",
+   "w": "SEP, bản sửa 19/12/2024",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/medieval-philosophy/"
+  },
+  "sepEnlight": {
+   "t": "Enlightenment",
+   "a": "William Bristow",
+   "w": "SEP, bản sửa 29/08/2017",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/enlightenment/"
+  },
+  "sepNeoKant": {
+   "t": "Neo-Kantianism",
+   "a": "Jeremy Heis",
+   "w": "SEP, 18/05/2018",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/neo-kantianism/"
+  },
+  "sepPrag": {
+   "t": "Pragmatism",
+   "a": "Christopher Hookway",
+   "w": "SEP, bản sửa 30/09/2024",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/pragmatism/"
+  },
+  "sepRussell": {
+   "t": "Bertrand Russell",
+   "a": "Andrew David Irvine",
+   "w": "SEP, bản sửa 15/10/2024",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/russell/"
+  },
+  "sepVienna": {
+   "t": "Vienna Circle",
+   "a": "Thomas Uebel",
+   "w": "SEP, bản sửa 07/05/2024",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/vienna-circle/"
+  },
+  "iepOLP": {
+   "t": "Ordinary Language Philosophy",
+   "a": "IEP",
+   "w": "Internet Encyclopedia of Philosophy",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://iep.utm.edu/ord-lang/"
+  },
+  "sepQuine": {
+   "t": "Willard Van Orman Quine",
+   "a": "Gary Kemp",
+   "w": "SEP, bản sửa 06/07/2023",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/quine/"
+  },
+  "sepKuhn": {
+   "t": "Thomas Kuhn",
+   "a": "Alexander Bird",
+   "w": "SEP, bản sửa 02/09/2025",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/thomas-kuhn/"
+  },
+  "sepPhen": {
+   "t": "Phenomenology",
+   "a": "David Woodruff Smith",
+   "w": "SEP, bản sửa 16/12/2013",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/phenomenology/"
+  },
+  "sepExist": {
+   "t": "Existentialism",
+   "a": "Kevin Aho",
+   "w": "SEP, 06/01/2023",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/existentialism/"
+  },
+  "sepCrit": {
+   "t": "Critical Theory",
+   "a": "Jeffrey Flynn",
+   "w": "SEP, 12/12/2023",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/critical-theory/"
+  },
+  "sepHerm": {
+   "t": "Hermeneutics",
+   "a": "Theodore George",
+   "w": "SEP, bản sửa 30/04/2025",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/hermeneutics/"
+  },
+  "sepFoucault": {
+   "t": "Michel Foucault",
+   "a": "Johanna Oksala",
+   "w": "SEP, bản sửa 21/04/2026",
+   "d": "tra 01/11/2026",
+   "k": "cn",
+   "url": "https://plato.stanford.edu/entries/foucault/"
   }
  },
  "VUNG": [
@@ -1017,9 +1123,8 @@
     -625,
     -400
    ],
-   "uoc": true,
-   "moc": "Thales khoảng 625 TCN, Pythagoras khoảng 570 TCN; mốc cuối do Claude ước.",
-   "mo": "Chặng mở đầu của triết học Hy Lạp, trước Socrates. Nguồn kể các nhà xứ Miletus, phái Pythagoras, Parmenides và Zeno xứ Elea, Heraclitus, Empedocles, Anaxagoras, các nhà nguyên tử, cùng các nhà ngụy biện.",
+   "moc": "Thales khoảng 625 TCN, Pythagoras khoảng 570 TCN (Hirschberger); mốc cuối do Claude ước.",
+   "mo": "Chặng mở đầu của triết học Hy Lạp, trước Socrates. PhilPapers chia: các nhà Miletus, phái Pythagoras, phái Elea, các nhà nguyên tử, các nhà ngụy biện, cùng Xenophanes, Heraclitus, Anaxagoras, Empedocles.",
    "nguoi": [
     [
      "Thales",
@@ -1042,6 +1147,16 @@
      "khoảng 570 TCN"
     ],
     [
+     "Xenophanes",
+     "",
+     ""
+    ],
+    [
+     "Heraclitus",
+     "",
+     ""
+    ],
+    [
      "Parmenides",
      "",
      ""
@@ -1052,7 +1167,7 @@
      ""
     ],
     [
-     "Heraclitus",
+     "Melissus",
      "",
      ""
     ],
@@ -1080,16 +1195,22 @@
      "Protagoras",
      "",
      "khoảng 481–411 TCN (Hirschberger)"
+    ],
+    [
+     "Gorgias",
+     "",
+     ""
     ]
    ],
+   "van": [],
    "src": [
     "hirsch1|tr. 31–78",
-    "wpWestern",
     "pp"
    ],
    "pp": [
     "pre-socratic-philosophy"
-   ]
+   ],
+   "uoc": true
   },
   {
    "id": "w-codien",
@@ -1101,12 +1222,12 @@
     -322
    ],
    "moc": "Hirschberger ghi Socrates sinh khoảng 470 TCN (tr. 79) và Aristotle mất năm 322 TCN (tr. 181); Socrates mất năm 399 TCN.",
-   "mo": "Xoay quanh Socrates, Plato với Học viện, Aristotle với phái Tiêu dao; cùng thời có các trường phái Megara, Eretria, phái Khuyển nho (Antisthenes) và phái Cyrene (Aristippus).",
+   "mo": "Socrates, Plato, Aristotle và các trường Socrates nhỏ. PhilPapers xếp thêm phái Khuyển nho, phái Cyrene, phái Megara, Học viện cũ.",
    "nguoi": [
     [
      "Socrates",
      "",
-     "sinh khoảng 470 TCN (Hirschberger), mất 399 TCN"
+     ""
     ],
     [
      "Plato",
@@ -1129,44 +1250,100 @@
      ""
     ],
     [
+     "Diogenes xứ Sinope",
+     "Diogenes of Sinope",
+     ""
+    ],
+    [
      "Aristippus",
      "",
+     ""
+    ],
+    [
+     "Speusippus",
+     "",
+     ""
+    ],
+    [
+     "Xenocrates",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Cộng hòa",
+     "Plato",
+     ""
+    ],
+    [
+     "Phaedo",
+     "Plato",
+     ""
+    ],
+    [
+     "Siêu hình học",
+     "Aristotle",
+     ""
+    ],
+    [
+     "Đạo đức học Nicomachus",
+     "Aristotle",
+     ""
+    ],
+    [
+     "Chính trị luận",
+     "Aristotle",
      ""
     ]
    ],
    "src": [
     "hirsch1|tr. 79–279",
-    "wpWestern",
     "pp"
    ],
    "pp": [
     "classical-greek-philosophy",
     "plato",
     "aristotle"
-   ]
+   ],
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
   },
   {
    "id": "w-hylaphoa",
    "lan": "tay",
-   "ten": "Hy Lạp hóa và La Mã",
-   "goc": "Hellenistic and Roman philosophy",
+   "ten": "Các trường phái Hy Lạp hóa và La Mã",
+   "goc": "Hellenistic schools",
    "span": [
     -322,
-    529
+    200
    ],
-   "uoc": true,
-   "moc": "Nguồn không ghi mốc; Claude ước để vẽ.",
-   "mo": "Các trường phái sau Aristotle: Khắc kỷ, Epicurus, hoài nghi Pyrrho và hoài nghi của Học viện, Trung kỳ Plato, Tân Plato. Phái Khắc kỷ chia triết học thành ba phần, logic, vật lý và đạo đức, và ví chúng với một sinh vật, một quả trứng, một cánh đồng màu mỡ.",
+   "moc": "Hirschberger tr. 280–332. Mốc đầu là năm Aristotle mất; mốc cuối do Claude ước theo Sextus Empiricus (khoảng năm 200).",
+   "mo": "Khắc kỷ, Epicurus, hoài nghi Học viện và phái Pyrrho, kéo sang La Mã với Lucretius, Cicero, Seneca, Epictetus, Marcus Aurelius.",
    "nguoi": [
     [
      "Zeno xứ Citium",
      "Zeno of Citium",
-     "khoảng 300 TCN (Hirschberger)"
+     ""
+    ],
+    [
+     "Cleanthes",
+     "",
+     ""
+    ],
+    [
+     "Chrysippus",
+     "",
+     ""
     ],
     [
      "Epicurus",
      "",
-     "341–270 TCN (Hirschberger)"
+     ""
+    ],
+    [
+     "Lucretius",
+     "",
+     ""
     ],
     [
      "Pyrrho",
@@ -1179,7 +1356,92 @@
      ""
     ],
     [
+     "Carneades",
+     "",
+     ""
+    ],
+    [
+     "Cicero",
+     "",
+     ""
+    ],
+    [
+     "Seneca",
+     "",
+     ""
+    ],
+    [
+     "Epictetus",
+     "",
+     ""
+    ],
+    [
+     "Marcus Aurelius",
+     "",
+     ""
+    ],
+    [
+     "Sextus Empiricus",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Về bản tính sự vật",
+     "Lucretius",
+     ""
+    ],
+    [
+     "Suy tưởng",
+     "Marcus Aurelius",
+     ""
+    ],
+    [
+     "Phác thảo Pyrrho",
+     "Sextus Empiricus",
+     ""
+    ]
+   ],
+   "src": [
+    "hirsch1|tr. 280–332",
+    "sepStoic|§1.2",
+    "pp"
+   ],
+   "pp": [
+    "hellenistic-and-later-ancient-philosophy",
+    "stoics",
+    "epicureans",
+    "academic-skeptics",
+    "pyrrhonists"
+   ],
+   "uoc": true,
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-tanplaton",
+   "lan": "tay",
+   "ten": "Trung kỳ Plato và Tân Plato",
+   "goc": "Middle Platonism and Neoplatonism",
+   "span": [
+    -80,
+    529
+   ],
+   "moc": "Hirschberger chương 12 (tr. 333–350): gốc từ phái Pythagoras mới, Philo xứ Alexandria, Ammonius Saccas, Plotinus, Proclus. Marenbon (SEP) lấy Plotinus (mất 270) và Porphyry làm gốc chung của bốn nhánh triết học trung đại. Mốc đầu và mốc 529 do Claude ước.",
+   "mo": "Các nhà diễn giải Plato từ thế kỷ I TCN, rồi Plotinus và các trường Tân Plato ở Athens và Alexandria, cùng các nhà chú giải Aristotle cuối thời cổ.",
+   "nguoi": [
+    [
      "Antiochus xứ Ascalon",
+     "Antiochus of Ascalon",
+     ""
+    ],
+    [
+     "Philo xứ Alexandria",
+     "Philo of Alexandria",
+     ""
+    ],
+    [
+     "Plutarch",
      "",
      ""
     ],
@@ -1191,46 +1453,156 @@
     [
      "Plotinus",
      "",
-     "204–269 (Hirschberger)"
+     "mất 270 (Marenbon)"
+    ],
+    [
+     "Porphyry",
+     "",
+     ""
+    ],
+    [
+     "Iamblichus",
+     "",
+     ""
+    ],
+    [
+     "Hypatia",
+     "",
+     ""
+    ],
+    [
+     "Proclus",
+     "",
+     ""
+    ],
+    [
+     "Damascius",
+     "",
+     ""
+    ],
+    [
+     "Simplicius",
+     "",
+     ""
+    ],
+    [
+     "John Philoponus",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Enneads",
+     "Plotinus",
+     ""
     ]
    ],
    "src": [
-    "hirsch1|tr. 280–352",
-    "wpWestern",
-    "sepStoic|§1.2",
+    "hirsch1|tr. 333–350",
+    "sepMedieval|§1.2",
     "pp"
    ],
    "pp": [
-    "hellenistic-and-later-ancient-philosophy"
-   ]
+    "middle-platonists",
+    "neoplatonists"
+   ],
+   "uoc": true
   },
   {
-   "id": "w-trungdai",
+   "id": "w-trungdaisom",
    "lan": "tay",
-   "ten": "Trung đại Latin",
-   "goc": "Medieval philosophy",
+   "ten": "Giáo phụ và trung đại sơ kỳ Latin",
+   "goc": "Patristics and early medieval Latin philosophy",
    "span": [
-    400,
-    1500
+    150,
+    1000
    ],
-   "uoc": true,
-   "moc": "Nguồn tả là từ khi Đế quốc La Mã Kitô hóa tới thời Phục hưng, không ghi năm; phương pháp kinh viện kéo dài tới thế kỷ XVII.",
-   "mo": "Augustine, Boethius, Anselm (lập luận bản thể học) và người phản bác Gaunilo, Abelard, Thomas Aquinas. Nguồn ghi các triết gia Do Thái và Hồi giáo như Maimonides, Avicenna, Averroes trong cùng chặng.",
+   "moc": "Hirschberger tr. 351–439 (Kitô giáo gặp triết học, giáo phụ, Augustine, từ Boethius tới cuối thời kỳ). PhilPapers có danh mục \"Pre-1000 Medieval\". Mốc do Claude ước.",
+   "mo": "Các giáo phụ dùng triết học Hy Lạp để trình bày đức tin; Augustine là ảnh hưởng lớn nhất lên triết học Latin (Marenbon); Boethius, Pseudo-Dionysius, Eriugena.",
    "nguoi": [
     [
+     "Justin",
+     "",
+     ""
+    ],
+    [
+     "Clement xứ Alexandria",
+     "",
+     ""
+    ],
+    [
+     "Origen",
+     "",
+     ""
+    ],
+    [
      "Augustine",
-     "Augustinus",
-     "sinh 354 (Hirschberger)"
+     "",
+     "354–430"
     ],
     [
      "Boethius",
      "",
-     "sinh 470 (Hirschberger)"
+     ""
     ],
+    [
+     "Pseudo-Dionysius",
+     "",
+     ""
+    ],
+    [
+     "John Scotus Eriugena",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Tự thú",
+     "Augustine",
+     ""
+    ],
+    [
+     "Thành đô của Thiên Chúa",
+     "Augustine",
+     ""
+    ],
+    [
+     "Niềm an ủi của triết học",
+     "Boethius",
+     ""
+    ]
+   ],
+   "src": [
+    "hirsch1|tr. 351–439",
+    "sepMedieval|§1.4, §2.2",
+    "pp"
+   ],
+   "pp": [
+    "pre-1000-medieval-philosophy",
+    "augustine",
+    "boethius"
+   ],
+   "uoc": true,
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-kinhviensom",
+   "lan": "tay",
+   "ten": "Kinh viện sơ kỳ, thế kỷ XI–XII",
+   "goc": "Early scholasticism",
+   "span": [
+    1050,
+    1200
+   ],
+   "moc": "Hirschberger chương 17 \"Kinh viện sơ kỳ\" (từ tr. 440). Marenbon: Anselm 1033–1109; trường phái Paris thế kỷ XII với Abelard (1079–1142) và Gilbert xứ Poitiers. Mốc do Claude ước.",
+   "mo": "Lý tính tìm hiểu đức tin (fides quaerens intellectum), cuộc tranh luận về phổ quát, logic ở các trường nhà thờ và tu viện.",
+   "nguoi": [
     [
      "Anselm",
      "",
-     "1033–1109 (Hirschberger)"
+     "1033–1109"
     ],
     [
      "Gaunilo",
@@ -1240,12 +1612,92 @@
     [
      "Peter Abelard",
      "",
-     "1079–1142 (Hirschberger)"
+     "1079–1142"
+    ],
+    [
+     "Gilbert xứ Poitiers",
+     "",
+     ""
+    ],
+    [
+     "Bernard xứ Clairvaux",
+     "",
+     ""
+    ],
+    [
+     "Hildegard xứ Bingen",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Proslogion",
+     "Anselm",
+     ""
+    ]
+   ],
+   "src": [
+    "hirsch1|tr. 440–469",
+    "sepMedieval|§2.2, §2.5",
+    "pp"
+   ],
+   "pp": [
+    "11th12th-century-philosophy"
+   ],
+   "uoc": true
+  },
+  {
+   "id": "w-trungdai",
+   "lan": "tay",
+   "ten": "Kinh viện thế kỷ XIII–XIV",
+   "goc": "High and late scholasticism",
+   "span": [
+    1200,
+    1360
+   ],
+   "moc": "Marenbon (SEP): triết học đại học khoảng 1200 tới những năm 1350; Buridan mất năm 1360. Hirschberger chương 18–22 (tr. 470–584).",
+   "mo": "Aristotle và các nhà chú giải Ả Rập vào đại học Paris và Oxford; Albertus Magnus, Thomas Aquinas, Bonaventure, phái Averroes ở khoa nghệ thuật, Duns Scotus, Ockham.",
+   "nguoi": [
+    [
+     "Robert Grosseteste",
+     "",
+     ""
+    ],
+    [
+     "Roger Bacon",
+     "",
+     ""
+    ],
+    [
+     "Bonaventure",
+     "",
+     ""
+    ],
+    [
+     "Albertus Magnus",
+     "",
+     ""
     ],
     [
      "Thomas Aquinas",
      "",
+     "1225–1274"
+    ],
+    [
+     "Siger xứ Brabant",
+     "",
      ""
+    ],
+    [
+     "Henry xứ Ghent",
+     "",
+     ""
+    ],
+    [
+     "John Duns Scotus",
+     "",
+     "khoảng 1265–1308"
     ],
     [
      "Meister Eckhart",
@@ -1255,6 +1707,57 @@
     [
      "William xứ Ockham",
      "",
+     "khoảng 1287–1347"
+    ],
+    [
+     "John Buridan",
+     "",
+     "mất 1360"
+    ]
+   ],
+   "van": [
+    [
+     "Tổng luận thần học",
+     "Thomas Aquinas",
+     ""
+    ],
+    [
+     "Tổng luận chống dân ngoại",
+     "Thomas Aquinas",
+     ""
+    ],
+    [
+     "Summa logicae",
+     "William xứ Ockham",
+     ""
+    ]
+   ],
+   "src": [
+    "hirsch1|tr. 470–584",
+    "sepMedieval|§2.7",
+    "pp"
+   ],
+   "pp": [
+    "13th14th-century-philosophy",
+    "thomas-aquinas"
+   ],
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-phuchung",
+   "lan": "tay",
+   "ten": "Phục hưng",
+   "goc": "Renaissance philosophy",
+   "span": [
+    1350,
+    1600
+   ],
+   "moc": "Hirschberger tập 2, chương 1–4 (tr. 19–91). Marenbon xếp Cusanus, Ficino, Pico vào hậu trung đại Latin. Mốc do Claude ước.",
+   "mo": "Chủ nghĩa nhân văn, Plato được đọc lại ở Florence, triết học tự nhiên Ý, khoa học chính trị và hoài nghi.",
+   "nguoi": [
+    [
+     "Petrarch",
+     "",
      ""
     ],
     [
@@ -1263,22 +1766,2043 @@
      ""
     ],
     [
-     "Francisco Suárez",
+     "Marsilio Ficino",
      "",
-     "1548–1617"
+     ""
+    ],
+    [
+     "Pico della Mirandola",
+     "",
+     ""
+    ],
+    [
+     "Erasmus",
+     "",
+     ""
+    ],
+    [
+     "Thomas More",
+     "",
+     ""
+    ],
+    [
+     "Niccolò Machiavelli",
+     "",
+     "1469–1527 (Hirschberger)"
+    ],
+    [
+     "Michel de Montaigne",
+     "",
+     "1533–1592 (Hirschberger)"
+    ],
+    [
+     "Giordano Bruno",
+     "",
+     ""
+    ],
+    [
+     "Tommaso Campanella",
+     "",
+     "1568–1639 (Hirschberger)"
+    ],
+    [
+     "Teresa xứ Ávila",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Diễn từ về phẩm giá con người",
+     "Pico della Mirandola",
+     ""
+    ],
+    [
+     "Quân vương",
+     "Machiavelli",
+     ""
+    ],
+    [
+     "Utopia",
+     "Thomas More",
+     ""
+    ],
+    [
+     "Tiểu luận",
+     "Montaigne",
+     ""
     ]
    ],
    "src": [
-    "hirsch1|tr. 353–600",
-    "wpWestern",
+    "hirsch2|tr. 19–91",
+    "sepMedieval|§2.8",
     "pp"
    ],
    "pp": [
-    "medieval-and-renaissance-philosophy",
-    "pre-1000-medieval-philosophy",
-    "13th14th-century-philosophy"
+    "15th16th-century-philosophy"
    ],
-   "ck": "Năm sinh mất của Suárez lấy từ mục Mỹ Latinh của SEP."
+   "uoc": true,
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-candaisom",
+   "lan": "tay",
+   "ten": "Duy lý lục địa thế kỷ XVII",
+   "goc": "Continental rationalism",
+   "span": [
+    1637,
+    1716
+   ],
+   "moc": "Hirschberger chương 6–8 (tr. 114–230): Descartes và thuyết cơ hội, Spinoza, Leibniz; Grotius ở chương 4 (tr. 82). Claude lấy năm in Luận về phương pháp và năm Leibniz mất làm mốc.",
+   "mo": "Lý tính làm nền cho tri thức; một khoa học thống nhất theo kiểu hình học; tranh luận về thực thể, thân và tâm, Thượng đế. Cùng thời, Grotius và Pufendorf dựng lý thuyết luật tự nhiên.",
+   "nguoi": [
+    [
+     "René Descartes",
+     "",
+     ""
+    ],
+    [
+     "Elisabeth xứ Bohemia",
+     "",
+     ""
+    ],
+    [
+     "Antoine Arnauld",
+     "",
+     ""
+    ],
+    [
+     "Blaise Pascal",
+     "",
+     ""
+    ],
+    [
+     "Nicolas Malebranche",
+     "",
+     ""
+    ],
+    [
+     "Baruch Spinoza",
+     "",
+     ""
+    ],
+    [
+     "Gottfried Wilhelm Leibniz",
+     "",
+     ""
+    ],
+    [
+     "Hugo Grotius",
+     "",
+     ""
+    ],
+    [
+     "Samuel Pufendorf",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Luận về phương pháp",
+     "Descartes",
+     "1637"
+    ],
+    [
+     "Suy niệm về triết học đệ nhất",
+     "Descartes",
+     "1641"
+    ],
+    [
+     "Đạo đức học",
+     "Spinoza",
+     "1677"
+    ],
+    [
+     "Đơn tử luận",
+     "Leibniz",
+     "1714"
+    ],
+    [
+     "Về luật chiến tranh và hòa bình",
+     "Grotius",
+     ""
+    ]
+   ],
+   "src": [
+    "hirsch2|tr. 82, 114–230",
+    "sepEnlight|§1.1",
+    "pp"
+   ],
+   "pp": [
+    "17th18th-century-french-philosophy",
+    "rene-descartes",
+    "baruch-spinoza",
+    "gottfried-wilhelm-leibniz"
+   ],
+   "uoc": true,
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-kinhnghiem",
+   "lan": "tay",
+   "ten": "Triết học Anh và Scotland XVII–XVIII",
+   "goc": "British empiricism and the Scottish Enlightenment",
+   "span": [
+    1620,
+    1796
+   ],
+   "moc": "Hirschberger: Bacon (tr. 67), Hobbes 1588–1679, Locke 1632–1704, Hume 1711–1776 (chương 9–11, tr. 231–299), Khai minh Anh (tr. 300–302). SEP Khai sáng liệt Hutcheson, Smith, Hume, Reid. Mốc do Claude ước.",
+   "mo": "Tri thức bắt đầu từ kinh nghiệm; phân tích ý niệm, nhân quả, bản ngã; lý thuyết khế ước và quyền; tình cảm đạo đức.",
+   "nguoi": [
+    [
+     "Francis Bacon",
+     "",
+     ""
+    ],
+    [
+     "Thomas Hobbes",
+     "",
+     "1588–1679"
+    ],
+    [
+     "Margaret Cavendish",
+     "",
+     ""
+    ],
+    [
+     "Anne Conway",
+     "",
+     ""
+    ],
+    [
+     "John Locke",
+     "",
+     "1632–1704"
+    ],
+    [
+     "Damaris Masham",
+     "",
+     ""
+    ],
+    [
+     "Mary Astell",
+     "",
+     ""
+    ],
+    [
+     "Shaftesbury",
+     "",
+     ""
+    ],
+    [
+     "Isaac Newton",
+     "",
+     ""
+    ],
+    [
+     "George Berkeley",
+     "",
+     ""
+    ],
+    [
+     "Joseph Butler",
+     "",
+     ""
+    ],
+    [
+     "Francis Hutcheson",
+     "",
+     ""
+    ],
+    [
+     "David Hume",
+     "",
+     "1711–1776"
+    ],
+    [
+     "Adam Smith",
+     "",
+     ""
+    ],
+    [
+     "Thomas Reid",
+     "",
+     ""
+    ],
+    [
+     "Edmund Burke",
+     "",
+     ""
+    ],
+    [
+     "Mary Wollstonecraft",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Leviathan",
+     "Hobbes",
+     "1651"
+    ],
+    [
+     "Khảo luận về giác tính con người",
+     "Locke",
+     "1690"
+    ],
+    [
+     "Khảo luận thứ hai về chính quyền",
+     "Locke",
+     "1690"
+    ],
+    [
+     "Nguyên lý tri thức con người",
+     "Berkeley",
+     "1710"
+    ],
+    [
+     "Khảo luận về bản tính con người",
+     "Hume",
+     "1739–1740"
+    ],
+    [
+     "Của cải của các dân tộc",
+     "Adam Smith",
+     "1776"
+    ],
+    [
+     "Nghiên cứu về giác tính con người",
+     "Hume",
+     "1748"
+    ]
+   ],
+   "src": [
+    "hirsch2|tr. 67, 231–302",
+    "sepEnlight|§1.2",
+    "pp"
+   ],
+   "pp": [
+    "17th18th-century-british-philosophy",
+    "david-hume",
+    "john-locke"
+   ],
+   "uoc": true,
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-khaisang",
+   "lan": "tay",
+   "ten": "Khai sáng Pháp",
+   "goc": "French Enlightenment",
+   "span": [
+    1697,
+    1795
+   ],
+   "moc": "SEP Khai sáng: Từ điển của Bayle (1697), Bách khoa thư (1751–1772); cuộc Khủng bố những năm 1790 là mốc kết thúc tiện dụng. Hirschberger: Bayle 1647–1705, Khai minh Pháp (tr. 302–312).",
+   "mo": "Phê phán uy quyền tôn giáo và chính trị nhân danh lý tính; Bách khoa thư; lý thuyết chính trị của Montesquieu và Rousseau.",
+   "nguoi": [
+    [
+     "Pierre Bayle",
+     "",
+     "1647–1705"
+    ],
+    [
+     "Montesquieu",
+     "",
+     ""
+    ],
+    [
+     "Voltaire",
+     "",
+     ""
+    ],
+    [
+     "Émilie du Châtelet",
+     "",
+     ""
+    ],
+    [
+     "La Mettrie",
+     "",
+     ""
+    ],
+    [
+     "Condillac",
+     "",
+     ""
+    ],
+    [
+     "Denis Diderot",
+     "",
+     ""
+    ],
+    [
+     "Jean le Rond d'Alembert",
+     "",
+     ""
+    ],
+    [
+     "Helvétius",
+     "",
+     ""
+    ],
+    [
+     "d'Holbach",
+     "",
+     ""
+    ],
+    [
+     "Jean-Jacques Rousseau",
+     "",
+     ""
+    ],
+    [
+     "Condorcet",
+     "",
+     ""
+    ],
+    [
+     "Olympe de Gouges",
+     "",
+     ""
+    ],
+    [
+     "Sophie de Grouchy",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Từ điển lịch sử và phê phán",
+     "Bayle",
+     "1697"
+    ],
+    [
+     "Tinh thần pháp luật",
+     "Montesquieu",
+     "1748"
+    ],
+    [
+     "Bách khoa thư",
+     "Diderot, d’Alembert",
+     "1751–1772"
+    ],
+    [
+     "Bàn về khế ước xã hội",
+     "Rousseau",
+     "1762"
+    ]
+   ],
+   "src": [
+    "hirsch2|tr. 302–312",
+    "sepEnlight|mở đầu, §1.5, §2.1",
+    "pp"
+   ],
+   "pp": [
+    "17th18th-century-french-philosophy",
+    "jean-jacques-rousseau"
+   ],
+   "uoc": true
+  },
+  {
+   "id": "w-khaisangduc",
+   "lan": "tay",
+   "ten": "Khai sáng Đức và Kant",
+   "goc": "German Enlightenment and Kant",
+   "span": [
+    1690,
+    1804
+   ],
+   "moc": "Hirschberger chương 13: giai đoạn đầu Khai minh Đức 1690–1720, Wolff và trường phái (tr. 313–325); chương 14–15 Kant (tr. 326–433); Kant mất năm 1804.",
+   "mo": "Hệ thống lý tính của Wolff; mỹ học Baumgarten; Mendelssohn, Lessing; phái phản Khai sáng Hamann, Herder; Kant với ba cuốn Phê phán và câu hỏi \"Khai sáng là gì?\".",
+   "nguoi": [
+    [
+     "Christian Thomasius",
+     "",
+     ""
+    ],
+    [
+     "Christian Wolff",
+     "",
+     ""
+    ],
+    [
+     "Alexander Baumgarten",
+     "",
+     ""
+    ],
+    [
+     "Anton Wilhelm Amo",
+     "",
+     ""
+    ],
+    [
+     "Moses Mendelssohn",
+     "",
+     ""
+    ],
+    [
+     "Gotthold Ephraim Lessing",
+     "",
+     ""
+    ],
+    [
+     "Johann Georg Hamann",
+     "",
+     ""
+    ],
+    [
+     "Johann Gottfried Herder",
+     "",
+     ""
+    ],
+    [
+     "Friedrich Heinrich Jacobi",
+     "",
+     ""
+    ],
+    [
+     "Immanuel Kant",
+     "",
+     "1724–1804"
+    ]
+   ],
+   "van": [
+    [
+     "Phê phán lý tính thuần túy",
+     "Kant",
+     "1781; bản 2 1787"
+    ],
+    [
+     "Trả lời câu hỏi: Khai sáng là gì?",
+     "Kant",
+     "1784"
+    ],
+    [
+     "Phê phán lý tính thực hành",
+     "Kant",
+     "1788"
+    ],
+    [
+     "Phê phán năng lực phán đoán",
+     "Kant",
+     "1790"
+    ]
+   ],
+   "src": [
+    "hirsch2|tr. 313–433",
+    "sepEnlight|§1.1",
+    "pp"
+   ],
+   "pp": [
+    "17th18th-century-german-philosophy",
+    "immanuel-kant"
+   ],
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-theky19",
+   "lan": "tay",
+   "ten": "Duy tâm Đức",
+   "goc": "German Idealism",
+   "span": [
+    1790,
+    1831
+   ],
+   "moc": "Hirschberger chương 16–18 (tr. 434–520): Fichte, Schelling và chủ nghĩa lãng mạn, Hegel. Hirschberger cho \"thời hiện đại\" kết thúc với cái chết của Hegel (1831). Mốc đầu do Claude ước.",
+   "mo": "Từ Kant đi tới một hệ thống: duy tâm chủ quan của Fichte, triết học tự nhiên và đồng nhất của Schelling, duy tâm tuyệt đối của Hegel; chủ nghĩa lãng mạn.",
+   "nguoi": [
+    [
+     "Karl Leonhard Reinhold",
+     "",
+     ""
+    ],
+    [
+     "Salomon Maimon",
+     "",
+     ""
+    ],
+    [
+     "Johann Gottlieb Fichte",
+     "",
+     "1762–1814"
+    ],
+    [
+     "Friedrich Schelling",
+     "",
+     "1775–1854"
+    ],
+    [
+     "Friedrich Hölderlin",
+     "",
+     ""
+    ],
+    [
+     "Novalis",
+     "",
+     ""
+    ],
+    [
+     "Friedrich Schlegel",
+     "",
+     ""
+    ],
+    [
+     "Friedrich Schleiermacher",
+     "",
+     ""
+    ],
+    [
+     "G. W. F. Hegel",
+     "",
+     "1770–1831"
+    ]
+   ],
+   "van": [
+    [
+     "Học thuyết khoa học",
+     "Fichte",
+     "1794"
+    ],
+    [
+     "Hiện tượng học tinh thần",
+     "Hegel",
+     "1807"
+    ],
+    [
+     "Khoa học logic",
+     "Hegel",
+     "1812–1816"
+    ],
+    [
+     "Các nguyên lý của triết học pháp quyền",
+     "Hegel",
+     "1820"
+    ]
+   ],
+   "src": [
+    "hirsch2|tr. 434–520",
+    "pp"
+   ],
+   "pp": [
+    "german-idealism",
+    "g-w-f-hegel"
+   ],
+   "uoc": true,
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-hauhegel",
+   "lan": "tay",
+   "ten": "Sau Hegel",
+   "goc": "After Hegel",
+   "span": [
+    1819,
+    1900
+   ],
+   "moc": "Hirschberger chương 20–23 (tr. 538–624): Schopenhauer 1788–1860; thuyết duy vật và phái Hegel cánh tả, Marx 1818–1883; Kierkegaard; Nietzsche. Mốc do Claude ước.",
+   "mo": "Phản ứng với Hegel từ nhiều phía: duy ý chí và bi quan, phê phán tôn giáo và duy vật biện chứng, tồn tại cá nhân chống \"hệ thống\", đánh giá lại mọi giá trị.",
+   "nguoi": [
+    [
+     "Arthur Schopenhauer",
+     "",
+     "1788–1860"
+    ],
+    [
+     "David Friedrich Strauss",
+     "",
+     ""
+    ],
+    [
+     "Ludwig Feuerbach",
+     "",
+     ""
+    ],
+    [
+     "Karl Marx",
+     "",
+     "1818–1883"
+    ],
+    [
+     "Friedrich Engels",
+     "",
+     ""
+    ],
+    [
+     "Søren Kierkegaard",
+     "",
+     ""
+    ],
+    [
+     "Friedrich Nietzsche",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Thế giới như là ý chí và biểu tượng",
+     "Schopenhauer",
+     "1819"
+    ],
+    [
+     "Bản chất Kitô giáo",
+     "Feuerbach",
+     "1841"
+    ],
+    [
+     "Bệnh đến chết",
+     "Kierkegaard",
+     "1849"
+    ],
+    [
+     "Tuyên ngôn của Đảng Cộng sản",
+     "Marx, Engels",
+     "1848"
+    ],
+    [
+     "Tư bản, tập I",
+     "Marx",
+     "1867"
+    ],
+    [
+     "Zarathustra đã nói như thế",
+     "Nietzsche",
+     "1883–1885"
+    ],
+    [
+     "Kính sợ và run rẩy",
+     "Kierkegaard",
+     "1843"
+    ]
+   ],
+   "src": [
+    "hirsch2|tr. 538–624",
+    "pp"
+   ],
+   "pp": [
+    "karl-marx",
+    "friedrich-nietzsche",
+    "soren-kierkegaard",
+    "arthur-schopenhauer"
+   ],
+   "uoc": true,
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-anh19",
+   "lan": "tay",
+   "ten": "Triết học Anh thế kỷ XIX",
+   "goc": "19th-century British philosophy",
+   "span": [
+    1789,
+    1924
+   ],
+   "moc": "Hirschberger chương 24, mục \"Thuyết duy nghiệm Anh\" (tr. 628–632). PhilPapers liệt Bentham, Mill, Harriet Taylor Mill, Mary Shepherd, Newman, Sidgwick, Green, Bradley. Mốc do Claude ước.",
+   "mo": "Thuyết công lợi; duy nghiệm và logic quy nạp của Mill; phản ứng duy tâm Anh cuối thế kỷ với Green và Bradley.",
+   "nguoi": [
+    [
+     "Jeremy Bentham",
+     "",
+     ""
+    ],
+    [
+     "Mary Shepherd",
+     "",
+     ""
+    ],
+    [
+     "John Stuart Mill",
+     "",
+     ""
+    ],
+    [
+     "Harriet Taylor Mill",
+     "",
+     ""
+    ],
+    [
+     "John Henry Newman",
+     "",
+     ""
+    ],
+    [
+     "Henry Sidgwick",
+     "",
+     ""
+    ],
+    [
+     "T. H. Green",
+     "",
+     ""
+    ],
+    [
+     "F. H. Bradley",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Hệ thống logic",
+     "Mill",
+     "1843"
+    ],
+    [
+     "Bàn về tự do",
+     "Mill",
+     "1859"
+    ],
+    [
+     "Chủ nghĩa công lợi",
+     "Mill",
+     "1861"
+    ],
+    [
+     "Các phương pháp đạo đức học",
+     "Sidgwick",
+     "1874"
+    ]
+   ],
+   "src": [
+    "hirsch2|tr. 628–632",
+    "pp"
+   ],
+   "pp": [
+    "19th-century-british-philosophy"
+   ],
+   "uoc": true,
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-phap19",
+   "lan": "tay",
+   "ten": "Thực chứng Pháp",
+   "goc": "French positivism",
+   "span": [
+    1830,
+    1914
+   ],
+   "moc": "Hirschberger chương 24, \"Thuyết thực chứng Pháp\" (tr. 626–627): Comte 1798–1857 và học thuyết ba trạng thái. PhilPapers xếp Comte, Duhem, Poincaré vào thế kỷ XIX Pháp. Mốc do Claude ước.",
+   "mo": "Ba trạng thái của tri thức (thần học, siêu hình, thực chứng); sau đó là cuộc bàn về bản chất lý thuyết vật lý của Poincaré và Duhem.",
+   "nguoi": [
+    [
+     "Auguste Comte",
+     "",
+     "1798–1857"
+    ],
+    [
+     "Henri Poincaré",
+     "",
+     ""
+    ],
+    [
+     "Pierre Duhem",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Giáo trình triết học thực chứng",
+     "Comte",
+     "1830–1842"
+    ],
+    [
+     "Khoa học và giả thuyết",
+     "Poincaré",
+     "1902"
+    ]
+   ],
+   "src": [
+    "hirsch2|tr. 626–627",
+    "pp"
+   ],
+   "pp": [
+    "19th-century-french-philosophy"
+   ],
+   "uoc": true,
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-ao",
+   "lan": "tay",
+   "ten": "Bolzano, Brentano và trường phái Áo",
+   "goc": "Austrian philosophy",
+   "span": [
+    1837,
+    1938
+   ],
+   "moc": "Hirschberger chương 19: Bolzano và truyền thống trước Kant (tr. 530–535), Brentano và trường phái Áo (tr. 536). PhilPapers có danh mục \"19th Century Austrian Philosophy\". Mốc do Claude ước.",
+   "mo": "Logic khách quan của Bolzano; tâm lý học mô tả và tính ý hướng của Brentano; thuyết đối tượng của Meinong; Mach và Freud ở Vienna. Học trò Brentano là Husserl và Twardowski.",
+   "nguoi": [
+    [
+     "Bernard Bolzano",
+     "",
+     ""
+    ],
+    [
+     "Franz Brentano",
+     "",
+     ""
+    ],
+    [
+     "Alexius Meinong",
+     "",
+     ""
+    ],
+    [
+     "Christian von Ehrenfels",
+     "",
+     ""
+    ],
+    [
+     "Carl Stumpf",
+     "",
+     ""
+    ],
+    [
+     "Anton Marty",
+     "",
+     ""
+    ],
+    [
+     "Ernst Mach",
+     "",
+     ""
+    ],
+    [
+     "Sigmund Freud",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Học thuyết khoa học",
+     "Bolzano",
+     "1837"
+    ],
+    [
+     "Tâm lý học từ quan điểm thường nghiệm",
+     "Brentano",
+     "1874"
+    ]
+   ],
+   "src": [
+    "hirsch2|tr. 530–537",
+    "pp"
+   ],
+   "pp": [
+    "19th-century-austrian-philosophy",
+    "franz-brentano"
+   ],
+   "uoc": true,
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-tankant",
+   "lan": "tay",
+   "ten": "Tân Kant",
+   "goc": "Neo-Kantianism",
+   "span": [
+    1865,
+    1933
+   ],
+   "moc": "Heis (SEP): phong trào chiếm ưu thế ở Đức từ khoảng 1870 tới Thế chiến I; lời gọi \"trở về Kant\" từ những năm 1860 (Liebmann 1865, Lange 1866); năm 1933 gần như xóa ký ức thể chế của phong trào. Hirschberger chương 24, \"Thực chứng Đức và phái Kant mới\" (tr. 633–636).",
+   "mo": "Trường Marburg (Cohen, Natorp, Cassirer) đọc Kant như lý thuyết về khoa học chính xác; trường Tây Nam (Windelband, Rickert, Lask) đọc Kant như lý thuyết giá trị và nền cho khoa học lịch sử.",
+   "nguoi": [
+    [
+     "Otto Liebmann",
+     "",
+     ""
+    ],
+    [
+     "Friedrich Albert Lange",
+     "",
+     ""
+    ],
+    [
+     "Hermann Cohen",
+     "",
+     ""
+    ],
+    [
+     "Paul Natorp",
+     "",
+     ""
+    ],
+    [
+     "Ernst Cassirer",
+     "",
+     ""
+    ],
+    [
+     "Wilhelm Windelband",
+     "",
+     ""
+    ],
+    [
+     "Heinrich Rickert",
+     "",
+     ""
+    ],
+    [
+     "Emil Lask",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Lý thuyết kinh nghiệm của Kant",
+     "Cohen",
+     "1871"
+    ],
+    [
+     "Thực thể và chức năng",
+     "Cassirer",
+     "1910"
+    ],
+    [
+     "Giới hạn của việc tạo khái niệm trong khoa học tự nhiên",
+     "Rickert",
+     "1902"
+    ]
+   ],
+   "src": [
+    "sepNeoKant|§1–§3",
+    "hirsch2|tr. 633–636",
+    "pp"
+   ],
+   "pp": [
+    "neo-kantianism"
+   ]
+  },
+  {
+   "id": "w-doisong",
+   "lan": "tay",
+   "ten": "Triết học đời sống",
+   "goc": "Lebensphilosophie",
+   "span": [
+    1883,
+    1941
+   ],
+   "moc": "Hirschberger chương 27 (từ tr. 667): Bergson và Blondel; triết học đời sống ở Đức. Mốc do Claude ước.",
+   "mo": "Đời sống, trực giác và lịch sử chống lại cách hiểu cơ giới về con người; Dilthey dựng nền cho khoa học tinh thần.",
+   "nguoi": [
+    [
+     "Henri Bergson",
+     "",
+     ""
+    ],
+    [
+     "Maurice Blondel",
+     "",
+     ""
+    ],
+    [
+     "Wilhelm Dilthey",
+     "",
+     ""
+    ],
+    [
+     "Georg Simmel",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Sự tiến hóa sáng tạo",
+     "Bergson",
+     "1907"
+    ]
+   ],
+   "src": [
+    "hirsch2|tr. 667–690",
+    "pp"
+   ],
+   "pp": [
+    "henri-bergson"
+   ],
+   "uoc": true,
+   "ck": "Trang cuối của chương 27 trong Hirschberger do Claude ước (chương 28 bắt đầu trước tr. 702). Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-thucdung",
+   "lan": "tay",
+   "ten": "Thực dụng Mỹ",
+   "goc": "American pragmatism",
+   "span": [
+    1870,
+    2026
+   ],
+   "moc": "Hookway (SEP): chủ nghĩa thực dụng ra đời ở Mỹ khoảng 1870, từ Câu lạc bộ Siêu hình ở Harvard; phục hưng từ những năm 1970. Hirschberger phần III (tr. 767–850): Peirce 1839–1914, Dewey 1859–1952.",
+   "mo": "Nghĩa của một ý niệm nằm ở hệ quả thực hành của nó; chân lý, tìm tòi và dân chủ; thế hệ sau với Rorty và Putnam.",
+   "nguoi": [
+    [
+     "Charles Sanders Peirce",
+     "",
+     "1839–1914"
+    ],
+    [
+     "William James",
+     "",
+     ""
+    ],
+    [
+     "John Dewey",
+     "",
+     "1859–1952"
+    ],
+    [
+     "Josiah Royce",
+     "",
+     ""
+    ],
+    [
+     "George Herbert Mead",
+     "",
+     ""
+    ],
+    [
+     "Jane Addams",
+     "",
+     "1860–1935"
+    ],
+    [
+     "George Santayana",
+     "",
+     ""
+    ],
+    [
+     "Richard Rorty",
+     "",
+     "1931–2007"
+    ],
+    [
+     "Hilary Putnam",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Làm sao cho ý niệm của ta sáng sủa",
+     "Peirce",
+     "1878"
+    ],
+    [
+     "Thuyết dụng hành",
+     "James",
+     "1907"
+    ]
+   ],
+   "src": [
+    "sepPrag|§1",
+    "hirsch2|tr. 767–850",
+    "pp"
+   ],
+   "pp": [
+    "american-philosophy",
+    "american-pragmatism"
+   ]
+  },
+  {
+   "id": "w-phantich",
+   "lan": "tay",
+   "ten": "Phân tích sơ kỳ",
+   "goc": "Early analytic philosophy",
+   "span": [
+    1879,
+    1929
+   ],
+   "moc": "Irvine (SEP): năm 1898 Russell và Moore bác chủ nghĩa duy tâm; Principles of Mathematics 1903; On Denoting 1905; Principia Mathematica 1910–1913; các bài giảng nguyên tử luận logic 1918–1919. IEP lấy năm 1929, khi Wittgenstein trở lại Cambridge, làm điểm khởi đầu của triết học ngôn ngữ thông thường. Mốc đầu do Claude lấy theo Begriffsschrift của Frege.",
+   "mo": "Logic mới của Frege và Russell làm công cụ phân tích; bác duy tâm Anh; nguyên tử luận logic; Tractatus.",
+   "nguoi": [
+    [
+     "Gottlob Frege",
+     "",
+     ""
+    ],
+    [
+     "Bertrand Russell",
+     "",
+     "1872–1970"
+    ],
+    [
+     "G. E. Moore",
+     "",
+     ""
+    ],
+    [
+     "Alfred North Whitehead",
+     "",
+     ""
+    ],
+    [
+     "Ludwig Wittgenstein",
+     "",
+     ""
+    ],
+    [
+     "Frank Ramsey",
+     "",
+     ""
+    ],
+    [
+     "Susan Stebbing",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Begriffsschrift",
+     "Frege",
+     "1879"
+    ],
+    [
+     "Cơ sở của số học",
+     "Frege",
+     "1884"
+    ],
+    [
+     "The Principles of Mathematics",
+     "Russell",
+     "1903"
+    ],
+    [
+     "Bàn về sự biểu thị",
+     "Russell",
+     "1905"
+    ],
+    [
+     "Principia Mathematica",
+     "Whitehead, Russell",
+     "1910–1913"
+    ],
+    [
+     "Tractatus Logico-Philosophicus",
+     "Wittgenstein",
+     "1921"
+    ]
+   ],
+   "src": [
+    "sepRussell|§2–§4",
+    "iepOLP|§2",
+    "pp"
+   ],
+   "pp": [
+    "20th-century-analytic-philosophy",
+    "bertrand-russell",
+    "gottlob-frege",
+    "ludwig-wittgenstein"
+   ],
+   "uoc": true,
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-thucchung",
+   "lan": "tay",
+   "ten": "Vòng Vienna và chủ nghĩa kinh nghiệm logic",
+   "goc": "Vienna Circle and logical empiricism",
+   "span": [
+    1924,
+    1940
+   ],
+   "moc": "Uebel (SEP): Schlick nhận ghế ở Vienna năm 1922; thảo luận đều đặn từ 1924; Hội Ernst Mach 1928; tuyên ngôn 1929; nhóm Berlin của Reichenbach cùng ra tạp chí Erkenntnis từ 1930; tan tác 1931–1940, Schlick bị sát hại năm 1936. Hirschberger chương 31 (tr. 762–766).",
+   "mo": "Thế giới quan khoa học; tiêu chuẩn kiểm chứng; logic hóa ngôn ngữ khoa học; bác siêu hình học.",
+   "nguoi": [
+    [
+     "Moritz Schlick",
+     "",
+     "1882–1936"
+    ],
+    [
+     "Hans Hahn",
+     "",
+     ""
+    ],
+    [
+     "Otto Neurath",
+     "",
+     "1882–1945"
+    ],
+    [
+     "Rudolf Carnap",
+     "",
+     ""
+    ],
+    [
+     "Philipp Frank",
+     "",
+     ""
+    ],
+    [
+     "Kurt Gödel",
+     "",
+     ""
+    ],
+    [
+     "Hans Reichenbach",
+     "",
+     ""
+    ],
+    [
+     "Carl Hempel",
+     "",
+     ""
+    ],
+    [
+     "A. J. Ayer",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Cấu trúc logic của thế giới (Aufbau)",
+     "Carnap",
+     "1928"
+    ],
+    [
+     "Thế giới quan khoa học: Vòng Vienna",
+     "Carnap, Hahn, Neurath",
+     "1929"
+    ],
+    [
+     "Cú pháp logic của ngôn ngữ",
+     "Carnap",
+     "1934"
+    ]
+   ],
+   "src": [
+    "sepVienna|§2.1–§2.2",
+    "hirsch2|tr. 762–766",
+    "pp"
+   ],
+   "pp": [
+    "logical-empiricism",
+    "rudolf-carnap"
+   ]
+  },
+  {
+   "id": "w-ngonngu",
+   "lan": "tay",
+   "ten": "Triết học ngôn ngữ thông thường",
+   "goc": "Ordinary language philosophy",
+   "span": [
+    1929,
+    1970
+   ],
+   "moc": "IEP: thường tính từ khi Wittgenstein trở lại Cambridge năm 1929; giai đoạn Oxford khoảng 1945–1970; suy tàn khi Grice đưa lại khả năng một lý thuyết nghĩa có hệ thống, khi ngữ nghĩa học hình thức và chủ nghĩa tự nhiên lên.",
+   "mo": "Vấn đề triết học sinh ra từ việc dùng sai ngôn ngữ thường ngày; xem cách từ được dùng thì vấn đề tan đi.",
+   "nguoi": [
+    [
+     "Ludwig Wittgenstein (hậu kỳ)",
+     "",
+     ""
+    ],
+    [
+     "Gilbert Ryle",
+     "",
+     ""
+    ],
+    [
+     "J. L. Austin",
+     "",
+     ""
+    ],
+    [
+     "P. F. Strawson",
+     "",
+     ""
+    ],
+    [
+     "H. P. Grice",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Khái niệm về tâm trí",
+     "Ryle",
+     "1949"
+    ],
+    [
+     "Bàn về sự quy chiếu",
+     "Strawson",
+     "1950"
+    ],
+    [
+     "Những nghiên cứu triết học",
+     "Wittgenstein",
+     "1953"
+    ],
+    [
+     "Làm việc bằng lời nói",
+     "Austin",
+     "1962"
+    ]
+   ],
+   "src": [
+    "iepOLP|§2–§5",
+    "pp"
+   ],
+   "pp": [
+    "j-l-austin",
+    "gilbert-ryle"
+   ]
+  },
+  {
+   "id": "w-phantichhau",
+   "lan": "tay",
+   "ten": "Phân tích hậu kỳ",
+   "goc": "Later analytic philosophy",
+   "span": [
+    1951,
+    2026
+   ],
+   "moc": "Kemp (SEP): sau các công trình đầu những năm 1950 của Quine (Hai giáo điều của chủ nghĩa kinh nghiệm, 1951), người ta không còn mặc nhiên coi chủ nghĩa kinh nghiệm logic là đúng; ông mở đường cho một siêu hình học dựa trên lý thuyết khoa học.",
+   "mo": "Chủ nghĩa tự nhiên; siêu hình học và lý thuyết nghĩa trở lại; triết học tâm trí; triết học chính trị và đạo đức chuẩn tắc sau Rawls.",
+   "nguoi": [
+    [
+     "W. V. O. Quine",
+     "",
+     ""
+    ],
+    [
+     "Donald Davidson",
+     "",
+     ""
+    ],
+    [
+     "Saul Kripke",
+     "",
+     ""
+    ],
+    [
+     "David Lewis",
+     "",
+     ""
+    ],
+    [
+     "Hilary Putnam",
+     "",
+     ""
+    ],
+    [
+     "G. E. M. Anscombe",
+     "",
+     ""
+    ],
+    [
+     "Philippa Foot",
+     "",
+     ""
+    ],
+    [
+     "John Rawls",
+     "",
+     ""
+    ],
+    [
+     "Robert Nozick",
+     "",
+     ""
+    ],
+    [
+     "Bernard Williams",
+     "",
+     ""
+    ],
+    [
+     "Derek Parfit",
+     "",
+     ""
+    ],
+    [
+     "John Searle",
+     "",
+     ""
+    ],
+    [
+     "Thomas Nagel",
+     "",
+     ""
+    ],
+    [
+     "Timothy Williamson",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Hai giáo điều của chủ nghĩa kinh nghiệm",
+     "Quine",
+     "1951"
+    ],
+    [
+     "Từ và vật",
+     "Quine",
+     "1960"
+    ],
+    [
+     "Một lý thuyết về công lý",
+     "Rawls",
+     "1971"
+    ],
+    [
+     "Đặt tên và tất yếu",
+     "Kripke",
+     "1980"
+    ],
+    [
+     "Lý lẽ và con người",
+     "Parfit",
+     "1984"
+    ],
+    [
+     "Từ một quan điểm logic",
+     "Quine",
+     "1953"
+    ]
+   ],
+   "src": [
+    "sepQuine|§3, §7",
+    "pp"
+   ],
+   "pp": [
+    "20th-century-analytic-philosophy"
+   ],
+   "ck": "Năm của các văn bản ghi theo hiểu biết của Claude khi nguồn đã đọc không ghi."
+  },
+  {
+   "id": "w-khoahoc",
+   "lan": "tay",
+   "ten": "Triết học khoa học thế kỷ XX",
+   "goc": "20th-century philosophy of science",
+   "span": [
+    1934,
+    1994
+   ],
+   "moc": "Bird (SEP): Cấu trúc các cuộc cách mạng khoa học (1962); hội nghị London 1965 do Popper chủ tọa, kỷ yếu Phê phán và sự tăng trưởng tri thức (1970) do Lakatos và Musgrave biên tập. Mốc đầu theo Logik der Forschung của Popper (1934), mốc cuối do Claude ước.",
+   "mo": "Khoa học tiến lên bằng phép bác bỏ hay bằng những cuộc cách mạng hệ hình; chương trình nghiên cứu; tính bất khả thông ước.",
+   "nguoi": [
+    [
+     "Karl Popper",
+     "",
+     ""
+    ],
+    [
+     "Thomas Kuhn",
+     "",
+     ""
+    ],
+    [
+     "Imre Lakatos",
+     "",
+     ""
+    ],
+    [
+     "Paul Feyerabend",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Logik der Forschung",
+     "Popper",
+     "1934"
+    ],
+    [
+     "Cấu trúc các cuộc cách mạng khoa học",
+     "Kuhn",
+     "1962"
+    ],
+    [
+     "Phê phán và sự tăng trưởng tri thức",
+     "Lakatos, Musgrave biên tập",
+     "1970"
+    ],
+    [
+     "Xã hội mở và những kẻ thù của nó",
+     "Popper",
+     "1945"
+    ]
+   ],
+   "src": [
+    "sepKuhn|§1–§2",
+    "pp"
+   ],
+   "pp": [
+    "20th-century-philosophy-of-science"
+   ],
+   "uoc": true
+  },
+  {
+   "id": "w-lucdia",
+   "lan": "tay",
+   "ten": "Hiện tượng học",
+   "goc": "Phenomenology",
+   "span": [
+    1900,
+    2026
+   ],
+   "moc": "Smith (SEP): hiện tượng học và khái niệm hiện đại về tính ý hướng ra đời cùng Những nghiên cứu logic (1900–1901); Ideas I (1913); Tồn tại và thời gian (1927); Hiện tượng học về tri giác (1945); Toàn thể và vô hạn (1961). Hirschberger: Husserl 1859–1938; Reinach, Stein, Pfänder, Geiger.",
+   "mo": "Mô tả kinh nghiệm như nó hiện ra cho ý thức; tính ý hướng; thế giới sống; Heidegger biến hiện tượng học thành hữu thể học nền tảng; thân thể sống của Merleau-Ponty; đạo đức học về gương mặt người khác của Levinas.",
+   "nguoi": [
+    [
+     "Edmund Husserl",
+     "",
+     "1859–1938 (Hirschberger)"
+    ],
+    [
+     "Adolf Reinach",
+     "",
+     "1883–1916"
+    ],
+    [
+     "Max Scheler",
+     "",
+     ""
+    ],
+    [
+     "Edith Stein",
+     "",
+     "1891–1942"
+    ],
+    [
+     "Roman Ingarden",
+     "",
+     ""
+    ],
+    [
+     "Martin Heidegger",
+     "",
+     ""
+    ],
+    [
+     "Aron Gurwitsch",
+     "",
+     ""
+    ],
+    [
+     "Maurice Merleau-Ponty",
+     "",
+     ""
+    ],
+    [
+     "Emmanuel Levinas",
+     "",
+     ""
+    ],
+    [
+     "Jan Patočka",
+     "",
+     ""
+    ],
+    [
+     "Michel Henry",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Những nghiên cứu logic",
+     "Husserl",
+     "1900–1901"
+    ],
+    [
+     "Ideas I",
+     "Husserl",
+     "1913"
+    ],
+    [
+     "Tồn tại và thời gian",
+     "Heidegger",
+     "1927"
+    ],
+    [
+     "Hiện tượng học về tri giác",
+     "Merleau-Ponty",
+     "1945"
+    ],
+    [
+     "Toàn thể và vô hạn",
+     "Levinas",
+     "1961"
+    ]
+   ],
+   "src": [
+    "sepPhen|§3–§5",
+    "hirsch2|tr. 690–710",
+    "pp"
+   ],
+   "pp": [
+    "phenomenology",
+    "edmund-husserl",
+    "martin-heidegger"
+   ],
+   "ck": "Chương 24 của Hirschberger, \"Hiện tượng học trong nhiều hình thái\", bàn thuyết duy hiện tượng thế kỷ XIX (thực chứng Pháp, duy nghiệm Anh, Tân Kant, dụng hành), không bàn Husserl. Trang Husserl trong Hirschberger ước theo chương 28, chưa đối chiếu trang đầu cuối."
+  },
+  {
+   "id": "w-hiensinh",
+   "lan": "tay",
+   "ten": "Hiện sinh",
+   "goc": "Existentialism",
+   "span": [
+    1927,
+    1960
+   ],
+   "moc": "Aho (SEP): phong trào trí thức ở Pháp giữa thế kỷ XX, sau Thế chiến II; Gabriel Marcel đưa ra từ này năm 1943; gốc ở thế kỷ XIX với Kierkegaard và Nietzsche. Hirschberger chương 30 (tr. 744–761): hiện sinh Đức và Pháp. Claude lấy năm 1927 (Tồn tại và thời gian) làm mốc đầu; mốc cuối do Claude ước.",
+   "mo": "Tồn tại có trước bản chất; tự do và lo âu của lựa chọn; tính đích thực; hư vô và phi lý; đạo đức của sự mơ hồ.",
+   "nguoi": [
+    [
+     "Karl Jaspers",
+     "",
+     ""
+    ],
+    [
+     "Gabriel Marcel",
+     "",
+     ""
+    ],
+    [
+     "Jean-Paul Sartre",
+     "",
+     ""
+    ],
+    [
+     "Simone de Beauvoir",
+     "",
+     ""
+    ],
+    [
+     "Albert Camus",
+     "",
+     ""
+    ],
+    [
+     "Maurice Merleau-Ponty",
+     "",
+     ""
+    ],
+    [
+     "José Ortega y Gasset",
+     "",
+     ""
+    ],
+    [
+     "Miguel de Unamuno",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Tồn tại và hư vô",
+     "Sartre",
+     "1943"
+    ],
+    [
+     "Thuyết hiện sinh là một thuyết nhân bản",
+     "Sartre",
+     "1946"
+    ],
+    [
+     "Đạo đức của sự mơ hồ",
+     "Beauvoir",
+     "1947"
+    ],
+    [
+     "Giới tính thứ hai",
+     "Beauvoir",
+     "1949"
+    ],
+    [
+     "Con người nổi loạn",
+     "Camus",
+     "1951"
+    ]
+   ],
+   "src": [
+    "sepExist|mở đầu, §1–§6",
+    "hirsch2|tr. 744–761",
+    "pp"
+   ],
+   "pp": [
+    "existentialism"
+   ],
+   "uoc": true
+  },
+  {
+   "id": "w-phephan",
+   "lan": "tay",
+   "ten": "Lý thuyết phê phán",
+   "goc": "Critical Theory",
+   "span": [
+    1923,
+    2026
+   ],
+   "moc": "Flynn (SEP): Viện Nghiên cứu Xã hội lập ở Frankfurt năm 1923; Horkheimer làm giám đốc (1930 hoặc 1931); ba thế hệ, từ Horkheimer, Adorno, Marcuse tới Habermas rồi Honneth, Benhabib, Fraser.",
+   "mo": "Lý thuyết xã hội nhằm giải phóng: phê phán lý tính công cụ, công nghiệp văn hóa, nhân cách độc đoán; Habermas chuyển sang hành động giao tiếp và dân chủ thảo luận.",
+   "nguoi": [
+    [
+     "Max Horkheimer",
+     "",
+     ""
+    ],
+    [
+     "Theodor W. Adorno",
+     "",
+     ""
+    ],
+    [
+     "Herbert Marcuse",
+     "",
+     ""
+    ],
+    [
+     "Walter Benjamin",
+     "",
+     ""
+    ],
+    [
+     "Erich Fromm",
+     "",
+     ""
+    ],
+    [
+     "Jürgen Habermas",
+     "",
+     ""
+    ],
+    [
+     "Axel Honneth",
+     "",
+     ""
+    ],
+    [
+     "Seyla Benhabib",
+     "",
+     ""
+    ],
+    [
+     "Nancy Fraser",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Lý thuyết truyền thống và lý thuyết phê phán",
+     "Horkheimer",
+     "1937"
+    ],
+    [
+     "Biện chứng của Khai sáng",
+     "Horkheimer, Adorno",
+     "1944; in 1947"
+    ],
+    [
+     "Con người một chiều",
+     "Marcuse",
+     "1964"
+    ],
+    [
+     "Phép biện chứng phủ định",
+     "Adorno",
+     "1966"
+    ],
+    [
+     "Lý thuyết hành động giao tiếp",
+     "Habermas",
+     "1981"
+    ]
+   ],
+   "src": [
+    "sepCrit|§1.1–§1.6",
+    "pp"
+   ],
+   "pp": [
+    "critical-theory"
+   ]
+  },
+  {
+   "id": "w-thongdien",
+   "lan": "tay",
+   "ten": "Thông diễn học",
+   "goc": "Hermeneutics",
+   "span": [
+    1900,
+    2026
+   ],
+   "moc": "George (SEP): Schleiermacher đầu thế kỷ XIX lập thông diễn học phổ quát; Dilthey \"Sự ra đời của thông diễn học\" (1900); Heidegger (1923, 1927); Gadamer, Chân lý và phương pháp (1960); Ricoeur; các cuộc tranh luận Habermas–Gadamer và Derrida–Gadamer. Mốc đầu Claude lấy theo bài của Dilthey.",
+   "mo": "Hiểu là cách tồn tại của con người chứ không chỉ là một phương pháp; vòng thông diễn; truyền thống và định kiến; sự kết hợp các chân trời.",
+   "nguoi": [
+    [
+     "Friedrich Schleiermacher (tiền thân)",
+     "",
+     ""
+    ],
+    [
+     "Wilhelm Dilthey",
+     "",
+     ""
+    ],
+    [
+     "Hans-Georg Gadamer",
+     "",
+     ""
+    ],
+    [
+     "Paul Ricoeur",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Chân lý và phương pháp",
+     "Gadamer",
+     "1960"
+    ],
+    [
+     "Thời gian và tự sự",
+     "Ricoeur",
+     ""
+    ]
+   ],
+   "src": [
+    "sepHerm|§2–§6",
+    "pp"
+   ],
+   "pp": [
+    "hermeneutics"
+   ],
+   "uoc": true
+  },
+  {
+   "id": "w-cautruc",
+   "lan": "tay",
+   "ten": "Cấu trúc và hậu cấu trúc Pháp",
+   "goc": "French structuralism and poststructuralism",
+   "span": [
+    1955,
+    2026
+   ],
+   "moc": "Oksala (SEP) đặt Foucault giữa cấu trúc luận và hậu cấu trúc: ngôn ngữ học cấu trúc của Saussure, Lacan, Dumézil hình thành lối tiếp cận phản chủ thể của ông; Lịch sử sự điên (1961), Trật tự của sự vật (1966), Giám sát và trừng phạt (1975). Mốc đầu do Claude ước.",
+   "mo": "Cấu trúc ngôn ngữ và xã hội đi trước chủ thể; khảo cổ học tri thức, phả hệ quyền lực; giải cấu trúc; khác biệt; nữ quyền hậu cấu trúc.",
+   "nguoi": [
+    [
+     "Ferdinand de Saussure (tiền thân)",
+     "",
+     ""
+    ],
+    [
+     "Claude Lévi-Strauss",
+     "",
+     ""
+    ],
+    [
+     "Jacques Lacan",
+     "",
+     ""
+    ],
+    [
+     "Louis Althusser",
+     "",
+     ""
+    ],
+    [
+     "Roland Barthes",
+     "",
+     ""
+    ],
+    [
+     "Michel Foucault",
+     "",
+     ""
+    ],
+    [
+     "Jacques Derrida",
+     "",
+     ""
+    ],
+    [
+     "Gilles Deleuze",
+     "",
+     ""
+    ],
+    [
+     "Félix Guattari",
+     "",
+     ""
+    ],
+    [
+     "Jean-François Lyotard",
+     "",
+     ""
+    ],
+    [
+     "Julia Kristeva",
+     "",
+     ""
+    ],
+    [
+     "Luce Irigaray",
+     "",
+     ""
+    ],
+    [
+     "Judith Butler",
+     "",
+     ""
+    ]
+   ],
+   "van": [
+    [
+     "Lịch sử sự điên",
+     "Foucault",
+     "1961"
+    ],
+    [
+     "Trật tự của sự vật",
+     "Foucault",
+     "1966"
+    ],
+    [
+     "Khác biệt (Différance)",
+     "Derrida",
+     "1972"
+    ],
+    [
+     "Giám sát và trừng phạt",
+     "Foucault",
+     "1975"
+    ]
+   ],
+   "src": [
+    "sepFoucault|§1–§3",
+    "sepHerm|§6.2",
+    "pp"
+   ],
+   "pp": [
+    "poststructuralism",
+    "continental-structuralism",
+    "michel-foucault"
+   ],
+   "uoc": true
   },
   {
    "id": "w-byzantine",
@@ -1344,400 +3868,6 @@
    ],
    "pp": [
     "byzantine-philosophy"
-   ]
-  },
-  {
-   "id": "w-phuchung",
-   "lan": "tay",
-   "ten": "Phục hưng",
-   "goc": "Renaissance philosophy",
-   "span": [
-    1350,
-    1600
-   ],
-   "uoc": true,
-   "moc": "Nguồn không ghi mốc; Claude ước để vẽ.",
-   "mo": "Chủ nghĩa nhân văn theo sau Petrarch, và lối viết đối thoại như ở Giordano Bruno.",
-   "nguoi": [
-    [
-     "Petrarch",
-     "Petrarca",
-     ""
-    ],
-    [
-     "Giordano Bruno",
-     "",
-     ""
-    ],
-    [
-     "Niccolò Machiavelli",
-     "",
-     "1469–1527 (Hirschberger)"
-    ],
-    [
-     "Tommaso Campanella",
-     "",
-     "1568–1639 (Hirschberger)"
-    ]
-   ],
-   "src": [
-    "hirsch2|tr. 19–109",
-    "wpWestern",
-    "pp"
-   ],
-   "pp": [
-    "15th16th-century-philosophy"
-   ]
-  },
-  {
-   "id": "w-candaisom",
-   "lan": "tay",
-   "ten": "Cận đại sớm",
-   "goc": "Early modern philosophy",
-   "span": [
-    1600,
-    1781
-   ],
-   "uoc": true,
-   "moc": "Nguồn ghi chặng này thường kết thúc ở Kant; thời cận đại muộn bắt đầu khoảng 1781.",
-   "mo": "Phái duy lý (Descartes, Spinoza, Leibniz) và phái duy nghiệm Anh (Locke, Berkeley, Hume), cùng Bacon, Hobbes, Rousseau.",
-   "nguoi": [
-    [
-     "Francis Bacon",
-     "",
-     "1561–1626 (Hirschberger)"
-    ],
-    [
-     "Thomas Hobbes",
-     "",
-     "1588–1679 (Hirschberger)"
-    ],
-    [
-     "René Descartes",
-     "",
-     "mất 1650 (Hirschberger)"
-    ],
-    [
-     "Baruch Spinoza",
-     "",
-     "1632–1677 (Hirschberger)"
-    ],
-    [
-     "Gottfried Wilhelm Leibniz",
-     "",
-     "sinh 1646 (Hirschberger)"
-    ],
-    [
-     "John Locke",
-     "",
-     "1632–1704 (Hirschberger)"
-    ],
-    [
-     "George Berkeley",
-     "",
-     "1685–1753 (Hirschberger)"
-    ],
-    [
-     "David Hume",
-     "",
-     "1711–1776 (Hirschberger)"
-    ],
-    [
-     "Jean-Jacques Rousseau",
-     "",
-     ""
-    ]
-   ],
-   "src": [
-    "hirsch2|tr. 110–322",
-    "wpWestern",
-    "pp"
-   ],
-   "pp": [
-    "17th18th-century-philosophy"
-   ]
-  },
-  {
-   "id": "w-theky19",
-   "lan": "tay",
-   "ten": "Cận đại muộn và thế kỷ XIX",
-   "goc": "Late modern philosophy",
-   "span": [
-    1781,
-    1900
-   ],
-   "moc": "Bắt đầu khoảng 1781 (theo nguồn).",
-   "mo": "Duy tâm Đức (Kant, Fichte, Schelling, Hegel) và lãng mạn Jena; Feuerbach, Marx, Schopenhauer, Kierkegaard, Nietzsche; công lợi Anh (Bentham, J. S. Mill); logic mới (Boole, Frege); thực dụng Mỹ ở buổi đầu (Peirce, James).",
-   "nguoi": [
-    [
-     "Immanuel Kant",
-     "",
-     "sinh 1724 (Hirschberger)"
-    ],
-    [
-     "Johann Gottlieb Fichte",
-     "",
-     "mất 1814 (Hirschberger)"
-    ],
-    [
-     "Friedrich Schelling",
-     "",
-     "1775–1854 (Hirschberger)"
-    ],
-    [
-     "G. W. F. Hegel",
-     "",
-     "sinh 1770 (Hirschberger)"
-    ],
-    [
-     "Ludwig Feuerbach",
-     "",
-     "1804–1872 (Hirschberger)"
-    ],
-    [
-     "Karl Marx",
-     "",
-     "1818–1883 (Hirschberger)"
-    ],
-    [
-     "Arthur Schopenhauer",
-     "",
-     "1788–1860 (Hirschberger)"
-    ],
-    [
-     "Søren Kierkegaard",
-     "",
-     "sinh 1813 (Hirschberger)"
-    ],
-    [
-     "Friedrich Nietzsche",
-     "",
-     "1844–1900 (Hirschberger)"
-    ],
-    [
-     "Jeremy Bentham",
-     "",
-     ""
-    ],
-    [
-     "John Stuart Mill",
-     "",
-     "1806–1873 (Hirschberger)"
-    ],
-    [
-     "George Boole",
-     "",
-     ""
-    ],
-    [
-     "Gottlob Frege",
-     "",
-     ""
-    ]
-   ],
-   "src": [
-    "hirsch2|tr. 323–666",
-    "wpWestern",
-    "pp"
-   ],
-   "pp": [
-    "19th-century-philosophy",
-    "german-idealism"
-   ]
-  },
-  {
-   "id": "w-phantich",
-   "lan": "tay",
-   "ten": "Triết học phân tích",
-   "goc": "Analytic philosophy",
-   "span": [
-    1900,
-    2026
-   ],
-   "moc": "Hirschberger đặt \"Thuyết thực chứng mới\" (chương 31, tr. 762–764) trong mục thế kỷ XX; Wikipedia gọi Die Grundlagen der Arithmetik của Frege (1884) là tác phẩm phân tích đầu tiên. Mốc 1900 vì vậy là quy ước theo thế kỷ.",
-   "mo": "Nhấn vào lập luận, ngữ nghĩa, logic và sự rõ ràng; phần lớn ở các nước nói tiếng Anh. Russell, Wittgenstein, chủ nghĩa thực chứng logic; về sau Quine, Davidson, Rawls, Nozick, Lewis, Searle, Nagel, Williamson.",
-   "nguoi": [
-    [
-     "Bertrand Russell",
-     "",
-     ""
-    ],
-    [
-     "Ludwig Wittgenstein",
-     "",
-     ""
-    ],
-    [
-     "W. V. O. Quine",
-     "",
-     ""
-    ],
-    [
-     "Donald Davidson",
-     "",
-     ""
-    ],
-    [
-     "John Rawls",
-     "",
-     ""
-    ],
-    [
-     "Robert Nozick",
-     "",
-     ""
-    ],
-    [
-     "David Lewis",
-     "",
-     ""
-    ],
-    [
-     "John Searle",
-     "",
-     ""
-    ],
-    [
-     "Thomas Nagel",
-     "",
-     ""
-    ],
-    [
-     "Timothy Williamson",
-     "",
-     ""
-    ]
-   ],
-   "van": [
-    [
-     "The Principles of Mathematics",
-     "Russell",
-     "1903"
-    ]
-   ],
-   "src": [
-    "hirsch2|tr. 762–764",
-    "wpWestern",
-    "pp"
-   ],
-   "pp": [
-    "20th-century-analytic-philosophy"
-   ],
-   "ck": "Hirschberger dành cho triết học phân tích một chương ngắn, \"Thuyết thực chứng mới\"; muốn đọc kỹ cần nguồn khác."
-  },
-  {
-   "id": "w-lucdia",
-   "lan": "tay",
-   "ten": "Triết học lục địa",
-   "goc": "Continental philosophy",
-   "span": [
-    1900,
-    2026
-   ],
-   "moc": "Hirschberger chia phần \"Triết học đương đại\" thành mục thế kỷ XIX (từ Herbart) và mục thế kỷ XX (từ tr. 667); mốc 1900 theo cách chia ấy. Wikipedia lấy Logical Investigations của Husserl (1900–1901) mở thế kỷ XX.",
-   "mo": "Các trào lưu của lục địa châu Âu thế kỷ XIX và XX. PhilPapers chia thành hiện sinh, hiện tượng học, duy tâm Đức, lý thuyết phê phán, thông diễn học, cấu trúc, hậu cấu trúc, nữ quyền lục địa, phân tâm học lục địa, hiện thực luận tư biện.",
-   "nguoi": [
-    [
-     "Edmund Husserl",
-     "",
-     "1859–1938 (Hirschberger)"
-    ],
-    [
-     "Martin Heidegger",
-     "",
-     ""
-    ],
-    [
-     "Jean-Paul Sartre",
-     "",
-     ""
-    ],
-    [
-     "Michel Foucault",
-     "",
-     ""
-    ],
-    [
-     "Jacques Derrida",
-     "",
-     ""
-    ],
-    [
-     "Gilles Deleuze",
-     "",
-     ""
-    ]
-   ],
-   "van": [
-    [
-     "Logical Investigations",
-     "Husserl",
-     "1900–1901"
-    ]
-   ],
-   "src": [
-    "hirsch2|mục lục; tr. 667–761",
-    "wpWestern",
-    "pp"
-   ],
-   "pp": [
-    "continental-philosophy",
-    "20th-century-continental-philosophy",
-    "phenomenology",
-    "existentialism",
-    "critical-theory",
-    "hermeneutics",
-    "poststructuralism"
-   ],
-   "ck": "Mục lục Hirschberger không dùng cặp phân tích và lục địa; các chương thế kỷ XX của ông là triết học đời sống, hiện tượng học, hữu thể học và siêu hình học, thuyết hiện sinh, thuyết thực chứng mới. Chương 24 \"Hiện tượng học trong nhiều hình thái\" bàn thuyết duy hiện tượng thế kỷ XIX (thực chứng Pháp, duy nghiệm Anh, Tân Kant, dụng hành), không bàn Husserl."
-  },
-  {
-   "id": "w-thucdung",
-   "lan": "tay",
-   "ten": "Thực dụng Mỹ",
-   "goc": "American pragmatism",
-   "span": [
-    1870,
-    2026
-   ],
-   "uoc": true,
-   "moc": "Nguồn không ghi mốc; Claude ước để vẽ.",
-   "mo": "Peirce, James, Dewey; tân thực dụng (Rorty, Quine, Putnam, Davidson), mà nguồn tả là cầu nối giữa phân tích và lục địa. PhilPapers xếp nhánh này dưới Philosophy of the Americas, không dưới lịch sử triết học phương Tây.",
-   "nguoi": [
-    [
-     "Charles Sanders Peirce",
-     "",
-     "1839–1914 (Hirschberger)"
-    ],
-    [
-     "William James",
-     "",
-     ""
-    ],
-    [
-     "John Dewey",
-     "",
-     "1859–1952 (Hirschberger)"
-    ],
-    [
-     "Richard Rorty",
-     "",
-     ""
-    ],
-    [
-     "Hilary Putnam",
-     "",
-     ""
-    ]
-   ],
-   "src": [
-    "hirsch2|tr. 767–850",
-    "wpWestern",
-    "pp"
-   ],
-   "pp": [
-    "american-pragmatism",
-    "american-philosophy"
    ]
   },
   {
@@ -5726,7 +7856,7 @@
      "id": "d",
      "ai": "David Hume",
      "khi": "thế kỷ XVIII",
-     "muc": "w-candaisom",
+     "muc": "w-kinhnghiem",
      "o": "A Treatise of Human Nature, quyển I, phần IV, mục VI",
      "noi": "Hume không bao giờ bắt gặp chính mình mà không có một tri giác nào; ngoài một số nhà siêu hình học, con người chỉ là một bó, một tập hợp các tri giác nối nhau rất nhanh, luôn trôi chảy.",
      "src": [
@@ -5738,7 +7868,7 @@
      "id": "e",
      "ai": "Derek Parfit",
      "khi": "1984",
-     "muc": "w-phantich",
+     "muc": "w-phantichhau",
      "o": "Reasons and Persons, phần ba",
      "noi": "Thuyết quy giản: sự tồn tại của một người là các liên kết tâm lý và sự liên tục tâm lý giữa các thời điểm (quan hệ R); điều quan trọng khi sống sót là quan hệ ấy, không phải sự đồng nhất.",
      "src": [
@@ -5831,7 +7961,7 @@
      "id": "b",
      "ai": "John Philoponus",
      "khi": "năm chưa ghi",
-     "muc": "w-hylaphoa",
+     "muc": "w-tanplaton",
      "o": "",
      "noi": "Các lập luận chống lại một thế giới vĩnh cửu, mà về sau al-Ghazālī dựa vào.",
      "src": [
@@ -6195,12 +8325,15 @@
      "muc": [
       "w-tiensocrates",
       "w-codien",
-      "w-hylaphoa"
+      "w-hylaphoa",
+      "w-tanplaton"
      ]
     },
     {
      "ten": "History of Western Philosophy › Medieval and Renaissance",
      "muc": [
+      "w-trungdaisom",
+      "w-kinhviensom",
       "w-trungdai",
       "w-byzantine",
       "w-phuchung",
@@ -6211,20 +8344,38 @@
     {
      "ten": "History of Western Philosophy › 17th/18th Century",
      "muc": [
-      "w-candaisom"
+      "w-candaisom",
+      "w-kinhnghiem",
+      "w-khaisang",
+      "w-khaisangduc"
      ]
     },
     {
      "ten": "History of Western Philosophy › 19th Century",
      "muc": [
-      "w-theky19"
+      "w-theky19",
+      "w-hauhegel",
+      "w-anh19",
+      "w-phap19",
+      "w-ao",
+      "w-tankant",
+      "w-doisong",
+      "w-thucdung"
      ]
     },
     {
      "ten": "History of Western Philosophy › 20th Century",
      "muc": [
       "w-phantich",
-      "w-lucdia"
+      "w-thucchung",
+      "w-ngonngu",
+      "w-phantichhau",
+      "w-khoahoc",
+      "w-lucdia",
+      "w-hiensinh",
+      "w-phephan",
+      "w-thongdien",
+      "w-cautruc"
      ]
     },
     {
@@ -6309,7 +8460,12 @@
     {
      "ten": "Philosophical Traditions › Continental",
      "muc": [
-      "w-lucdia"
+      "w-theky19",
+      "w-lucdia",
+      "w-hiensinh",
+      "w-phephan",
+      "w-thongdien",
+      "w-cautruc"
      ]
     },
     {
@@ -6490,12 +8646,15 @@
      "muc": [
       "w-tiensocrates",
       "w-codien",
-      "w-hylaphoa"
+      "w-hylaphoa",
+      "w-tanplaton"
      ]
     },
     {
      "ten": "Trung đại",
      "muc": [
+      "w-trungdaisom",
+      "w-kinhviensom",
       "w-trungdai"
      ]
     },
@@ -6504,15 +8663,24 @@
      "muc": [
       "w-phuchung",
       "w-candaisom",
+      "w-kinhnghiem",
+      "w-khaisang",
+      "w-khaisangduc",
       "w-theky19"
      ]
     },
     {
      "ten": "Đương đại, thế kỷ XIX và XX",
      "muc": [
-      "w-theky19",
+      "w-ao",
+      "w-hauhegel",
+      "w-anh19",
+      "w-phap19",
+      "w-tankant",
+      "w-doisong",
       "w-lucdia",
-      "w-phantich"
+      "w-hiensinh",
+      "w-thucchung"
      ]
     },
     {
@@ -6754,21 +8922,30 @@
    "cuaAi": "cách chia thông dụng từ sau Thế chiến II",
    "khi": "thế kỷ XX",
    "src": [
-    "wpWestern",
-    "pp"
+    "pp",
+    "iepOLP",
+    "sepQuine"
    ],
-   "phamvi": "Nguồn ghi rằng ngày càng có người hoài nghi sự phân chia này, và ba lối không phủ hết, cũng không loại trừ nhau.",
+   "phamvi": "Cách chia thông dụng từ giữa thế kỷ XX. Ba lối không phủ hết và không loại trừ nhau: hiện tượng học (Husserl) và phân tích sơ kỳ (Frege) cùng gốc ở Áo–Đức quanh năm 1900; Vòng Vienna và trường Frankfurt cùng thời; triết học khoa học của Popper và Kuhn được đọc ở cả hai phía.",
    "nhom": [
     {
      "ten": "Phân tích",
      "muc": [
-      "w-phantich"
+      "w-phantich",
+      "w-thucchung",
+      "w-ngonngu",
+      "w-phantichhau",
+      "w-khoahoc"
      ]
     },
     {
      "ten": "Lục địa",
      "muc": [
-      "w-lucdia"
+      "w-lucdia",
+      "w-hiensinh",
+      "w-phephan",
+      "w-thongdien",
+      "w-cautruc"
      ]
     },
     {
@@ -6823,13 +9000,16 @@
    [
     "w-tiensocrates",
     "w-codien",
-    "w-hylaphoa"
+    "w-hylaphoa",
+    "w-tanplaton"
    ],
    ""
   ],
   [
    "History of Western Philosophy › Medieval and Renaissance Philosophy",
    [
+    "w-trungdaisom",
+    "w-kinhviensom",
     "w-trungdai",
     "w-byzantine",
     "w-phuchung"
@@ -6839,14 +9019,24 @@
   [
    "History of Western Philosophy › 17th/18th Century Philosophy",
    [
-    "w-candaisom"
+    "w-candaisom",
+    "w-kinhnghiem",
+    "w-khaisang",
+    "w-khaisangduc"
    ],
    ""
   ],
   [
    "History of Western Philosophy › 19th Century Philosophy",
    [
-    "w-theky19"
+    "w-theky19",
+    "w-hauhegel",
+    "w-anh19",
+    "w-phap19",
+    "w-ao",
+    "w-tankant",
+    "w-doisong",
+    "w-thucdung"
    ],
    ""
   ],
@@ -6854,7 +9044,15 @@
    "History of Western Philosophy › 20th Century Philosophy",
    [
     "w-phantich",
-    "w-lucdia"
+    "w-thucchung",
+    "w-ngonngu",
+    "w-phantichhau",
+    "w-khoahoc",
+    "w-lucdia",
+    "w-hiensinh",
+    "w-phephan",
+    "w-thongdien",
+    "w-cautruc"
    ],
    ""
   ],
@@ -6952,9 +9150,14 @@
   [
    "Philosophical Traditions › Continental Philosophy",
    [
-    "w-lucdia"
+    "w-theky19",
+    "w-lucdia",
+    "w-hiensinh",
+    "w-phephan",
+    "w-thongdien",
+    "w-cautruc"
    ],
-   ""
+   "Nữ quyền lục địa, phân tâm học lục địa, hiện thực luận tư biện chưa có mục riêng; Beauvoir, Irigaray, Kristeva, Butler nằm trong các mục hiện sinh và hậu cấu trúc."
   ],
   [
    "European Philosophy › Jewish Philosophy",
@@ -7100,7 +9303,7 @@
    "noi": "Kalām Do Thái thời trung đại chịu ảnh hưởng của phái Muʿtazila."
   },
   {
-   "tu": "w-hylaphoa",
+   "tu": "w-tanplaton",
    "den": "j-hylaphoa",
    "nam": 0,
    "loai": "kết hợp",
@@ -7266,7 +9469,7 @@
    "noi": "Trần Đức Thảo nối hiện tượng học với chủ nghĩa Mác."
   },
   {
-   "tu": "w-candaisom",
+   "tu": "w-khaisangduc",
    "den": "f-amo",
    "nam": 1730,
    "loai": "làm việc trong",
@@ -7299,7 +9502,7 @@
    "noi": "Lập luận của Vitoria rằng buôn bán thuộc luật vạn dân ảnh hưởng trực tiếp tới Grotius; Grotius dựa vào Aquinas, Cajetan và Vitoria khi bàn tự do biển cả."
   },
   {
-   "tu": "w-theky19",
+   "tu": "w-ao",
    "den": "w-lvov",
    "nam": 1895,
    "loai": "thầy trò",
@@ -7311,7 +9514,7 @@
   },
   {
    "tu": "j-hylaphoa",
-   "den": "w-hylaphoa",
+   "den": "w-tanplaton",
    "nam": 200,
    "loai": "tiếp nhận",
    "nhan": "da",
@@ -7330,6 +9533,162 @@
     "ndt2|tr. 277"
    ],
    "noi": "Theo Nguyễn Đăng Thục, Luy Lâu thời Sĩ Nhiếp đã là trung tâm Phật giáo và văn hóa Ấn Độ, có Khang Tăng Hội dịch kinh; Giao Chỉ là chỗ ghé của đường biển từ Ấn Độ và Nam Dương lên Trung Hoa. Năm 200 là mốc Claude ghi để vẽ."
+  },
+  {
+   "tu": "w-tanplaton",
+   "den": "w-trungdaisom",
+   "nam": 400,
+   "loai": "tiếp nhận",
+   "nhan": "da",
+   "src": [
+    "sepMedieval|§1.2, §1.4"
+   ],
+   "noi": "Marenbon coi Plotinus và Porphyry là gốc chung của cả bốn nhánh triết học trung đại; Augustine, người ảnh hưởng lớn nhất lên triết học Latin, đọc các nhà Tân Plato. Năm 400 là mốc Claude ghi để vẽ."
+  },
+  {
+   "tu": "w-codien",
+   "den": "w-trungdai",
+   "nam": 1250,
+   "loai": "tiếp nhận",
+   "nhan": "mot",
+   "src": [
+    "sepMedieval|§2.7"
+   ],
+   "noi": "Triết học đại học từ khoảng 1200 xoay quanh các tác phẩm của Aristotle, đọc qua bản dịch Latin và các nhà chú giải Ả Rập. Năm 1250 là mốc Claude ghi để vẽ."
+  },
+  {
+   "tu": "w-khaisangduc",
+   "den": "w-theky19",
+   "nam": 1794,
+   "loai": "phê phán và phát triển",
+   "nhan": "da",
+   "src": [
+    "hirsch2|tr. 431–447"
+   ],
+   "noi": "Hirschberger mở phần duy tâm Đức bằng \"những đối thủ và những người ủng hộ Kant\" rồi tới Fichte, người đi từ Kant tới duy tâm chủ quan."
+  },
+  {
+   "tu": "w-theky19",
+   "den": "w-hauhegel",
+   "nam": 1841,
+   "loai": "phê phán",
+   "nhan": "da",
+   "src": [
+    "hirsch2|tr. 554"
+   ],
+   "noi": "Hirschberger đặt phái Hegel cánh tả và duy vật biện chứng (Feuerbach, Marx) ở chương 21 như phản ứng trực tiếp với Hegel. Năm 1841 (Bản chất Kitô giáo) là mốc Claude ghi để vẽ."
+  },
+  {
+   "tu": "w-khaisangduc",
+   "den": "w-tankant",
+   "nam": 1865,
+   "loai": "trở về",
+   "nhan": "da",
+   "src": [
+    "sepNeoKant|§1"
+   ],
+   "noi": "Lời gọi \"trở về Kant\" những năm 1860 (Liebmann 1865, Lange 1866) mở đầu phong trào Tân Kant."
+  },
+  {
+   "tu": "w-ao",
+   "den": "w-lucdia",
+   "nam": 1900,
+   "loai": "thầy trò",
+   "nhan": "mot",
+   "src": [
+    "hirsch2|tr. 536",
+    "pp"
+   ],
+   "noi": "Husserl học Brentano ở Vienna; khái niệm tính ý hướng của Brentano là điểm xuất phát của Những nghiên cứu logic. Nguồn đã đọc chỉ xếp Brentano và trường phái Áo cạnh nhau; quan hệ thầy trò theo hiểu biết của Claude."
+  },
+  {
+   "tu": "w-lucdia",
+   "den": "w-hiensinh",
+   "nam": 1943,
+   "loai": "tiếp nhận",
+   "nhan": "da",
+   "src": [
+    "sepPhen|§4",
+    "sepExist|mở đầu"
+   ],
+   "noi": "Sartre và Merleau-Ponty phát triển hiện tượng học của Husserl và Heidegger thành triết học hiện sinh ở Pháp."
+  },
+  {
+   "tu": "w-lucdia",
+   "den": "w-thongdien",
+   "nam": 1927,
+   "loai": "chuyển hóa",
+   "nhan": "da",
+   "src": [
+    "sepHerm|§3–§4"
+   ],
+   "noi": "Heidegger biến thông diễn học thành thông diễn học về tính thực tại của tồn tại (1923, 1927); Gadamer dựng thông diễn học triết học trên nền ấy."
+  },
+  {
+   "tu": "w-lucdia",
+   "den": "w-cautruc",
+   "nam": 1966,
+   "loai": "phê phán",
+   "nhan": "da",
+   "src": [
+    "sepFoucault|§2, §3.2.4"
+   ],
+   "noi": "Foucault vào École Normale lúc hiện tượng học hiện sinh cực thịnh, rồi phê phán chủ thể siêu nghiệm của Husserl và cách Sartre, Merleau-Ponty quy cái siêu nghiệm về cái thường nghiệm."
+  },
+  {
+   "tu": "w-phephan",
+   "den": "w-thongdien",
+   "nam": 1971,
+   "loai": "tranh luận",
+   "nhan": "da",
+   "src": [
+    "sepHerm|§6.1"
+   ],
+   "noi": "Cuộc tranh luận Habermas–Gadamer về tham vọng phổ quát của thông diễn học và về phê phán ý thức hệ."
+  },
+  {
+   "tu": "w-cautruc",
+   "den": "w-thongdien",
+   "nam": 1984,
+   "loai": "tranh luận",
+   "nhan": "da",
+   "src": [
+    "sepHerm|§6.2"
+   ],
+   "noi": "Derrida đặt \"Ba câu hỏi cho Hans-Georg Gadamer\" (1984)."
+  },
+  {
+   "tu": "w-phantich",
+   "den": "w-ngonngu",
+   "nam": 1929,
+   "loai": "tự phê phán",
+   "nhan": "mot",
+   "src": [
+    "iepOLP|§2"
+   ],
+   "noi": "Wittgenstein trở lại Cambridge năm 1929 và dần bỏ cách nhìn của Tractatus; IEP lấy đó làm khởi đầu của triết học ngôn ngữ thông thường."
+  },
+  {
+   "tu": "w-phantich",
+   "den": "w-thucchung",
+   "nam": 1924,
+   "loai": "tiếp nhận",
+   "nhan": "mot",
+   "src": [
+    "sepVienna|§2.3"
+   ],
+   "noi": "Vòng Vienna dùng logic của Frege, Russell và Tractatus của Wittgenstein để phân tích ngôn ngữ khoa học. Claude chưa đọc kỹ phần học thuyết của mục từ."
+  },
+  {
+   "tu": "w-phantichhau",
+   "den": "w-thucchung",
+   "nam": 1951,
+   "loai": "phê phán",
+   "nhan": "da",
+   "src": [
+    "sepQuine|§3, §7"
+   ],
+   "noi": "Quine bác sự phân biệt phân tích và tổng hợp mà chủ nghĩa kinh nghiệm logic dùng để giải thích chân lý tiên nghiệm, và phê phán Nguyên tắc khoan dung của Carnap."
   }
  ],
  "DICH": [
@@ -7765,7 +10124,7 @@
   },
   {
    "van": "Phê phán lý tính thuần túy",
-   "muc": "w-theky19",
+   "muc": "w-khaisangduc",
    "ten": "Phê phán lý tính thuần túy",
    "dich": "Bùi Văn Nam Sơn",
    "nxb": "NXB Văn học, Công ty sách Thời Đại",
@@ -8167,7 +10526,7 @@
   },
   {
    "van": "Khế ước xã hội",
-   "muc": "w-candaisom",
+   "muc": "w-khaisang",
    "ten": "Khế ước xã hội",
    "dich": "chưa rõ",
    "nxb": "Học viện Công dân",
@@ -8181,7 +10540,7 @@
   },
   {
    "van": "Khế ước xã hội",
-   "muc": "w-candaisom",
+   "muc": "w-khaisang",
    "ten": "Bàn về khế ước xã hội",
    "dich": "Hoàng Thanh Đạm (bản 1992 ghi Thanh Đạm)",
    "nxb": "NXB TP Hồ Chí Minh",
@@ -8195,7 +10554,7 @@
   },
   {
    "van": "Khế ước xã hội",
-   "muc": "w-candaisom",
+   "muc": "w-khaisang",
    "ten": "Khế ước xã hội",
    "dich": "Dương Văn Hóa",
    "nxb": "NXB Thế giới, Alpha Books",
@@ -8780,6 +11139,958 @@
    ],
    "nhan": "chua",
    "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Không có bản ghi nào của Francisco Suárez."
+  },
+  {
+   "van": "Suy tưởng",
+   "muc": "w-hylaphoa",
+   "ten": "Suy tưởng",
+   "dich": "Tiết Hùng Thái",
+   "nxb": "NXB Tri thức",
+   "nam": "2018; in lại 2020, 2021",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Về bản tính sự vật",
+   "muc": "w-hylaphoa",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Phác thảo Pyrrho",
+   "muc": "w-hylaphoa",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Enneads",
+   "muc": "w-tanplaton",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Tự thú",
+   "muc": "w-trungdaisom",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Tra theo tác giả Augustin và theo nhan đề."
+  },
+  {
+   "van": "Thành đô của Thiên Chúa",
+   "muc": "w-trungdaisom",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Niềm an ủi của triết học",
+   "muc": "w-trungdaisom",
+   "ten": "Sự an ủi của triết học",
+   "dich": "Tạ Thành Tấn",
+   "nxb": "NXB Thế giới",
+   "nam": "2025",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Proslogion",
+   "muc": "w-kinhviensom",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Tổng luận thần học",
+   "muc": "w-trungdai",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Không có kết quả theo nhan đề; tra theo tác giả \"Tôma\" và \"Aquinas\" cũng không ra."
+  },
+  {
+   "van": "Quân vương",
+   "muc": "w-phuchung",
+   "ten": "Quân vương (Thuật trị nước)",
+   "dich": "Vũ Mạnh Hồng, Nguyễn Hiền Chi",
+   "nxb": "NXB Lao động Xã hội",
+   "nam": "2005",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Thư viện có hơn hai mươi bản ghi Quân vương với nhiều người dịch, như Mai Thị Thu Huyền, Đăng Thư, Thiếu Khanh, Vũ Thái Hà; năm 2005 là lần sớm nhất thấy được."
+  },
+  {
+   "van": "Utopia",
+   "muc": "w-phuchung",
+   "ten": "Utopia: Địa đàng trần gian",
+   "dich": "Trịnh Lữ",
+   "nxb": "NXB Hội Nhà văn",
+   "nam": "",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Tiểu luận",
+   "muc": "w-phuchung",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Có một bản ghi tiếng Việt đứng tên Montaigne nhưng không phải Tiểu luận."
+  },
+  {
+   "van": "Diễn từ về phẩm giá con người",
+   "muc": "w-phuchung",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Luận về phương pháp",
+   "muc": "w-candaisom",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Tra theo nhan đề \"Luận về phương pháp\" và \"Bàn về phương pháp\", lọc tên Descartes."
+  },
+  {
+   "van": "Đạo đức học",
+   "muc": "w-candaisom",
+   "ten": "Đạo đức học",
+   "dich": "Phạm Hùng",
+   "nxb": "NXB Văn học",
+   "nam": "2022",
+   "tu": "có lẽ qua bản Anh của W. H. White, Don Garrett biên tập",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "mot",
+   "ghi": "Bản ghi có tên White và Garrett, người dịch và người biên tập bản Anh; Claude suy ra bản Việt dịch qua bản ấy."
+  },
+  {
+   "van": "Đơn tử luận",
+   "muc": "w-candaisom",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Không có bản ghi tiếng Việt nào đứng tên Leibniz."
+  },
+  {
+   "van": "Leviathan",
+   "muc": "w-kinhnghiem",
+   "ten": "Leviathan: Tác phẩm triết học kinh điển",
+   "dich": "Hà Thủy Nguyên, Phương Anh",
+   "nxb": "NXB Đà Nẵng",
+   "nam": "2023",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Khảo luận về giác tính con người",
+   "muc": "w-kinhnghiem",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Khảo luận thứ hai về chính quyền",
+   "muc": "w-kinhnghiem",
+   "ten": "Khảo luận thứ hai về chính quyền",
+   "dich": "Lê Tuấn Huy",
+   "nxb": "NXB Tri thức",
+   "nam": "2007",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Thư viện có sáu bản ghi; tên người dịch có bản ghi viết là Lê Huy Tuấn."
+  },
+  {
+   "van": "Nguyên lý tri thức con người",
+   "muc": "w-kinhnghiem",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Khảo luận về bản tính con người",
+   "muc": "w-kinhnghiem",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Nghiên cứu về giác tính con người",
+   "muc": "w-kinhnghiem",
+   "ten": "Một nghiên cứu về giác tính con người",
+   "dich": "Bùi Văn Nam Sơn, Hoàng Phú Phương",
+   "nxb": "NXB Tri thức",
+   "nam": "2022",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Của cải của các dân tộc",
+   "muc": "w-kinhnghiem",
+   "ten": "Của cải của các dân tộc",
+   "dich": "Đỗ Trọng Hợp",
+   "nxb": "NXB Giáo dục",
+   "nam": "1997",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Tinh thần pháp luật",
+   "muc": "w-khaisang",
+   "ten": "Tinh thần pháp luật",
+   "dich": "Hoàng Thanh Đạm",
+   "nxb": "NXB Giáo dục",
+   "nam": "1996",
+   "tu": "Pháp",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Ngôn ngữ nguồn theo hiểu biết của Claude."
+  },
+  {
+   "van": "Bách khoa thư",
+   "muc": "w-khaisang",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Từ điển lịch sử và phê phán",
+   "muc": "w-khaisang",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Phê phán lý tính thực hành",
+   "muc": "w-khaisangduc",
+   "ten": "Phê phán lý tính thực hành",
+   "dich": "Bùi Văn Nam Sơn",
+   "nxb": "NXB Tri thức",
+   "nam": "2007; in lại 2015",
+   "tu": "Đức",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Ngôn ngữ nguồn suy theo bản Phê phán lý tính thuần túy cùng người dịch."
+  },
+  {
+   "van": "Phê phán năng lực phán đoán",
+   "muc": "w-khaisangduc",
+   "ten": "Phê phán năng lực phán đoán",
+   "dich": "Bùi Văn Nam Sơn",
+   "nxb": "NXB Tri thức",
+   "nam": "2015 (có thể có bản sớm hơn)",
+   "tu": "Đức",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "mot",
+   "ghi": ""
+  },
+  {
+   "van": "Học thuyết khoa học",
+   "muc": "w-theky19",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Không có bản ghi nào đứng tên Fichte."
+  },
+  {
+   "van": "Khoa học logic",
+   "muc": "w-theky19",
+   "ten": "Khoa học lôgíc",
+   "dich": "Bùi Văn Nam Sơn",
+   "nxb": "NXB Tri thức",
+   "nam": "2008",
+   "tu": "Đức",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Các nguyên lý của triết học pháp quyền",
+   "muc": "w-theky19",
+   "ten": "Các nguyên lý của triết học pháp quyền",
+   "dich": "Bùi Văn Nam Sơn",
+   "nxb": "NXB Tri thức",
+   "nam": "2010",
+   "tu": "Đức",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Có thêm bản Triết học pháp quyền của Phạm Chiến Khu (Chính trị Quốc gia 2019)."
+  },
+  {
+   "van": "Thế giới như là ý chí và biểu tượng",
+   "muc": "w-hauhegel",
+   "ten": "Thế giới như là ý chí và biểu tượng",
+   "dich": "Thích Nguyên Pháp, Bùi Văn Nam Sơn",
+   "nxb": "NXB Hồng Đức",
+   "nam": "2022",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Cùng thời có bản của Hà Thủy Nguyên và Lê Duy Nam."
+  },
+  {
+   "van": "Bản chất Kitô giáo",
+   "muc": "w-hauhegel",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Kính sợ và run rẩy",
+   "muc": "w-hauhegel",
+   "ten": "Kính sợ và run rẩy",
+   "dich": "Nguyễn Nguyên Phước, Bùi Văn Nam Sơn",
+   "nxb": "NXB Hồng Đức",
+   "nam": "2023",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Tuyên ngôn của Đảng Cộng sản",
+   "muc": "w-hauhegel",
+   "ten": "Tuyên ngôn của Đảng Cộng sản",
+   "dich": "Thép Mới, Sơn Tùng",
+   "nxb": "NXB Sự thật",
+   "nam": "1946",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Thư viện có chín bản ghi, gồm các bản Tân Chi và bản có tên Hồ Chí Minh."
+  },
+  {
+   "van": "Tư bản, tập I",
+   "muc": "w-hauhegel",
+   "ten": "Tư bản: Phê phán khoa kinh tế chính trị",
+   "dich": "không ghi trong kết quả",
+   "nxb": "NXB Chính trị Quốc gia",
+   "nam": "2018 (bản sớm nhất trong 200 kết quả)",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "mot",
+   "ghi": "Có 434 bản ghi theo nhan đề \"Tư bản\"; Claude chỉ đọc được 200 bản ghi mới nhất, nên các bản dịch cũ hơn chưa được xem. Có một bản tóm tắt Tư bản luận của Hoàng Dự in năm 1937."
+  },
+  {
+   "van": "Zarathustra đã nói như thế",
+   "muc": "w-hauhegel",
+   "ten": "Zarathustra đã nói như thế",
+   "dich": "Trần Xuân Kiêm",
+   "nxb": "NXB Văn học",
+   "nam": "1999",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Bàn về tự do",
+   "muc": "w-anh19",
+   "ten": "Bàn về tự do",
+   "dich": "Nguyễn Văn Trọng",
+   "nxb": "NXB Tri thức",
+   "nam": "2005",
+   "tu": "Anh",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Ngôn ngữ nguồn theo hiểu biết của Claude. Thư viện có hơn mười bản ghi."
+  },
+  {
+   "van": "Chủ nghĩa công lợi",
+   "muc": "w-anh19",
+   "ten": "Thuyết công lợi",
+   "dich": "Nguyễn Hữu Liêm, Đặng Đức Hiệp",
+   "nxb": "NXB Văn hóa Văn nghệ TP HCM",
+   "nam": "",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Giáo trình triết học thực chứng",
+   "muc": "w-phap19",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Sự tiến hóa sáng tạo",
+   "muc": "w-doisong",
+   "ten": "Tiến hóa sáng tạo",
+   "dich": "Nguyễn Anh Cường",
+   "nxb": "NXB Hà Nội",
+   "nam": "2026",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Thuyết dụng hành",
+   "muc": "w-thucdung",
+   "ten": "Chủ nghĩa thực dụng",
+   "dich": "Phạm Viêm Phương",
+   "nxb": "NXB Đà Nẵng",
+   "nam": "2021",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Cơ sở của số học",
+   "muc": "w-phantich",
+   "ten": "Các cơ sở của số học",
+   "dich": "Huỳnh Duy Thanh",
+   "nxb": "NXB Đà Nẵng",
+   "nam": "2022",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Cú pháp logic của ngôn ngữ",
+   "muc": "w-thucchung",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Không có bản ghi tiếng Việt nào đứng tên Carnap."
+  },
+  {
+   "van": "Khái niệm về tâm trí",
+   "muc": "w-ngonngu",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Làm việc bằng lời nói",
+   "muc": "w-ngonngu",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Không có bản ghi nào đứng tên J. L. Austin."
+  },
+  {
+   "van": "Từ một quan điểm logic",
+   "muc": "w-phantichhau",
+   "ten": "Từ một góc nhìn logic",
+   "dich": "Trần Đình Thắng",
+   "nxb": "",
+   "nam": "2025",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Tập này có bài Hai giáo điều của chủ nghĩa kinh nghiệm."
+  },
+  {
+   "van": "Từ và vật",
+   "muc": "w-phantichhau",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Một lý thuyết về công lý",
+   "muc": "w-phantichhau",
+   "ten": "Một lý thuyết về công lý",
+   "dich": "Phạm Hồ Nam, Nguyễn Lữ Quỳnh Anh, Việt Phạm",
+   "nxb": "NXB Tri thức",
+   "nam": "2023",
+   "tu": "Anh",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Ngôn ngữ nguồn theo hiểu biết của Claude."
+  },
+  {
+   "van": "Đặt tên và tất yếu",
+   "muc": "w-phantichhau",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Logik der Forschung",
+   "muc": "w-khoahoc",
+   "ten": "Logic của sự khám phá khoa học",
+   "dich": "Chu Hảo, Nguyễn Trung Kiên",
+   "nxb": "NXB Tri thức",
+   "nam": "2022",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Xã hội mở và những kẻ thù của nó",
+   "muc": "w-khoahoc",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Có chín bản ghi tiếng Việt đứng tên Popper, nhưng không thấy nhan đề này."
+  },
+  {
+   "van": "Cấu trúc các cuộc cách mạng khoa học",
+   "muc": "w-khoahoc",
+   "ten": "Cấu trúc các cuộc cách mạng khoa học",
+   "dich": "Chu Lan Đình",
+   "nxb": "NXB Tri thức",
+   "nam": "2008",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
+  },
+  {
+   "van": "Hiện tượng học về tri giác",
+   "muc": "w-lucdia",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Toàn thể và vô hạn",
+   "muc": "w-lucdia",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Ideas I",
+   "muc": "w-lucdia",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Husserl chỉ có Ý niệm hiện tượng học (Bùi Văn Nam Sơn, Tri thức 2016)."
+  },
+  {
+   "van": "Tồn tại và hư vô",
+   "muc": "w-hiensinh",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Thuyết hiện sinh là một thuyết nhân bản",
+   "muc": "w-hiensinh",
+   "ten": "Thuyết hiện sinh là một thuyết nhân bản",
+   "dich": "Đinh Hồng Phúc",
+   "nxb": "NXB Tri thức",
+   "nam": "2015",
+   "tu": "Pháp",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Ngôn ngữ nguồn theo hiểu biết của Claude."
+  },
+  {
+   "van": "Giới tính thứ hai",
+   "muc": "w-hiensinh",
+   "ten": "Giới nữ (2 tập)",
+   "dich": "Đoàn Ngọc Thanh, Nguyễn Trọng Định",
+   "nxb": "NXB Phụ nữ",
+   "nam": "1996",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Có thêm bản của Như Phong và Bảo Chân."
+  },
+  {
+   "van": "Con người nổi loạn",
+   "muc": "w-hiensinh",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. Thư viện có 36 bản ghi tiếng Việt đứng tên Camus, phần lớn là tiểu thuyết."
+  },
+  {
+   "van": "Biện chứng của Khai sáng",
+   "muc": "w-phephan",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Con người một chiều",
+   "muc": "w-phephan",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Lý thuyết hành động giao tiếp",
+   "muc": "w-phephan",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Chân lý và phương pháp",
+   "muc": "w-thongdien",
+   "ten": "Chân lý và phương pháp",
+   "dich": "Bùi Văn Nam Sơn, Hoàng Phú Phương, Nguyễn Sỹ Nguyên",
+   "nxb": "NXB Tri thức",
+   "nam": "2025",
+   "tu": "Đức",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": "Ngôn ngữ nguồn theo hiểu biết của Claude."
+  },
+  {
+   "van": "Thời gian và tự sự",
+   "muc": "w-thongdien",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Lịch sử sự điên",
+   "muc": "w-cautruc",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Trật tự của sự vật",
+   "muc": "w-cautruc",
+   "ten": "",
+   "dich": "",
+   "nxb": "",
+   "nam": "",
+   "tu": "",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "chua",
+   "ghi": "Chưa thấy trong mục lục Thư viện Quốc gia. "
+  },
+  {
+   "van": "Giám sát và trừng phạt",
+   "muc": "w-cautruc",
+   "ten": "Giám sát và trừng phạt: Nguồn gốc nhà tù",
+   "dich": "Nguyễn Ngọc Tuấn, Hoàng Hưng, Trần Thị Châu Hoàn",
+   "nxb": "NXB Tri thức",
+   "nam": "2022",
+   "tu": "chưa rõ",
+   "src": [
+    "dNLV"
+   ],
+   "nhan": "da",
+   "ghi": ""
   }
  ]
 }
