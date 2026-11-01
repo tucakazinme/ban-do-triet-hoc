@@ -16,8 +16,8 @@
 # Danh sách việc còn lại (01/11/2026)
 A. Độ tin cậy
 1. Kiểm độc lập hai phần ba số mục còn lại (lượt 01/11 mới phủ 38 mục mẫu).
-2. Thay các phần còn dựa Wikipedia bằng nguồn chuyên ngành: Do Thái (cả 4 mục), Hồi giáo hậu cổ điển và Nahda, Nga, các dòng thiền Việt thế kỷ XVII–XVIII, Việt Nam thế kỷ XX, Jaina, sa-môn; mốc 1900 của phân tích và lục địa.
-3. Đọc trọn những chỗ mới đọc phần mở: các chương Nguyễn Đăng Thục tập II, V, VI (mới đọc tên chương và trang mở), Hirschberger tập 2 ngoài mục lục, SEP Africana mục 9–10.
+2. [phần lớn xong 01/11] Thay các phần còn dựa Wikipedia bằng nguồn chuyên ngành: Do Thái (cả 4 mục), Hồi giáo hậu cổ điển và Nahda, Nga, các dòng thiền Việt thế kỷ XVII–XVIII, Việt Nam thế kỷ XX, Jaina, sa-môn; mốc 1900 của phân tích và lục địa.
+3. [một phần 01/11] Đọc trọn những chỗ mới đọc phần mở: các chương Nguyễn Đăng Thục tập II, V, VI (mới đọc tên chương và trang mở), Hirschberger tập 2 ngoài mục lục, SEP Africana mục 9–10.
 4. Đọc chính văn bản cho các mục làm từ tóm tắt: Henry (Caribe), Estermann (Andes), Stewart và Marsden (Māori), Mercado và Gripaldo (Philippines).
 B. Phủ
 5. Còn trống: Úc bản địa, Polynesia ngoài Māori, Maya, Amazon, đạo đức Hindu và Jaina, Ukraine, Latvia; Đông Nam Á ngoài Việt Nam và Philippines (Thái, Indonesia, Mã Lai, Miến, Khmer) chưa có làn.
@@ -34,3 +34,4 @@ E. Công cụ
 13. Thử trên điện thoại; giao diện sửa trên màn hình hẹp.
 14. Quyết định số phận bản artifact trên claude.ai (giữ làm bản sao để xem, hay thôi).
 - [01/11] Bố cục một cột, phiếu thành ngăn trượt (Cẩm chọn); tab Cách dùng.
+- [01/11] Việc 2–3 trong danh sách: Do Thái (IEP Philo, Cambridge Companion, SEP Mendelssohn), Hồi giáo hậu cổ điển (SEP Mullā Ṣadrā, Kaukua) và Nahda (REP ʿAbduh, Demichelis, MESA), Nga (IEP, Oxford Handbook), Jaina (IEP), Cārvāka (IEP Indian Materialism: phái chính thức thế kỷ VI–VII CN), Trần Đức Thảo (Banaji); mốc thế kỷ XX theo mục lục Hirschberger (chương 24 là thuyết duy hiện tượng thế kỷ XIX, không phải Husserl). Nguyễn Đăng Thục: luận điểm độc tôn Nho từ Lê Thánh Tông (VI, tr. 52), Nho học khai phóng và Thiền thượng thừa của Nguyễn Trãi (VI, tr. 18–31), Chân Nguyên trong dòng Lâm Tế (VI, tr. 91), pháp trị Hồ Quý Ly và huyền học Trần Nguyên Đán (V), Luy Lâu và Vinitaruci (II). Thêm 2 liên hệ. Còn dựa Wikipedia: j-candaisom, Ājīvika/Ajñāna, thiền Việt XVII–XVIII (v-phatgiao17), Việt Nam XX ngoài Trần Đức Thảo, Ibn Khaldūn. SEP Africana §9–10 vẫn không đọc được.

@@ -510,6 +510,117 @@
    "url": "https://www.philarchive.org/rec/LELN",
    "k": "cn",
    "note": "đọc tóm tắt"
+  },
+  "iepRussian": {
+   "t": "Russian Philosophy",
+   "a": "Thomas Nemeth",
+   "w": "Internet Encyclopedia of Philosophy",
+   "url": "https://iep.utm.edu/russian/",
+   "k": "cn"
+  },
+  "ohRussRel": {
+   "t": "The Oxford Handbook of Russian Religious Thought, mục lục",
+   "a": "Caryl Emerson, George Pattison, Randall A. Poole biên tập",
+   "w": "Oxford University Press, 2020",
+   "url": "https://academic.oup.com/edited-volume/34253",
+   "k": "cn",
+   "note": "chỉ đọc mục lục và lời giới thiệu"
+  },
+  "iepJain": {
+   "t": "Jain Philosophy",
+   "a": "Mark Owen Webb",
+   "w": "Internet Encyclopedia of Philosophy",
+   "url": "https://iep.utm.edu/jain/",
+   "k": "cn"
+  },
+  "iepIndMat": {
+   "t": "Indian Materialism (Cārvāka)",
+   "w": "Internet Encyclopedia of Philosophy",
+   "url": "https://iep.utm.edu/indmat/",
+   "k": "cn"
+  },
+  "iepPhilo": {
+   "t": "Philo of Alexandria",
+   "a": "Marian Hillar",
+   "w": "Internet Encyclopedia of Philosophy",
+   "url": "https://iep.utm.edu/philo/",
+   "k": "cn"
+  },
+  "camJewish": {
+   "t": "The Cambridge Companion to Medieval Jewish Philosophy, mục lục và tóm tắt",
+   "a": "Daniel H. Frank và Oliver Leaman biên tập",
+   "w": "Cambridge University Press, 2003",
+   "url": "https://campusstore.miamioh.edu/cambridge-companion-medieval-jewish/bk/9780521655743",
+   "k": "cn",
+   "note": "chỉ đọc mục lục (qua trang bán sách) và tóm tắt trên PhilArchive"
+  },
+  "rudavsky": {
+   "t": "Jewish Philosophy in the Middle Ages, lời giới thiệu sách",
+   "a": "T. M. Rudavsky",
+   "w": "Oxford University Press, 2018",
+   "url": "https://www.alibri.es/en/libro/722895/jewish-philosophy-in-the-middle-ages",
+   "k": "cn",
+   "note": "chỉ đọc lời giới thiệu"
+  },
+  "sepMendel": {
+   "t": "Moses Mendelssohn",
+   "a": "Daniel Dahlstrom",
+   "w": "Stanford Encyclopedia of Philosophy (đăng 2002, sửa 2023)",
+   "url": "https://plato.stanford.edu/entries/mendelssohn/",
+   "k": "cn"
+  },
+  "sepMulla": {
+   "t": "Mulla Sadra",
+   "a": "Sajjad Rizvi",
+   "w": "Stanford Encyclopedia of Philosophy (đăng 2009, sửa 2019)",
+   "url": "https://plato.stanford.edu/entries/mulla-sadra/",
+   "k": "cn"
+  },
+  "kaukua": {
+   "t": "Post-Classical Islamic Philosophy – a Contradiction in Terms?",
+   "a": "Jari Kaukua",
+   "w": "Nazariyat 6(2), 2020",
+   "url": "https://jyx.jyu.fi/jyx/Record/jyx_123456789_74618",
+   "k": "cn",
+   "note": "đọc tóm tắt"
+  },
+  "repAbduh": {
+   "t": "ʿAbduh, Muhammad (1849–1905), tóm tắt mục từ",
+   "a": "Neal Robinson",
+   "w": "Routledge Encyclopedia of Philosophy, 1998",
+   "url": "https://www.rep.routledge.com/articles/biographical/abduh-muhammad-1849-1905/v-1",
+   "k": "cn",
+   "note": "đọc phần tóm tắt công khai"
+  },
+  "demichelis": {
+   "t": "The Historical Debate on Secularisation between F. Anṭūn and M. ʿAbduh",
+   "a": "Marco Demichelis",
+   "w": "ARAM 25, 2013",
+   "url": "https://pluriel.fuce.eu/wp-content/uploads/2016/10/Nahda.pdf",
+   "k": "cn",
+   "note": "đọc qua đoạn trích"
+  },
+  "mesaFalsafa": {
+   "t": "Making Falsafa: Towards a Modern History of Arabic Philosophy (tóm tắt các bài trong phiên)",
+   "w": "Middle East Studies Association, hội nghị 2017",
+   "url": "https://my-mesa.org/program/sessions/view/eyJpdiI6IlZUV1ZadzFaY0d2Qkx1bjEzMzdITmc9PSIsInZhbHVlIjoiUkhPWGVDS05uMjJzR2g5Ym8ybENCdz09IiwibWFjIjoiYmE2NjEzMjExMTBmMTkwZTE5OWFjNGU0Y2JmOTFkNmJhZWZmNTA5ZDIxNzk0NGMwN2VmNTk3YTE3YzNmNGQwOCIsInRhZyI6IiJ9",
+   "k": "cn",
+   "note": "đọc tóm tắt"
+  },
+  "clesNahda": {
+   "t": "Nahda: renaissance culturelle et politique",
+   "w": "Les clés du Moyen-Orient",
+   "url": "https://www.lesclesdumoyenorient.com/Nahda-renaissance-culturelle-et.html",
+   "k": "pt",
+   "note": "đọc qua đoạn trích"
+  },
+  "banaji": {
+   "t": "Bài về Trần Đức Thảo",
+   "a": "Jairus Banaji",
+   "w": "Historical Materialism",
+   "url": "https://www.historicalmaterialism.org/?p=1585",
+   "k": "cn",
+   "note": "đọc qua đoạn trích"
   }
  },
  "VUNG": [
@@ -1160,7 +1271,7 @@
     1900,
     2026
    ],
-   "moc": "Mốc 1900 lấy theo câu Wikipedia về triết học thế kỷ XX nói chung (Russell, The Principles of Mathematics, 1903); cùng bài gọi Die Grundlagen der Arithmetik của Frege (1884) là tác phẩm phân tích đầu tiên. Mốc đầu vì vậy là quy ước.",
+   "moc": "Hirschberger đặt \"Thuyết thực chứng mới\" (chương 31, tr. 762–764) trong mục thế kỷ XX; Wikipedia gọi Die Grundlagen der Arithmetik của Frege (1884) là tác phẩm phân tích đầu tiên. Mốc 1900 vì vậy là quy ước theo thế kỷ.",
    "mo": "Nhấn vào lập luận, ngữ nghĩa, logic và sự rõ ràng; phần lớn ở các nước nói tiếng Anh. Russell, Wittgenstein, chủ nghĩa thực chứng logic; về sau Quine, Davidson, Rawls, Nozick, Lewis, Searle, Nagel, Williamson.",
    "nguoi": [
     [
@@ -1240,7 +1351,7 @@
     1900,
     2026
    ],
-   "moc": "Husserl, Logical Investigations (1900–1901) mở thế kỷ XX theo nguồn. Mô tả bao cả thế kỷ XIX (duy tâm Đức), nên mốc 1900 chỉ ứng với chặng thế kỷ XX; phần thế kỷ XIX nằm ở mục Cận đại muộn và thế kỷ XIX.",
+   "moc": "Hirschberger chia phần \"Triết học đương đại\" thành mục thế kỷ XIX (từ Herbart) và mục thế kỷ XX (từ tr. 667); mốc 1900 theo cách chia ấy. Wikipedia lấy Logical Investigations của Husserl (1900–1901) mở thế kỷ XX.",
    "mo": "Các trào lưu của lục địa châu Âu thế kỷ XIX và XX. PhilPapers chia thành hiện sinh, hiện tượng học, duy tâm Đức, lý thuyết phê phán, thông diễn học, cấu trúc, hậu cấu trúc, nữ quyền lục địa, phân tâm học lục địa, hiện thực luận tư biện.",
    "nguoi": [
     [
@@ -1282,7 +1393,7 @@
     ]
    ],
    "src": [
-    "hirsch2|tr. 625–761",
+    "hirsch2|mục lục; tr. 667–761",
     "wpWestern",
     "pp"
    ],
@@ -1294,7 +1405,8 @@
     "critical-theory",
     "hermeneutics",
     "poststructuralism"
-   ]
+   ],
+   "ck": "Mục lục Hirschberger không dùng cặp phân tích và lục địa; các chương thế kỷ XX của ông là triết học đời sống, hiện tượng học, hữu thể học và siêu hình học, thuyết hiện sinh, thuyết thực chứng mới. Chương 24 \"Hiện tượng học trong nhiều hình thái\" bàn thuyết duy hiện tượng thế kỷ XIX (thực chứng Pháp, duy nghiệm Anh, Tân Kant, dụng hành), không bàn Husserl."
   },
   {
    "id": "w-thucdung",
@@ -1355,8 +1467,8 @@
     2026
    ],
    "uoc": true,
-   "moc": "Nguồn chia ba thời: trước Peter (Nga cổ), sau Peter, Xô viết; \"thời hoàng kim\" đầu thế kỷ XX. Mốc đầu do Claude ước.",
-   "mo": "Phái thân phương Tây và phái Slavophile giữa thế kỷ XIX, chủ nghĩa vũ trụ (cosmism), triết học tôn giáo đầu thế kỷ XX, Mác–Lênin thời Xô viết.",
+   "moc": "IEP chia năm thời: \"những nhận xét triết học\" khoảng 1755–1825; \"thời tối\" khoảng 1825–1860; triết học chuyên nghiệp ra đời khoảng 1860–1917; Xô viết 1917–1991; hậu Xô viết từ 1991. IEP ghi ít ai phủ nhận rằng tư tưởng Nga trước Peter Đại đế (khoảng 1700) có định hướng tôn giáo. Mốc đầu 1050 theo Wikipedia (Hilarion) và do Claude ước.",
+   "mo": "Các học giả đặt điểm khởi đầu của triết học Nga ở những chỗ khác nhau: Zenkovsky coi Skovoroda là triết gia Nga đầu tiên, Masaryk bắt đầu từ Chaadaev; IEP tính triết học thế tục từ lúc Solovyov bảo vệ luận văn năm 1874. Giữa thế kỷ XIX là phái Slavophile (Kireyevsky, Khomiakov) và phái thân phương Tây. Phục hưng tôn giáo–triết học 1900–1922 (Florensky, Bulgakov, Berdyaev) và tư tưởng của giới lưu vong theo cách chia của Oxford Handbook. Thời Xô viết có tranh luận giữa phái Deborin và phái cơ giới, rồi Ilyenkov, Mamardashvili; Losev được gọi là \"triết gia Nga cuối cùng\" của Thời Bạc.",
    "nguoi": [
     [
      "Hilarion",
@@ -1364,14 +1476,24 @@
      ""
     ],
     [
+     "Hryhorii Skovoroda",
+     "",
+     "1722–1794 (IEP)"
+    ],
+    [
      "Pyotr Chaadaev",
      "",
-     ""
+     "1794–1856 (IEP)"
+    ],
+    [
+     "Ivan Kireyevsky",
+     "",
+     "1806–1856 (IEP)"
     ],
     [
      "Aleksey Khomyakov",
      "",
-     ""
+     "1804–1860 (IEP)"
     ],
     [
      "Fyodor Dostoevsky",
@@ -1386,15 +1508,25 @@
     [
      "Vladimir Solovyov",
      "",
-     "1853–1900"
+     "1853–1900 (IEP)"
+    ],
+    [
+     "Nikolai Lossky",
+     "",
+     "1870–1965 (IEP)"
     ],
     [
      "Nikolai Berdyaev",
      "",
-     "1874–1948"
+     "1874–1948 (IEP)"
     ],
     [
      "Pavel Florensky",
+     "",
+     ""
+    ],
+    [
+     "Sergei Bulgakov",
      "",
      ""
     ],
@@ -1404,14 +1536,29 @@
      ""
     ],
     [
+     "Abram Deborin",
+     "",
+     "1881–1963 (IEP)"
+    ],
+    [
+     "Aleksei Losev",
+     "",
+     "1893–1988 (IEP)"
+    ],
+    [
      "Mikhail Bakhtin",
      "",
      ""
     ],
     [
-     "Aleksei Losev",
+     "Evald Ilyenkov",
      "",
      ""
+    ],
+    [
+     "Merab Mamardashvili",
+     "",
+     "1930–1990 (IEP)"
     ]
    ],
    "van": [
@@ -1427,6 +1574,8 @@
     ]
    ],
    "src": [
+    "iepRussian|§1, §2",
+    "ohRussRel",
     "wpRussian",
     "pp"
    ],
@@ -1443,13 +1592,13 @@
     -200,
     50
    ],
-   "moc": "Sách Ben Sira soạn đầu thế kỷ II TCN; Philo khoảng 20 TCN – khoảng 50.",
-   "mo": "Tư tưởng Do Thái kết hợp với Plato, phái Pythagoras, Aristotle và Khắc kỷ; văn chương minh triết.",
+   "moc": "IEP ghi Philo khoảng 20 TCN – 40 CN; sách Ben Sira soạn đầu thế kỷ II TCN (Wikipedia). Wikipedia ghi Philo mất khoảng năm 50.",
+   "mo": "Văn chương minh triết, và Philo xứ Alexandria, nơi có cộng đồng Do Thái lớn nhất ngoài Palestine. Theo IEP, Philo tìm cách biện minh cho đạo Do Thái bằng triết học Hy Lạp: một thuyết Plato thấm thuật ngữ và học thuyết Khắc kỷ, thêm logic và đạo đức Aristotle, ý tưởng Pythagoras; ông đọc Kinh Thánh theo lối ngụ ý, lấy Timaeus làm mô hình sáng tạo, biến Logos của phái Khắc kỷ thành trung gian giữa Thượng đế và thế giới. Các tác giả Kitô giáo như Clement xứ Alexandria, Origen, Justin dùng cách đọc của ông.",
    "nguoi": [
     [
      "Philo xứ Alexandria",
      "Philo",
-     "khoảng 20 TCN – khoảng 50"
+     "khoảng 20 TCN – 40 CN (IEP)"
     ]
    ],
    "van": [
@@ -1460,6 +1609,7 @@
     ]
    ],
    "src": [
+    "iepPhilo|§1–§11",
     "wpJewish",
     "pp"
    ],
@@ -1477,8 +1627,8 @@
     1500
    ],
    "uoc": true,
-   "moc": "Saadia hoàn thành Emunot ve-Deot năm 933; các mốc khác do Claude ước.",
-   "mo": "Kalām Do Thái chịu ảnh hưởng Muʿtazila; Tân Plato Do Thái; Aristotle Do Thái với Maimonides; Kabbalah từ thế kỷ XIII, bị phái duy lý chống.",
+   "moc": "Từ thế kỷ IX tới thế kỷ XV (Cambridge Companion); Saadia hoàn thành Emunot ve-Deot năm 933 (Wikipedia). Mốc vẽ 900–1500 có phần do Claude ước.",
+   "mo": "Theo Cambridge Companion, từ thế kỷ IX tới XV các nhà tư tưởng Do Thái sống ở đất Hồi giáo và đất Kitô giáo làm triết học về đạo Do Thái: trước chịu ảnh hưởng thần học biện luận Hồi giáo và các triết gia cổ điển, về sau chịu ảnh hưởng kinh viện Kitô giáo. Các chặng sách nêu: Saadia và kalām Do Thái; Tân Plato Do Thái (Ibn Gabirol, Isaac Israeli); Judah Halevi và Kuzari; Maimonides và thuyết Aristotle Do Thái; triết học và Kabbalah 1200–1600; phong trào dịch từ Ả Rập sang Hebrew và ảnh hưởng của Averroes; tranh luận ở miền nam nước Pháp; Gersonides; ảnh hưởng kinh viện thế kỷ XIV–XV; Crescas chống Aristotle; đối thoại Do Thái–Kitô ở Tây Ban Nha thế kỷ XV.",
    "nguoi": [
     [
      "Saadia Gaon",
@@ -1559,8 +1709,9 @@
     ]
    ],
    "src": [
-    "wpJewish",
+    "camJewish",
     "sepMaimon",
+    "wpJewish",
     "pp"
    ],
    "pp": [
@@ -1619,8 +1770,10 @@
     ]
    ],
    "src": [
+    "rudavsky",
     "wpJewish"
-   ]
+   ],
+   "ck": "Rudavsky cho triết học Do Thái trung đại kéo dài tới Spinoza ở thế kỷ XVII, nên ranh giới với mục Trung đại tùy cách chia; nội dung mục vẫn dựa Wikipedia."
   },
   {
    "id": "j-hiendai",
@@ -1633,12 +1786,12 @@
    ],
    "uoc": true,
    "moc": "Mendelssohn in Jerusalem năm 1783; Rosenzweig chuyển sang triết học Do Thái năm 1913.",
-   "mo": "Haskalah (Khai sáng Do Thái), cải cách và tân chính thống, Tân Kant (Hermann Cohen), hiện sinh, chủ nghĩa tự nhiên tôn giáo; thần học sau Holocaust.",
+   "mo": "Theo SEP, Mendelssohn (1729–1786) là gương mặt trung tâm của Khai sáng Đức, được gọi là \"Luther của người Do Thái\", vận động cho quyền công dân của người Do Thái và dịch Ngũ Thư, Thánh Vịnh sang tiếng Đức (bài SEP không dùng chữ Haskalah). Theo Wikipedia: Haskalah (Khai sáng Do Thái), cải cách và tân chính thống, Tân Kant (Hermann Cohen), hiện sinh, chủ nghĩa tự nhiên tôn giáo, thần học sau Holocaust.",
    "nguoi": [
     [
      "Moses Mendelssohn",
      "",
-     ""
+     "1729–1786 (SEP)"
     ],
     [
      "Salomon Maimon",
@@ -1689,6 +1842,7 @@
     ]
    ],
    "src": [
+    "sepMendel",
     "wpJewish"
    ]
   },
@@ -1853,8 +2007,8 @@
     1900
    ],
    "uoc": true,
-   "moc": "Suhrawardī 1155–1191; Muqaddimah của Ibn Khaldūn năm 1377; mốc cuối do Claude ước.",
-   "mo": "Triết học tiếp tục lâu hơn ở phía đông: Iran thời Safavid, Đế quốc Ottoman, Mughal. Chiếu minh (Suhrawardī), thần trí siêu nghiệm (Mullā Ṣadrā), trường phái Isfahan, triết học Sufi. Ở phía tây, Ibn Khaldūn viết Muqaddimah.",
+   "moc": "Suhrawardī 1155–1191; Muqaddimah của Ibn Khaldūn năm 1377 (Wikipedia); Mullā Ṣadrā khoảng 1571–1636 (SEP); Sabzavārī mất 1873. Mốc cuối 1900 do Claude ước.",
+   "mo": "Triết học tiếp tục lâu hơn ở phía đông: Iran thời Safavid, Đế quốc Ottoman, Mughal. Theo SEP, Mullā Ṣadrā làm việc trong cuộc phục hưng triết học thời Shah ʿAbbās I, học với Mīr Dāmād; \"trường phái Isfahan\" là tên Nasr và Corbin đặt. Ông dung hợp Avicenna, thuyết chiếu minh của Suhrawardī và nhất nguyên luận Sufi của Ibn ʿArabī trong \"triết học siêu việt\" (al-ḥikma al-mutaʿāliya), đặt thực tại trên tồn tại. Sabzavārī, mất 1873, được bài SEP gọi là \"triết gia Hồi giáo lớn cuối cùng\"; ở thế kỷ XX Ṭabāṭabāʾī và trường phái của ông chi phối các chủng viện Shiʿa ở Iran. Ở phía tây, Ibn Khaldūn viết Muqaddimah. Việc gọi chặng này là \"hậu cổ điển\" còn bàn: Gutas coi phần lớn là \"cận triết học\", Kaukua phản bác cách đánh giá ấy.",
    "nguoi": [
     [
      "Shihāb al-Dīn Suhrawardī",
@@ -1862,12 +2016,32 @@
      "1155–1191"
     ],
     [
-     "Mullā Ṣadrā",
+     "Ibn ʿArabī",
+     "",
+     "mất 1240"
+    ],
+    [
+     "Ibn Khaldūn",
      "",
      ""
     ],
     [
-     "Ibn Khaldūn",
+     "Mīr Dāmād",
+     "",
+     ""
+    ],
+    [
+     "Mullā Ṣadrā",
+     "",
+     "khoảng 1571–1636 (SEP)"
+    ],
+    [
+     "Hādī Sabzavārī",
+     "",
+     "mất 1873"
+    ],
+    [
+     "Muḥammad Ḥusayn Ṭabāṭabāʾī",
      "",
      ""
     ]
@@ -1877,9 +2051,16 @@
      "Muqaddimah",
      "Ibn Khaldūn",
      "1377"
+    ],
+    [
+     "al-Asfār al-arbaʿa",
+     "Mullā Ṣadrā",
+     "1606–1628"
     ]
    ],
    "src": [
+    "sepMulla",
+    "kaukua",
     "wpIslamic",
     "pp"
    ],
@@ -1893,15 +2074,42 @@
    "ten": "Nahda và hiện đại",
    "goc": "al-Nahḍa",
    "span": [
-    1870,
+    1798,
     2026
    ],
    "uoc": true,
-   "moc": "Mối quan tâm hồi sinh trong phong trào Nahda cuối thế kỷ XIX, đầu thế kỷ XX (theo nguồn).",
-   "mo": "Nguồn chỉ nêu sự hồi sinh và nói nó kéo dài tới nay, không kể tên người.",
+   "moc": "Nahda thường tính từ cuộc viễn chinh Ai Cập của Napoléon năm 1798; Đại học Ai Cập lập năm 1908. Mốc đầu theo cách tính thường gặp, mốc cuối là hiện tại.",
+   "mo": "Nahda (\"thức tỉnh\") có hai dòng chính: cải cách Hồi giáo (al-Afghānī, ʿAbduh) và thức tỉnh chính trị. Theo Routledge Encyclopedia, ʿAbduh là học trò của al-Afghānī nhưng ít hoạt động chính trị hơn, tập trung cải cách tôn giáo, luật và giáo dục; \"duy lý\" của ông có giới hạn ở niềm tin vào sự siêu việt của Thượng đế. Năm 1902–1903 ʿAbduh tranh luận với Faraḥ Anṭūn về Ibn Rushd và thế tục hóa, dựa vào các điểm của kalām Muʿtazila. Năm 1908 Đại học Ai Cập mở môn \"Triết học và Đạo đức Ả Rập\"; các giáo trình ra đời từ đó dựng hình ảnh triết học Ả Rập như một chương của lịch sử lý tính phổ quát, đi từ phong trào dịch thuật qua thời cổ điển, suy tàn, rồi truyền sang châu Âu.",
    "src": [
+    "repAbduh",
+    "demichelis",
+    "mesaFalsafa",
+    "clesNahda",
     "wpIslamic"
-   ]
+   ],
+   "nguoi": [
+    [
+     "Rifāʿa al-Ṭahṭāwī",
+     "",
+     "1801–1873"
+    ],
+    [
+     "Jamāl al-Dīn al-Afghānī",
+     "",
+     "1838 hoặc 1839–1897"
+    ],
+    [
+     "Muḥammad ʿAbduh",
+     "",
+     "1849–1905"
+    ],
+    [
+     "Faraḥ Anṭūn",
+     "",
+     "1874–1922"
+    ]
+   ],
+   "ck": "Claude đọc tóm tắt và đoạn trích; năm sinh al-Afghānī các nguồn ghi 1838 và 1839. Triết học Ả Rập và Hồi giáo sau 1950 chưa có nguồn."
   },
   {
    "id": "a-veda",
@@ -1934,7 +2142,7 @@
    ],
    "uoc": true,
    "moc": "Mahāvīra thế kỷ VI TCN; Đức Phật khoảng thế kỷ V TCN.",
-   "mo": "Những phái không nhận thẩm quyền Veda: Phật giáo, Jaina, Ājīvika (Makkhali Gosāla), Ajñāna (hoài nghi). Cārvāka hay Lokāyata, phái duy vật, theo truyền thống nhận Bṛhaspati làm tổ, điều này có học giả tranh cãi; kinh văn gốc đã mất.",
+   "mo": "Những phái không nhận thẩm quyền Veda: Phật giáo, Jaina, Ājīvika (Makkhali Gosāla), Ajñāna (hoài nghi). Về Cārvāka hay Lokāyata, IEP viết: không văn bản giáo lý nào còn lại, Bṛhaspati là một bậc thẩm quyền huyền thoại, Cārvāka và Ajita Kesakambalin được nói là người lập phái; phái này chỉ nhận tri giác làm nguồn tri thức đáng tin. IEP đặt sự hình thành của phái như một trường phái chính thức vào thế kỷ VI–VII CN, muộn hơn nhiều so với mốc của mục này; ở chặng sa-môn chỉ có Ajita Kesakambalin và những dấu vết duy vật.",
    "nguoi": [
     [
      "Đức Phật",
@@ -1952,6 +2160,11 @@
      ""
     ],
     [
+     "Ajita Kesakambalin",
+     "",
+     ""
+    ],
+    [
      "Jayarāśi Bhaṭṭa",
      "",
      ""
@@ -1965,12 +2178,15 @@
     ]
    ],
    "src": [
+    "iepIndMat|§1–§4",
+    "iepJain",
     "wpIndian",
     "pp"
    ],
    "pp": [
     "heterodoxnastika-philosophy"
-   ]
+   ],
+   "ck": "Ājīvika và Ajñāna vẫn dựa Wikipedia; năm của Jayarāśi Bhaṭṭa chưa có nguồn."
   },
   {
    "id": "a-darsana",
@@ -2175,7 +2391,7 @@
    ],
    "uoc": true,
    "moc": "Pārśvanātha: nguồn ghi chỗ thế kỷ VIII–VII TCN, chỗ thế kỷ IX TCN; Mahāvīra thế kỷ VI TCN. Mốc cuối do Claude ước.",
-   "mo": "Truyền thống của các Tīrthaṅkara; kinh điển gồm Ācārāṅga Sūtra và các Āgama.",
+   "mo": "Truyền thống của các Tīrthaṅkara; kinh điển gồm Ācārāṅga Sūtra và các Āgama (Wikipedia). Theo IEP: Mahāvīra, thế kỷ VI TCN, cùng thời Đức Phật; thực tại nhiều mặt (anekānta) nên mọi phán đoán chỉ đúng từ một góc nhìn (naya) và được đánh dấu bằng syāt trong phép thuyết bảy mặt, một thuyết sai lầm khả hữu trong nhận thức luận; linh hồn (jīva) là một trong sáu loại thực thể, cùng vật chất, vận động, đứng yên, không gian, thời gian; nghiệp là một thứ vật chất kéo linh hồn trở lại thân xác; bất hại (ahiṃsā) là giới đầu trong năm giới. Śaṅkara phê phán phép thuyết bảy mặt là mâu thuẫn.",
    "nguoi": [
     [
      "Pārśvanātha",
@@ -2193,11 +2409,18 @@
      "Ācārāṅga Sūtra",
      "",
      ""
+    ],
+    [
+     "Tattvārtha Sūtra",
+     "",
+     ""
     ]
    ],
    "src": [
+    "iepJain|§1–§3",
     "wpIndian"
-   ]
+   ],
+   "ck": "Các nhân vật và cuộc chia Śvetāmbara–Digambara chưa có nguồn chuyên ngành; bài IEP không bàn."
   },
   {
    "id": "a-vedanta",
@@ -3472,7 +3695,7 @@
     938
    ],
    "moc": "Wikipedia ghi 111 TCN tới 938. Trang tên sách tập II ghi \"từ thế kỷ II trước CN đến thế kỷ X\"; lời nhà xuất bản ở tập I ghi \"thế kỷ thứ I trước CN\".",
-   "mo": "Bối cảnh văn hóa trước thời Tần Hán; học thuật thời Tần Hán; Sĩ Nhiếp, \"Nam Giao học tổ\"; ảnh hưởng Ấn Độ và Phật học Giao Chỉ; học thuật thời Đường; Thiền học Việt Nam thời Tùy Đường như sản phẩm của giao lưu văn hóa. Mâu Bác và sách Lý hoặc luận nằm ở phần bổ di của tập III. Hai nguồn đọc khác nhau về các dòng thiền sớm: Nguyễn Đăng Thục kể Tì-ni-đa-lưu-chi như nhân vật lịch sử, Tổ thứ nhất của thiền Việt, truyền tâm ấn cho Pháp Hiền ở chùa Pháp Vân, cùng thời Bồ-đề-đạt-ma sang Quảng Châu (tập II, tr. 193, 207); Cuong Tu Nguyen, theo Wikipedia, cho rằng truyền thuyết về Tì-ni-đa-lưu-chi (năm 580) và Vô Ngôn Thông có lẽ do người soạn Thiền uyển về sau dựng nên.",
+   "mo": "Bối cảnh văn hóa trước thời Tần Hán; học thuật thời Tần Hán; Sĩ Nhiếp, \"Nam Giao học tổ\"; ảnh hưởng Ấn Độ và Phật học Giao Chỉ; học thuật thời Đường; Thiền học Việt Nam thời Tùy Đường như sản phẩm của giao lưu văn hóa: Nguyễn Đăng Thục coi Giao Chỉ là \"ngã tư các dân tộc và văn hóa\", với Luy Lâu thời Sĩ Nhiếp là trung tâm Phật giáo và văn hóa Ấn Độ từ sớm (tập II, tr. 277). Mâu Bác và sách Lý hoặc luận nằm ở phần bổ di của tập III. Hai nguồn đọc khác nhau về các dòng thiền sớm: Nguyễn Đăng Thục kể Tì-ni-đa-lưu-chi như nhân vật lịch sử, Tổ thứ nhất của thiền Việt, người Nam Thiên Trúc, gặp Tam tổ Tăng Xán ở Trung Hoa rồi được bảo sang phương Nam, truyền tâm ấn cho Pháp Hiền ở chùa Pháp Vân, theo Cổ Châu Pháp Vân Phật bản hạnh ngữ lục và Thiền uyển (tập II, tr. 184–185, 193, 207); Cuong Tu Nguyen, theo Wikipedia, cho rằng truyền thuyết về Tì-ni-đa-lưu-chi (năm 580) và Vô Ngôn Thông có lẽ do người soạn Thiền uyển về sau dựng nên.",
    "nguoi": [
     [
      "Sĩ Nhiếp",
@@ -3507,7 +3730,8 @@
     "ndt3|tr. 313–343",
     "wpViet",
     "wpThien"
-   ]
+   ],
+   "ck": "Số trang tập II là số trang in, lớn hơn số trang bản quét một đơn vị."
   },
   {
    "id": "v-dinhle",
@@ -3665,7 +3889,7 @@
     1407
    ],
    "moc": "1380–1407 (trang tên sách tập V).",
-   "mo": "Xã hội chính trị cuối Trần; xung đột tư tưởng Nho và Phật; tư tưởng pháp trị của Hồ Quý Ly, các cuộc cải cách kinh tế, xã hội, chính trị và sự thành bại của chúng; phong trào phản đối và tướng sĩ phục Trần; Trần Nguyên Đán với huyền học thời Trần; nghĩa sĩ với ý thức dân tộc, như Nguyễn Biểu và tín ngưỡng \"chính khí\". Sách chép lại danh mục các sách từ đời Trần trở về trước mà quân Minh thu về Kim Lăng, theo Văn tịch chí của Phan Huy Chú.",
+   "mo": "Xã hội chính trị cuối Trần; xung đột tư tưởng Nho và Phật. Nguyễn Đăng Thục cho rằng tư tưởng pháp trị của Hồ Quý Ly đã manh nha trong nhóm Nho sĩ \"bạch diện thư sinh\" từ thời Trần Minh Tông, những người như Lê Quát, Phạm Sư Mạnh muốn đổi chế độ mà vua không nghe (dẫn Toàn thư, q. 7). Ông gọi tư tưởng Hồ Quý Ly là một ý thức hệ hành động, một \"chủ nghĩa quốc gia xã hội cách mệnh\" đối với thời ấy, và dẫn Lê Thúc Thông (Nam Phong, số 100) kể các cải cách: tiền giấy, hạn điền, quảng tế viện, mở đường thiên lý. Rồi phong trào phản đối và tướng sĩ phục Trần; Trần Nguyên Đán với \"huyền học\", tức Đạo giáo ở trình độ bác học của các xử sĩ, mà Nguyễn Đăng Thục dựng lại qua bài minh chuông quán Thông Thánh ở Bạch Hạc (1321); nghĩa sĩ với ý thức dân tộc, như Nguyễn Biểu và tín ngưỡng \"chính khí\". Sách chép lại danh mục các sách từ đời Trần trở về trước mà quân Minh thu về Kim Lăng, theo Văn tịch chí của Phan Huy Chú.",
    "nguoi": [
     [
      "Hồ Quý Ly",
@@ -3684,9 +3908,9 @@
     ]
    ],
    "src": [
-    "ndt5|tr. 5, 13, 37–85, 151, 215–248"
+    "ndt5|tr. 6, 14, 37–85, 151–152, 215–248"
    ],
-   "ck": "Bản quét tập V không có mục lục; số trang lấy từ đầu các chương trong bản quét."
+   "ck": "Số trang tập V là số trang in, lớn hơn số trang bản quét một đơn vị. Claude đọc trang mở và một số trang của các chương, chưa đọc trọn."
   },
   {
    "id": "v-nguyentrai",
@@ -3699,7 +3923,7 @@
    ],
    "uoc": true,
    "moc": "Tên tập VI ghi 1380–1442; phần cuối tập bàn thế kỷ XVI–XVII. Mốc cuối do Claude ước.",
-   "mo": "Tư tưởng Nguyễn Trãi trong \"truyền thống hợp sáng của dân tộc\": Nho học khai phóng vì nước, vì dân; Thiền thượng thừa, từ Nho đến Phật qua Lão. Rồi sự khủng hoảng ý thức hệ phong kiến thế kỷ XVI–XVII; Nguyễn Dữ với thế giới quan tam giáo trong Truyền kỳ mạn lục; tư tưởng tam giáo trong Lâm tuyền kỳ ngộ; Nguyễn Bỉnh Khiêm. Nguyễn Đăng Thục đọc chặng này như một tổng hợp tam giáo lấy Nho làm trọng tâm, có Phật và Đạo bổ túc.",
+   "mo": "Tư tưởng Nguyễn Trãi trong \"truyền thống hợp sáng của dân tộc\". Nho học khai phóng vì nước, vì dân: Nguyễn Đăng Thục đọc chữ hiếu và chữ trung của Nguyễn Trãi là trung với nước và dân, không làm \"nghĩa bộc\" cho một họ vua (tr. 18–19). Thiền thượng thừa, từ Nho đến Phật qua Lão: thời bình ông \"lấy Bụt làm lòng\", mở lòng nhân của Nho ra tới mọi chúng sinh (tr. 30–31). Nguyễn Đăng Thục cho rằng từ triều Lê Thánh Tông (1460–1497), nhà nước đoạn tuyệt với ý thức hệ tam giáo của Thiền tông Lý–Trần, mà người đại diện cuối cùng là Nguyễn Trãi, để độc tôn Nho học; ý thức hệ Nho \"đóng cửa\" ấy dẫn tới khủng hoảng thế kỷ XVI–XVII (tr. 52). Rồi Nguyễn Dữ với thế giới quan tam giáo trong Truyền kỳ mạn lục; tư tưởng tam giáo trong Lâm tuyền kỳ ngộ; Nguyễn Bỉnh Khiêm. Ông đọc chặng này như một tổng hợp tam giáo lấy Nho làm trọng tâm, có Phật và Đạo bổ túc.",
    "nguoi": [
     [
      "Nguyễn Trãi",
@@ -3733,7 +3957,7 @@
     "ndt67|tập VI, tr. 5, 18, 30, 52, 177, 190, 248, 267, 295",
     "wpViet"
    ],
-   "ck": "Claude đọc tên chương và các trang mở chương; chưa đọc trọn các chương."
+   "ck": "Claude đọc tên chương, các trang mở chương và một số trang; chưa đọc trọn các chương. Bản quét in năm Nguyễn Trãi bị tru di là \"1942\", rõ là lỗi in hoặc lỗi nhận dạng của 1442."
   },
   {
    "id": "v-huonghai",
@@ -3745,7 +3969,7 @@
     1726
    ],
    "moc": "Hương Hải 1627–1715, Chân Nguyên 1646–1726 (tập VI, tr. 65, 85, 90). Tập VII, tr. 450 lại ghi Hương Hải 1627–1717.",
-   "mo": "Trào lưu chấn hưng Thiền học dân tộc Trúc Lâm Yên Tử. Chân Nguyên hệ thống hóa một triết lý Tịnh độ trong Tịnh độ yếu nghĩa và Hồng Mông hành (tên in trong sách), với một vũ trụ quan tam giáo Phật, Đạo, Nho; Nguyễn Đăng Thục bàn vũ trụ quan, nhận thức quan, nhân sinh quan và yếu tố tôn giáo tâm linh trong ý thức hệ tam giáo của chặng này.",
+   "mo": "Trào lưu chấn hưng Thiền học dân tộc Trúc Lâm Yên Tử. Chân Nguyên hệ thống hóa một triết lý Tịnh độ trong Tịnh độ yếu nghĩa và Hồng Mông hành (tên in trong sách), với một vũ trụ quan tam giáo Phật, Đạo, Nho; Nguyễn Đăng Thục bàn vũ trụ quan, nhận thức quan, nhân sinh quan và yếu tố tôn giáo tâm linh trong ý thức hệ tam giáo của chặng này. Nguyễn Đăng Thục kể Chân Nguyên được thầy truyền cho tông Lâm Tế (tập VI, tr. 91), nên cuộc chấn hưng Trúc Lâm này diễn ra trong dòng Lâm Tế.",
    "nguoi": [
     [
      "Hương Hải",
@@ -3874,7 +4098,7 @@
    ],
    "uoc": true,
    "moc": "Theo năm của các nhân vật trong nguồn; mốc đầu do Claude ước.",
-   "mo": "Ảnh hưởng Pháp và triết học Mác-xít; Trần Đức Thảo nối hiện tượng học với chủ nghĩa Mác; những người viết lịch sử tư tưởng Việt Nam như Nguyễn Đăng Thục, Trần Văn Giàu; Phạm Công Thiện; triết học Công giáo (Lương Kim Định); Thích Thanh Từ phục hưng Trúc Lâm; Thích Nhất Hạnh.",
+   "mo": "Ảnh hưởng Pháp và triết học Mác-xít; Trần Đức Thảo nối hiện tượng học với chủ nghĩa Mác: ông viết luận văn về phương pháp của Husserl với Jean Cavaillès năm 1941–1942, in Phénoménologie et matérialisme dialectique năm 1951, về nước rồi viết cho báo Nhân Văn giữa thập niên 1950 và bị kỷ luật; năm 2001 được truy tặng giải thưởng Hồ Chí Minh; những người viết lịch sử tư tưởng Việt Nam như Nguyễn Đăng Thục, Trần Văn Giàu; Phạm Công Thiện; triết học Công giáo (Lương Kim Định); Thích Thanh Từ phục hưng Trúc Lâm; Thích Nhất Hạnh.",
    "nguoi": [
     [
      "Nguyễn Khuyến",
@@ -3923,9 +4147,10 @@
     ]
    ],
    "src": [
+    "banaji",
+    "jacobin",
     "wpViet",
     "wpThien",
-    "jacobin",
     "hildesheim"
    ],
    "doc": [
@@ -6546,6 +6771,28 @@
     "sepLWS|§1"
    ],
    "noi": "Twardowski, học trò của Brentano ở Vienna, về Lvov năm 1895 với chương trình làm triết học khoa học theo tinh thần Brentano."
+  },
+  {
+   "tu": "j-hylaphoa",
+   "den": "w-hylaphoa",
+   "nam": 200,
+   "loai": "tiếp nhận",
+   "nhan": "da",
+   "src": [
+    "iepPhilo"
+   ],
+   "noi": "Clement xứ Alexandria, Origen, Justin, Tertullian dùng cách đọc Kinh Thánh theo triết học Hy Lạp của Philo; học thuyết Logos của ông, theo IEP, là nền cho thần học Kitô giáo. Năm 200 là mốc Claude ghi để vẽ."
+  },
+  {
+   "tu": "a-phatgiao",
+   "den": "v-bacthuoc",
+   "nam": 200,
+   "loai": "truyền",
+   "nhan": "da",
+   "src": [
+    "ndt2|tr. 277"
+   ],
+   "noi": "Theo Nguyễn Đăng Thục, Luy Lâu thời Sĩ Nhiếp đã là trung tâm Phật giáo và văn hóa Ấn Độ, có Khang Tăng Hội dịch kinh; Giao Chỉ là chỗ ghé của đường biển từ Ấn Độ và Nam Dương lên Trung Hoa. Năm 200 là mốc Claude ghi để vẽ."
   }
  ]
 }
