@@ -33,6 +33,7 @@ Mục vấn đề, vùng và truyền thống chưa sửa được trên trang; 
 | `method.html` | Văn bản tab Phương pháp |
 | `huongdan.html` | Văn bản tab Cách dùng |
 | `build.py` | Dựng `index.html` |
+| `kiem_du_lieu.py` | Kiểm tính toàn vẹn của dữ liệu; GitHub Actions chạy sau mỗi lần sửa dữ liệu, kết quả xem ở tab Actions của kho |
 | `index.html` | Trang web (tệp dựng ra) |
 | `TIENDO.md`, `kiem_doclap_*.md` | Nhật ký làm việc và hai báo cáo kiểm độc lập |
 

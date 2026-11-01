@@ -1,0 +1,17 @@
+name: Kiểm dữ liệu bản đồ
+on:
+  push:
+    paths: ['data/**', 'kiem_du_lieu.py', '.github/workflows/kiem-du-lieu.yml']
+  pull_request:
+    paths: ['data/**']
+  workflow_dispatch:
+jobs:
+  kiem:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Kiểm data/ban-do.json
+        run: python3 kiem_du_lieu.py
