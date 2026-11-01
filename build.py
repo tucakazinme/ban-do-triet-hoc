@@ -4,7 +4,7 @@
 import json
 data=json.load(open('data/ban-do.json',encoding='utf8'))
 method=open('method.html',encoding='utf8').read()
-snap='const __SNAP='+json.dumps(data,ensure_ascii=False)+';\nconst METHOD_HTML='+json.dumps(method,ensure_ascii=False)+';\n'
+snap='const __SNAP='+json.dumps(data,ensure_ascii=False)+';\nconst METHOD_HTML='+json.dumps(method,ensure_ascii=False)+';\nconst GUIDE_HTML='+json.dumps(open('huongdan.html',encoding='utf8').read(),ensure_ascii=False)+';\n'
 t=open('template.html',encoding='utf8').read()
 assert '/*SNAP*/' in t and '/*EDITOR*/' in t
 t=t.replace('/*SNAP*/',snap).replace('/*EDITOR*/',open('editor.js',encoding='utf8').read())

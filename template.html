@@ -140,6 +140,8 @@ table.t{width:100%;border-collapse:collapse;font-size:13.5px}
 .method h2{font-size:19px;margin-top:6px}
 .lnk{border:0;background:none;padding:0;color:var(--accent);cursor:pointer;text-decoration:underline;text-underline-offset:2px;font-size:inherit;text-align:left}
 .hidden{display:none!important}
+#edBtn[aria-pressed="false"]{opacity:1}
+#edBtn[aria-pressed="true"]{background:var(--accent);color:var(--sheet);border-color:var(--accent)}
 .searchwrap{display:flex;gap:8px;align-items:center}
 .edbar{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;background:var(--accent-soft);border-radius:8px;padding:8px 12px;font-size:13px}
 .edbar .st{margin-right:auto}
@@ -162,7 +164,7 @@ form.ed .hint{font-weight:400;font-size:12px;color:var(--muted)}
 <div class="page">
 <header>
   <h1>Bản đồ các truyền thống triết học</h1>
-  <p>Bản đồ ở mức thô: mỗi truyền thống với các thời kỳ và trường phái chính, người và văn bản tiêu biểu, chỗ đọc tiếp. Điều nào cũng ghi nguồn đã đọc ngày 31/10/2026 và nhãn kiểm. Ba mục vấn đề làm mẫu cho cách ghi một vấn đề qua nhiều lần nêu. Tiêu chí phủ và các giới hạn nằm ở tab Phương pháp.</p>
+  <p>Bản đồ ở mức thô: mỗi truyền thống với các thời kỳ và trường phái chính, người và văn bản tiêu biểu, chỗ đọc tiếp. Điều nào cũng ghi nguồn đã đọc ngày 31/10/2026 và nhãn kiểm. Ba mục vấn đề làm mẫu cho cách ghi một vấn đề qua nhiều lần nêu. Tiêu chí phủ và các giới hạn nằm ở tab Phương pháp; cách đọc và cách sửa bản đồ nằm ở tab Cách dùng.</p>
   <div class="stats" id="stats"></div>
 </header>
 <div class="bar">
@@ -215,7 +217,7 @@ function xf(y){y=Math.max(BK[0],Math.min(BK[4],y));for(let i=0;i<4;i++){if(y<=BK
 const TICKS=[-1000,-500,0,250,500,750,1000,1200,1400,1600,1700,1800,1900,2000];
 
 const state={tab:'map',sel:null,hl:'',hlGroup:-1,vung:null,lk:true,edit:false};
-const TABS=[['map','Bản đồ'],['cach','Cách phân loại'],['vande','Vấn đề'],['nguoi','Người và văn bản'],['pp','Phương pháp và nguồn']];
+const TABS=[['map','Bản đồ'],['cach','Cách phân loại'],['vande','Vấn đề'],['nguoi','Người và văn bản'],['pp','Phương pháp và nguồn'],['hd','Cách dùng']];
 document.getElementById('tabs').innerHTML=TABS.map(t=>`<button class="tab" role="tab" data-t="${t[0]}">${t[1]}</button>`).join('');
 function renderStats(){
   const peopleUnique=new Set(NGUOI.map(p=>p.ten)).size;
@@ -297,12 +299,12 @@ function panelMuc(id){
   return h;
 }
 function panelIntro(){
-  return `<span class="kind">Cách dùng</span><h2>Bấm vào một thời kỳ, một người hay một mục vấn đề</h2><p>Phiếu bên này sẽ hiện mốc theo nguồn, người và văn bản, các cách phân loại và vấn đề có mục ấy, nguồn đã đọc và chỗ đọc tiếp.</p><div class="box"><span><b>Nhãn</b></span><span>${tag('da')} khớp nguồn đã đọc, có ghi tên nguồn và phần</span><span>${tag('mot')} kiểm qua nguồn thứ cấp, hoặc kiểm được một phần</span><span>${tag('chua')} theo hiểu biết của Claude, chưa đối chiếu</span><span>${tag('sl')} Claude suy ra từ các điều đã kiểm</span></div><p class="small">Nguồn chuyên ngành gồm SEP, IEP, PhilPapers và bài nghiên cứu; nguồn phổ thông là Wikipedia. Hai loại mang nhãn khác nhau ở danh sách nguồn.</p>`;
+  return `<span class="kind">Phiếu</span><h2>Bấm vào một thời kỳ, một người hay một mục vấn đề</h2><p>Phiếu bên này sẽ hiện mốc theo nguồn, người và văn bản, các cách phân loại và vấn đề có mục ấy, nguồn đã đọc và chỗ đọc tiếp.</p><div class="box"><span><b>Nhãn</b></span><span>${tag('da')} khớp nguồn đã đọc, có ghi tên nguồn và phần</span><span>${tag('mot')} kiểm qua nguồn thứ cấp, hoặc kiểm được một phần</span><span>${tag('chua')} theo hiểu biết của Claude, chưa đối chiếu</span><span>${tag('sl')} Claude suy ra từ các điều đã kiểm</span></div><p class="small">Nguồn chuyên ngành gồm SEP, IEP, PhilPapers và bài nghiên cứu; nguồn phổ thông là Wikipedia. Hai loại mang nhãn khác nhau ở danh sách nguồn.</p><p class="small">Cách đọc đầy đủ và cách sửa dữ liệu: <button class="lnk" data-gotab="hd">tab Cách dùng</button>.</p>`;
 }
 function render(){
   document.querySelectorAll('.tab').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.t===state.tab)));
   const main=document.getElementById('main');
-  main.innerHTML=state.tab==='map'?renderMap():state.tab==='cach'?renderCach():state.tab==='vande'?renderVD():state.tab==='nguoi'?renderNguoi():renderPP();
+  main.innerHTML=state.tab==='map'?renderMap():state.tab==='cach'?renderCach():state.tab==='vande'?renderVD():state.tab==='nguoi'?renderNguoi():state.tab==='hd'?`<div class="sheet method">${GUIDE_HTML}</div>`:renderPP();
   const hs=document.getElementById('hlSel');if(hs)hs.value=state.hl;
   if(state.tab==='map')drawLinks();
 }
@@ -343,6 +345,7 @@ function openMuc(id,toMap){state.sel={k:'m',id};if(toMap&&state.tab!=='map'){}pa
 document.addEventListener('click',e=>{
   const g=e.target.closest('.lksvg g');if(g){openLk(+g.dataset.lki);return}
   const t=e.target.closest('button');if(!t)return;
+  if(t.dataset.gotab){state.tab=t.dataset.gotab;render();window.scrollTo({top:0,behavior:'smooth'});return}
   if(t.dataset.lktoggle){state.lk=!state.lk;render();return}
   if(t.dataset.lk!==undefined){if(state.tab!=='map'){state.tab='map';render()}openLk(+t.dataset.lk);return}
   if(t.classList.contains('tab')){state.tab=t.dataset.t;render();return}

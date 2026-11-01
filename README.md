@@ -31,11 +31,12 @@ Mục vấn đề, vùng và truyền thống chưa sửa được trên trang; 
 | `template.html` | Giao diện và cách vẽ |
 | `editor.js` | Trình sửa và phần ghi lên GitHub |
 | `method.html` | Văn bản tab Phương pháp |
+| `huongdan.html` | Văn bản tab Cách dùng |
 | `build.py` | Dựng `index.html` |
 | `index.html` | Trang web (tệp dựng ra) |
 | `TIENDO.md`, `kiem_doclap_*.md` | Nhật ký làm việc và hai báo cáo kiểm độc lập |
 
-Trang trên GitHub Pages đọc `data/ban-do.json` mỗi lần mở, nên sửa dữ liệu không cần dựng lại. Chỉ khi sửa `template.html`, `editor.js` hoặc `method.html` mới cần chạy `python3 build.py` (Python 3, không cần gói thêm). `index.html` cũng nhúng sẵn một bản dữ liệu để mở được trực tiếp trên máy khi không có mạng; bản nhúng này chỉ mới khi chạy lại `build.py`.
+Trang trên GitHub Pages đọc `data/ban-do.json` mỗi lần mở, nên sửa dữ liệu không cần dựng lại. Chỉ khi sửa `template.html`, `editor.js`, `method.html` hoặc `huongdan.html` mới cần chạy `python3 build.py` (Python 3, không cần gói thêm). `index.html` cũng nhúng sẵn một bản dữ liệu để mở được trực tiếp trên máy khi không có mạng; bản nhúng này chỉ mới khi chạy lại `build.py`.
 
 ### Một mục thời kỳ (`MUC`)
 ```
